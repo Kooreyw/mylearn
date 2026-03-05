@@ -1,0 +1,21 @@
+RewriteEngine On
+
+# API 路由重写
+# GET /api/articles → api/index.php?action=list
+RewriteRule ^api/articles/?$ api/index.php?action=list [L,QSA]
+
+# GET /api/articles/{id} → api/index.php?action=detail&id={id}
+RewriteRule ^api/articles/([^/]+)/?$ api/index.php?action=detail&id=$1 [L,QSA]
+
+# 禁止直接访问 data 目录下的 JSON 文件（安全）
+RewriteRule ^data/procesed/ - [F,L]
+
+# 音频文件允许访问
+# data/audio/*.mp3 直接由 Apache 提供静态服务，无需重写
+
+# SPA Fallback: 如果请求的文件不存在，返回 index.html
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^/api/
+RewriteCond %{REQUEST_URI} !^/data/audio/
+RewriteRule . index.html [L]
