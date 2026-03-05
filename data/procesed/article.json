@@ -1,0 +1,543 @@
+{
+    "article_metadata": {
+        "title": "The Financial Literacy Crisis",
+        "author": "Antigravity Assistant",
+        "source": "English Learning Material"
+    },
+    "sentences": [
+        {
+            "paragraph": 1,
+            "sentance_id": 1,
+            "sentence_md5": "ce3a1a2083f784851cdfd90a19f8a62c",
+            "sentance": "Of all the lessons taught by the financial crisis, the most personal has been that we aren't so good at money-management.",
+            "phonetic": "/əv ɔːl ðə ˈlɛsnz tɔːt baɪ ðə faɪˈnænʃl ˈkraɪsɪs, ðə məʊst ˈpɜːrsənl həz biːn ðæt wi ɑːrnt səʊ ɡʊd ət ˈmʌni-ˈmænɪdʒm <br> ənt./",
+            "translation": "在金融危机带来的所有教训中，最切身的一点是我们并不擅长理财。",
+            "audio_file": "data/audio/ce3a1a2083f784851cdfd90a19f8a62c.mp3",
+            "analysis": {
+                "long_sentence_analysis": "本句是一个主从复合句。主句是 'the most personal has been that...'，其中 'Of all the lessons...' 为介词短语作状语；'that' 引导宾语从句 'we aren't so good at money-management'。",
+                "core_vocabulary": [
+                    {
+                        "word": "financial",
+                        "phonetic": "/faɪˈnænʃl/",
+                        "meaning": "adj. 金融的，财政的",
+                        "context": "financial crisis"
+                    },
+                    {
+                        "word": "crisis",
+                        "phonetic": "/ˈkraɪsɪs/",
+                        "meaning": "n. 危机",
+                        "context": "financial crisis"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "be good at",
+                        "meaning": "擅长..."
+                    },
+                    {
+                        "phrase": "money-management",
+                        "meaning": "理财，资金管理"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 1,
+            "sentance_id": 2,
+            "sentence_md5": "267e24f15408a92f495b174d432ee9ce",
+            "sentance": "We get a loan of money we cannot afford.",
+            "phonetic": "/wi ɡɛt ə loʊn əv ˈmʌni wi ˈkænɒt əˈfɔːrd./",
+            "translation": "我们借了自己负担不起的贷款。",
+            "audio_file": "data/audio/267e24f15408a92f495b174d432ee9ce.mp3",
+            "analysis": {
+                "long_sentence_analysis": "句子中 'we cannot afford' 是省略了关系代词 that/which 的定语从句，修饰前面的 'money'。",
+                "core_vocabulary": [
+                    {
+                        "word": "loan",
+                        "phonetic": "/loʊn/",
+                        "meaning": "n. 贷款，借款",
+                        "context": "get a loan"
+                    },
+                    {
+                        "word": "afford",
+                        "phonetic": "/əˈfɔːrd/",
+                        "meaning": "v. 买得起，负担得起",
+                        "context": "cannot afford"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "a loan of money",
+                        "meaning": "一笔贷款"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 1,
+            "sentance_id": 3,
+            "sentence_md5": "8c35d4148a75b6a76a87dd693960440d",
+            "sentance": "We run up sky-high credit-card debt.",
+            "phonetic": "/wi rʌn ʌp ˈskaɪˌhaɪ ˈkrɛdɪt-kɑːrd dɛt./",
+            "translation": "我们欠下了巨额信用卡债务。",
+            "audio_file": "data/audio/8c35d4148a75b6a76a87dd693960440d.mp3",
+            "analysis": {
+                "long_sentence_analysis": "主谓宾结构：We (主) + run up (谓语动词短语) + debt (宾语)。'sky-high credit-card' 为宾语的定语。",
+                "core_vocabulary": [
+                    {
+                        "word": "debt",
+                        "phonetic": "/dɛt/",
+                        "meaning": "n. 债务",
+                        "context": "credit-card debt"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "run up",
+                        "meaning": "积欠（账目等）"
+                    },
+                    {
+                        "phrase": "sky-high",
+                        "meaning": "极高的，天价的"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 1,
+            "sentance_id": 4,
+            "sentence_md5": "cdbbc7212e8e32b9622ef145046bc265",
+            "sentance": "We don't save nearly enough for retirement.",
+            "phonetic": "/wi doʊnt seɪv ˈnɪərli ɪˈnʌf fɔːr rɪˈtaɪərmənt./",
+            "translation": "我们存的养老钱根本不够。",
+            "audio_file": "data/audio/cdbbc7212e8e32b9622ef145046bc265.mp3",
+            "analysis": {
+                "long_sentence_analysis": "本句为否定句。'nearly enough' 修饰 'save' 的量，'for retirement' 为目的状语。",
+                "core_vocabulary": [
+                    {
+                        "word": "retirement",
+                        "phonetic": "/rɪˈtaɪərmənt/",
+                        "meaning": "n. 退休，退休后生活",
+                        "context": "save for retirement"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "enough for",
+                        "meaning": "足够用于..."
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 2,
+            "sentance_id": 5,
+            "sentence_md5": "877297abe73fc74e916f94be83038ca1",
+            "sentance": "In response, supporters of financial-literacy education are moving with renewed enthusiasm.",
+            "phonetic": "/ɪn rɪˈspɒns, səˈpɔːrtərz əv faɪˈnænʃl-ˈlɪtərəsi ˌɛdʒuˈkeɪʃn ɑːr ˈmuːvɪŋ wɪð rɪˈnuːd ɪnˈθuːziæzəm./",
+            "translation": "作为回应，金融素养教育的支持者正以饱满的热情采取行动。",
+            "audio_file": "data/audio/877297abe73fc74e916f94be83038ca1.mp3",
+            "analysis": {
+                "long_sentence_analysis": "'In response' 作状语，主语为 'supporters of financial-literacy education'，谓语为 'are moving'，'with renewed enthusiasm' 作伴随状语。",
+                "core_vocabulary": [
+                    {
+                        "word": "literacy",
+                        "phonetic": "/ˈlɪtərəsi/",
+                        "meaning": "n. 读写能力，素养",
+                        "context": "financial-literacy education"
+                    },
+                    {
+                        "word": "enthusiasm",
+                        "phonetic": "/ɪnˈθuːziæzəm/",
+                        "meaning": "n. 热情",
+                        "context": "renewed enthusiasm"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "in response",
+                        "meaning": "作为回应"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 2,
+            "sentance_id": 6,
+            "sentence_md5": "acf8d756d43d3260e9ba9fbd5fb6f2a1",
+            "sentance": "School districts in states such as New Jersey and Illinois are adding money management courses to their curriculum (课程).",
+            "phonetic": "/skuːl ˈdɪstrɪkts ɪn steɪts sʌtʃ æz nuː ˈdʒɜːrzi ənd ˌɪlɪˈnɔɪ ɑːr ˈædɪŋ ˈmʌni ˈmænɪdʒmənt ˈkɔːrsɪz tuː ðɛr kəˈrɪkjələm./",
+            "translation": "新泽西州和伊利诺伊州等州的学区正将理财课程加入到他们的课程体系中。",
+            "audio_file": "data/audio/acf8d756d43d3260e9ba9fbd5fb6f2a1.mp3",
+            "analysis": {
+                "long_sentence_analysis": "主语为 'School districts'，'in states such as...' 为定语从句；谓语动词为 'are adding'，宾语为 'money management courses'。",
+                "core_vocabulary": [
+                    {
+                        "word": "district",
+                        "phonetic": "/ˈdɪstrɪkt/",
+                        "meaning": "n. 地区，区域，行政区",
+                        "context": "School districts"
+                    },
+                    {
+                        "word": "curriculum",
+                        "phonetic": "/kəˈrɪkjələm/",
+                        "meaning": "n. 课程，全部课程",
+                        "context": "add to their curriculum"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "such as",
+                        "meaning": "例如"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 2,
+            "sentance_id": 7,
+            "sentence_md5": "ebb99e8713d9da933cee1ef633a918fb",
+            "sentance": "The education departments are sending lesson plans to high schools and encouraging students to compete in the National Financial Capability Challenge that begins in March.",
+            "phonetic": "/ði ˌɛdʒuˈkeɪʃn dɪˈpɑːrtmənts ɑːr ˈsɛndɪŋ ˈlɛsn plænz tuː haɪ skuːlz ənd ɪnˈkʌrɪdʒɪŋ ˈstjuːdnts tuː kəmˈpiːt ɪn ðə ˈnæʃənl faɪˈnænʃl ˌkeɪpəˈbɪləti ˈtʃælɪndʒ ðæt bɪˈɡɪnz ɪn mɑːrtʃ./",
+            "translation": "教育部门正向高中发送教案，并鼓励学生参加将于3月开始的全美金融能力挑战赛。",
+            "audio_file": "data/audio/ebb99e8713d9da933cee1ef633a918fb.mp3",
+            "analysis": {
+                "long_sentence_analysis": "此句包含两个并列的现阶段进行时谓语：'are sending...' 和 '(are) encouraging...'。'that' 引导定语从句修饰 'Challenge'。",
+                "core_vocabulary": [
+                    {
+                        "word": "capability",
+                        "phonetic": "/ˌkeɪpəˈbɪləti/",
+                        "meaning": "n. 能力，性能",
+                        "context": "Financial Capability Challenge"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "compete in",
+                        "meaning": "参加...比赛"
+                    },
+                    {
+                        "phrase": "lesson plan",
+                        "meaning": "教案"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 3,
+            "sentance_id": 8,
+            "sentence_md5": "8efba88be39e389edaf5123dcc964ac9",
+            "sentance": "Students with top scores on the exam will receive certificates, but chances for long-term benefits are slim.",
+            "phonetic": "/ˈstjuːdnts wɪð tɒp skɔːrz ɒn ði ɪɡˈzæm wɪl rɪˈsiːv sərˈtɪfɪkəts, bʌt ˈtʃænsɪz fɔːr lɔːŋ-tɜːrm ˈbɛnɪfɪts ɑːr slɪm./",
+            "translation": "考试成绩优异的学生将获得证书，但获得长期益处的机会微乎其微。",
+            "audio_file": "data/audio/8efba88be39e389edaf5123dcc964ac9.mp3",
+            "analysis": {
+                "long_sentence_analysis": "这是一个并列句，由 'but' 连接。前半句主语是 'Students'，后半句主语是 'chances'。",
+                "core_vocabulary": [
+                    {
+                        "word": "certificate",
+                        "phonetic": "/sərˈtɪfɪkət/",
+                        "meaning": "n. 证书，证明",
+                        "context": "receive certificates"
+                    },
+                    {
+                        "word": "slim",
+                        "phonetic": "/slɪm/",
+                        "meaning": "adj. 微小的，苗条的",
+                        "context": "chances are slim"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "long-term",
+                        "meaning": "长期的"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 3,
+            "sentance_id": 9,
+            "sentence_md5": "e29aa8885d90f3f49ba0b6f94e28c106",
+            "sentance": "As it turns out, there is little evidence that traditional efforts to push ahead financial know-how help make better decisions outside the classroom.",
+            "phonetic": "/æz ɪt tɜːrnz aʊt, ðɛr ɪz ˈlɪtl ˈɛvɪdəns ðæt trəˈdɪʃənl ˈɛfərts tuː pʊʃ əˈhɛd faɪˈnænʃl noʊ-haʊ hɛlp meɪk ˈbɛtər dɪˈsɪʒənz ˈaʊtsaɪd ðə ˈklæsruːm./",
+            "translation": "事实证明，几乎没有证据表明推动金融知识普及的传统努力有助于在课堂外做出更好的决策。",
+            "audio_file": "data/audio/e29aa8885d90f3f49ba0b6f94e28c106.mp3",
+            "analysis": {
+                "long_sentence_analysis": "'As it turns out' 是固定搭配，作插入语。'that' 引导同位语从句，解释 'evidence' 的内容。",
+                "core_vocabulary": [
+                    {
+                        "word": "evidence",
+                        "phonetic": "/ˈɛvɪdəns/",
+                        "meaning": "n. 证据，迹象",
+                        "context": "little evidence"
+                    },
+                    {
+                        "word": "know-how",
+                        "phonetic": "/ˈnoʊ-haʊ/",
+                        "meaning": "n. 专门知识，技能",
+                        "context": "financial know-how"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "as it turns out",
+                        "meaning": "事实证明，原来是"
+                    },
+                    {
+                        "phrase": "push ahead",
+                        "meaning": "推动，推进"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 3,
+            "sentance_id": 10,
+            "sentence_md5": "03a6a161281220036f9574f2f835fd82",
+            "sentance": "Even as the financial-literacy movement has gained steam over the past decade, scores have been falling on tests that measure how well students learn about things such as budgeting, credit cards, insurance and investments.",
+            "phonetic": "/ˈiːvən æz ðə faɪˈnænʃl-ˈlɪtərəsi ˈmuːvmənt həz ɡeɪnd stiːm ˈoʊvər ðə pæst ˈdɛkeɪd, skɔːrz həv biːn ˈfɔːlɪŋ ɒn tɛsts ðæt ˈmɛʒər haʊ wɛl ˈstjuːdnts lɜːrn əˈbaʊt θɪŋz sʌtʃ æz ˈbʌdʒɪtɪŋ, ˈkrɛdɪt kɑːrdz, ɪnˈʃʊərəns ənd ɪnˈvɛstmənts./",
+            "translation": "尽管在过去的十年里，金融素养运动发展势头强劲，但在衡量学生学习预算、信用卡、保险和投资等知识程度的测试中，分数却在下降。",
+            "audio_file": "data/audio/03a6a161281220036f9574f2f835fd82.mp3",
+            "analysis": {
+                "long_sentence_analysis": "'Even as' 引导时间状语从句。主句中 'that' 引导定语从句修饰 'tests'，而定语从句内部又包含一个 'how' 引导的宾语从句。",
+                "core_vocabulary": [
+                    {
+                        "word": "budgeting",
+                        "phonetic": "/ˈbʌdʒɪtɪŋ/",
+                        "meaning": "n. 预算编制",
+                        "context": "budgeting, credit cards"
+                    },
+                    {
+                        "word": "decade",
+                        "phonetic": "/ˈdɛkeɪd/",
+                        "meaning": "n. 十年",
+                        "context": "past decade"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "gain steam",
+                        "meaning": "获得动力，发展势头增强"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 3,
+            "sentance_id": 11,
+            "sentence_md5": "abf7d69d5ec4f314a7d0b6a9e653a8eb",
+            "sentance": "A recent survey of college students conducted for Personal Financial Literacy found that students who'd had a personal-finance or money-management course in high school scored no better than those who hadn't.",
+            "phonetic": "/ə ˈriːsnt ˈsɜːrveɪ əv ˈkɒlɪdʒ ˈstjuːdnts kənˈdʌktɪd fɔːr ˈpɜːrsənl faɪˈnænʃl ˈlɪtərəsi faʊnd ðæt ˈstjuːdnts huːd hæd ə ˈpɜːrsənl-faɪˈnæns ɔːr ˈmʌni-ˈmænɪdʒmənt kɔːrs ɪn haɪ skuːl skɔːrd noʊ ˈbɛtər ðæn ðoʊz huː ˈhædnt./",
+            "translation": "最近一项针对大学生进行的金融素养调查发现，在高中上过个人理财或资金管理课程的学生，其得分并不比没上过的学生好。",
+            "audio_file": "data/audio/abf7d69d5ec4f314a7d0b6a9e653a8eb.mp3",
+            "analysis": {
+                "long_sentence_analysis": "主语是 'A recent survey'，'conducted for...' 为过去分词短语作后置定语。'found' 是谓语，'that' 引导宾语从句。宾语从句中又有 'who' 引导的定语从句修饰 'students'。",
+                "core_vocabulary": [
+                    {
+                        "word": "survey",
+                        "phonetic": "/ˈsɜːrveɪ/",
+                        "meaning": "n. 调查",
+                        "context": "recent survey"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "no better than",
+                        "meaning": "并不比...好"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 4,
+            "sentance_id": 12,
+            "sentence_md5": "6661b42587d7b873db57d19a876938ef",
+            "sentance": "“We need to figure out how to do this the right way,” says Lewis Mandell, a professor at the University of Washington who after 15 years of studying financial-literacy programs has come to the conclusion that current methods don't work.",
+            "phonetic": "/wi niːd tuː ˈfɪɡjər aʊt haʊ tuː duː ðɪs ðə raɪt weɪ, sɛz ˈluːɪs mænˈdɛl, ə prəˈfɛsər ət ðə ˌjuːnɪˈvɜːrsəti əv ˈwɒʃɪŋtən huː ˈæftər fɪfˈtiːn jɪərz əv ˈstʌdiɪŋ faɪˈnænʃl-ˈlɪtərəsi ˈproʊɡræmz həz kʌm tuː ðə kənˈkluːʒn ðæt ˈkʌrənt ˈmɛθədz doʊnt wɜːrk./",
+            "translation": "“我们需要弄清楚如何以正确的方式开展这项工作，”华盛顿大学教授刘易斯·曼德尔说道。他在研究了15年金融素养计划后得出结论：目前的方法行不通。",
+            "audio_file": "data/audio/6661b42587d7b873db57d19a876938ef.mp3",
+            "analysis": {
+                "long_sentence_analysis": "直接引语作宾语。主句中 'who' 引导的定语从句修饰 'professor'，定语从句中又包含一个 'that' 引导的同位语从句说明 'conclusion' 的内容。",
+                "core_vocabulary": [
+                    {
+                        "word": "conclusion",
+                        "phonetic": "/kənˈkluːʒn/",
+                        "meaning": "n. 结论",
+                        "context": "come to the conclusion"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "figure out",
+                        "meaning": "弄清楚，理解"
+                    },
+                    {
+                        "phrase": "come to the conclusion",
+                        "meaning": "得出结论"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 4,
+            "sentance_id": 13,
+            "sentence_md5": "e3528f584dabef88ecf7ee3afe95267e",
+            "sentance": "A growing number of researchers and educators agree that a more efficient approach is needed.",
+            "phonetic": "/ə ˈɡroʊɪŋ ˈnʌmbər əv rɪˈsɜːrtʃərz ənd ˈɛdʒuˌkeɪtərz əˈɡriː ðæt ə mɔːr ɪˈfɪʃnt əˈproʊtʃ ɪz ˈniːdɪd./",
+            "translation": "越来越多的研究人员和教育工作者一致认为，需要一种更有效的方法。",
+            "audio_file": "data/audio/e3528f584dabef88ecf7ee3afe95267e.mp3",
+            "analysis": {
+                "long_sentence_analysis": "主从复合句。'that' 引导宾语从句。'A growing number of' 修饰主语。",
+                "core_vocabulary": [
+                    {
+                        "word": "efficient",
+                        "phonetic": "/ɪˈfɪʃnt/",
+                        "meaning": "adj. 高效率的，有能力的",
+                        "context": "more efficient approach"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "a growing number of",
+                        "meaning": "越来越多的"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 4,
+            "sentance_id": 14,
+            "sentence_md5": "a047024fe7a650b689ea91bf8a48742c",
+            "sentance": "They suggest starting financial education a lot earlier than high school, putting real money and spending decisions into kids’ hands and talking openly about the emotions and social influences tied to how we spend.",
+            "phonetic": "/ðeɪ səɡˈdʒɛst ˈstɑːrtɪŋ faɪˈnænʃl ˌɛdʒuˈkeɪʃn ə lɒt ˈɜːrliər ðæn haɪ skuːl, ˈpʊtɪŋ rɪəl ˈmʌni ənd ˈspɛndɪŋ dɪˈsɪʒənz ˈɪntuː kɪdz hændz ənd ˈtɔːkɪŋ ˈoʊpənli əˈbaʊt ði ɪˈmoʊʃnz ənd ˈsoʊʃl ˈɪnfluənsɪz taɪd tuː haʊ wi spɛnd./",
+            "translation": "他们建议理财教育应比高中阶段早得多开始，将真正的资金和支出决策权交给孩子们，并公开讨论与消费方式相关的各种情感和社会影响。",
+            "audio_file": "data/audio/a047024fe7a650b689ea91bf8a48742c.mp3",
+            "analysis": {
+                "long_sentence_analysis": "'They suggest' 后接三个并列的动名词短语（starting, putting, talking）作为宾语。最后一个短语中包含 'tied to' 引导的定语。",
+                "core_vocabulary": [
+                    {
+                        "word": "influence",
+                        "phonetic": "/ˈɪnfluəns/",
+                        "meaning": "n. 影响",
+                        "context": "social influences"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "tied to",
+                        "meaning": "与...相关联"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 5,
+            "sentance_id": 15,
+            "sentence_md5": "d106272aa7b8465520d0db9536edf58f",
+            "sentance": "Other initiatives (初步行动) are dealing with such real-world issues as the commercial and social pressures that affect purchasing .",
+            "phonetic": "/ˈʌðər ɪˈnɪʃətɪvz ɑːr ˈdiːlɪŋ wɪð sʌtʃ rɪəl-wɜːrld ˈɪʃuːz æz ðə kəˈmɜːrʃl ənd ˈsoʊʃl ˈprɛʃərz ðæt əˈfɛkt ˈpɜːrtʃəsɪŋ./",
+            "translation": "其他的初步行动则涉及了一些现实世界的问题，例如影响购买行为的商业和社会压力。",
+            "audio_file": "data/audio/d106272aa7b8465520d0db9536edf58f.mp3",
+            "analysis": {
+                "long_sentence_analysis": "主语是 'Other initiatives'，谓语动词是 'are dealing with'。'that' 引导定语从句修饰 'pressures'。",
+                "core_vocabulary": [
+                    {
+                        "word": "initiative",
+                        "phonetic": "/ɪˈnɪʃətɪv/",
+                        "meaning": "n. 主动行动，倡议",
+                        "context": "Other initiatives"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "deal with",
+                        "meaning": "处理，应对"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 5,
+            "sentance_id": 16,
+            "sentence_md5": "1872badead68cb999b9aa4f4135ab646",
+            "sentance": "Why exactly do you want those expensive brand-name shoes so badly?",
+            "phonetic": "/waɪ ɪɡˈzæktli duː juː wɒnt ðoʊz ɪkˈspɛnsɪv brænd-neɪm ʃuːz səʊ ˈbædli?/",
+            "translation": "你到底为什么这么想要那些昂贵的品牌鞋子？",
+            "audio_file": "data/audio/1872badead68cb999b9aa4f4135ab646.mp3",
+            "analysis": {
+                "long_sentence_analysis": "疑问句。使用 'Why exactly' 增强语气，'so badly' 程度副词作状语。",
+                "core_vocabulary": [
+                    {
+                        "word": "brand-name",
+                        "phonetic": "/brænd-neɪm/",
+                        "meaning": "adj. 名牌的",
+                        "context": "brand-name shoes"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "so badly",
+                        "meaning": "非常，极度"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 5,
+            "sentance_id": 17,
+            "sentence_md5": "7ff4b33be7bd28f2f90e49c207a98e1b",
+            "sentance": "“It takes confidence to take a stand and to think differently,” says Jeroo Billimoria, founder of Aflatoun, a professor whose curriculum, used in more than 16 countries, aims to help kids go through difficulties in their financial lives.",
+            "phonetic": "/ɪt teɪks ˈkɒnfɪdəns tuː teɪk ə stænd ənd tuː θɪŋk ˈdɪfrəntli, sɛz dʒəˈruː ˌbɪlɪˈmɔːriə, ˈfaʊndər əv ˈæflətuːn, ə prəˈfɛsər huːz kəˈrɪkjələm, juːzd ɪn mɔːr ðæn ˈsɪkstiːn ˈkʌntriz, eɪmz tuː hɛlp kɪdz ɡoʊ θruː ˈdɪfɪkəltiz ɪn ðɛr faɪˈnænʃl laɪvz./",
+            "translation": "“公开立场并进行差异化思考需要自信，”Aflatoun 创始人兼教授杰鲁·毕利摩里亚说道。她的课程已在 16 个以上的国家使用，旨在帮助孩子们度过财务生活中的难关。",
+            "audio_file": "data/audio/7ff4b33be7bd28f2f90e49c207a98e1b.mp3",
+            "analysis": {
+                "long_sentence_analysis": "'It takes... to do...' 句型。主句带有一个很长的同位语，其中包含一个 'whose' 引导的定语从句。",
+                "core_vocabulary": [
+                    {
+                        "word": "confidence",
+                        "phonetic": "/ˈkɒnfɪdəns/",
+                        "meaning": "n. 自信",
+                        "context": "takes confidence"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "take a stand",
+                        "meaning": "表明立场"
+                    },
+                    {
+                        "phrase": "go through",
+                        "meaning": "经历，度过"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 5,
+            "sentance_id": 18,
+            "sentence_md5": "3590b73f06c676607de1fb3e7be29e7e",
+            "sentance": "“This goes beyond money and savings.”",
+            "phonetic": "/ðɪs ɡoʊz bɪˈjɒnd ˈmʌni ənd ˈseɪvɪŋz./",
+            "translation": "“这超越了金钱和储蓄本身。”",
+            "audio_file": "data/audio/3590b73f06c676607de1fb3e7be29e7e.mp3",
+            "analysis": {
+                "long_sentence_analysis": "主谓短语结构。'goes beyond' 意为超越。",
+                "core_vocabulary": [
+                    {
+                        "word": "beyond",
+                        "phonetic": "/bɪˈjɒnd/",
+                        "meaning": "prep. 超越",
+                        "context": "goes beyond money"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "go beyond",
+                        "meaning": "超越，不止于"
+                    }
+                ]
+            }
+        }
+    ]
+}

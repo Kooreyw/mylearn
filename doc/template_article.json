@@ -1,0 +1,36 @@
+{
+    "article_metadata": {
+        "title": "2014-article1",
+        "author": "作者",
+        "source": "文章来源或原链接"
+    },
+    "sentences": [
+        {
+            "paragraph": 1,
+            "sentance_id": 1, //全文编号
+            "sentence_md5": "8b1a9953c4611296a827abf8c47804d7", // 句子原文的MD5值，也用作音频文件名
+            "sentance": "In response, supporters of financial - literacy education are moving with renewed enthusiasm.",
+            "phonetic": "/ɪn rɪˈspɒns, səˈpɔːtəz ɒv faɪˈnænʃl - ˈlɪtərəsi ˌedʒuˈkeɪʃn ɑː(r) ˈmuːvɪŋ wɪð rɪˈnjuːd ɪnˈθjuːziæzəm./",
+            "translation": "作为回应，金融知识教育的支持者们带着新的热情行动起来。",
+            "audio_file": "data/audio/8b1a9953c4611296a827abf8c47804d7.mp3",
+            // 学习模式下的详情分析数据
+            "analysis": {
+                "long_sentence_analysis": "只有较长的句子才需要分析。用一段文字描述句子成分分析",
+                "core_vocabulary": [
+                    {
+                        "word": "example",
+                        "phonetic": "ıg'zæmpl",
+                        "meaning": "n. 例子，范例",
+                        "context": "an example sentence"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "This is",
+                        "meaning": "这是...（句型介绍）"
+                    }
+                ]
+            }
+        }
+    ]
+}
