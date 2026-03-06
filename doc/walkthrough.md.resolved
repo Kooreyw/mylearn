@@ -1,0 +1,16 @@
+# Audio Playback Feature Walkthrough
+
+## Completed Changes
+1. **Audio Generation Script**: Ran [data/create_audio.py](file:///Users/mac/tmp_kx/myproject/learn/data/create_audio.py) using `gTTS` to generate 18 MP3 files corresponding to each sentence of the test article.
+2. **Audio File Storage**: The generated audio files were saved into `data/audio/`, using their MD5 hashes as filenames, which matches the format expected by the frontend JavaScript.
+3. **Device Detection & Redirect**: Modified `index.php`'s mobile device detection flow. Instead of just including `m_index.php` (which keeps the URL as `/`), it now performs a rigorous `header("Location: /m_index.php");` to properly redirect the user to the mobile site when accessed from a mobile device.
+4. **Server Deployment**: Successfully synced all local files to the remote server using `rsync`, while specifically excluding the `.git` directory to save bandwidth and keep the server clean.
+
+## Verification
+- Local MP3 files were verified to be successfully generated following the GTTs installation.
+- The `rsync` deployment output confirmed that the updated `/data/audio/` folder and its `*.mp3` files, along with the updated `index.php`, were safely moved to `/var/www/html/learn` on `mtnote.cn`. 
+
+## Next Steps
+You can now visit [http://learn.mtnote.cn](http://learn.mtnote.cn) and interact with the application.
+- In both reading mode and learning mode on PC, the play buttons/loop toggle should now be working, streaming audio directly from the new `/data/audio` folder.
+- Accessing the site from a mobile phone will automatically redirect your URL to `/m_index.php`, and the new capsule player will correctly play the MP3 files.

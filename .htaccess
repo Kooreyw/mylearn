@@ -18,4 +18,4 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_URI} !^/api/
 RewriteCond %{REQUEST_URI} !^/data/audio/
-RewriteRule . index.html [L]
+RewriteRule . index.php [L]

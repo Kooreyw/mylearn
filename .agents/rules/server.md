@@ -18,3 +18,5 @@ Apache (80端口)
        ├── data/audio/*.mp3      ← 音频文件
        ├── css/
        └── js/
+
+scp 时需要忽略.git目录

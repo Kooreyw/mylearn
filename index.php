@@ -7,7 +7,14 @@ function isMobile()
 {
     $ua = strtolower($_SERVER['HTTP_USER_AGENT']);
     $mobile_agents = array(
-        'iphone', 'ipod', 'ipad', 'android', 'windows phone', 'blackberry', 'mobile', 'touch'
+        'iphone',
+        'ipod',
+        'ipad',
+        'android',
+        'windows phone',
+        'blackberry',
+        'mobile',
+        'touch'
     );
     foreach ($mobile_agents as $agent) {
         if (strpos($ua, $agent) !== false) {
@@ -18,10 +25,10 @@ function isMobile()
 }
 
 if (isMobile()) {
-    // 加载移动端专用页面
-    include 'm_index.php';
-}
-else {
+    // 自动重定向到手机端页面
+    header("Location: /m_index.php");
+    exit;
+} else {
     // 加载 PC 端页面
     // 注意：如果是 index.html，直接读取内容输出或重定向
     // 这里采用读取内容输出，保持 URL 不变
