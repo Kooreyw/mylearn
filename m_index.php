@@ -15,7 +15,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Noto+Serif+SC:wght@400;700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="css/m_style.css?v=3">
+    <link rel="stylesheet" href="css/m_style.css?v=5">
 </head>
 
 <body class="mobile-native-theme">
@@ -99,7 +99,7 @@
     <!-- 隐藏的 Audio 元素 -->
     <audio id="audio-player" preload="auto"></audio>
 
-    <script src="js/m_script.js?v=3"></script>
+    <script src="js/m_script.js?v=6"></script>
 </body>
 
 </html>

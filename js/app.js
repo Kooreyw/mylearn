@@ -12,6 +12,7 @@ const state = {
     isPlaying: false,
     isLooping: true,        // 阅读模式默认循环
     fontSize: 17,           // 基础字号 px
+    audioTimer: null,
 };
 
 // ==================== DOM 引用 ====================
@@ -53,7 +54,10 @@ function bindEvents() {
 
     // 文章选择
     dom.articleSelect.addEventListener('change', (e) => {
-        if (e.target.value) loadArticle(e.target.value);
+        if (e.target.value) {
+            localStorage.setItem('lastArticleId', e.target.value);
+            loadArticle(e.target.value);
+        }
     });
 
     // 音频控件
@@ -86,10 +90,12 @@ async function loadArticleList() {
             opt.textContent = a.title;
             dom.articleSelect.appendChild(opt);
         });
-        // 如果只有一篇文章，自动加载
-        if (articles.length === 1) {
-            dom.articleSelect.value = articles[0].id;
-            loadArticle(articles[0].id);
+        // 读取本地存储获取上次观看的文章，否则默认读取第一篇
+        if (articles.length > 0) {
+            const savedId = localStorage.getItem('lastArticleId');
+            const targetId = articles.some(a => a.id === savedId) ? savedId : articles[0].id;
+            dom.articleSelect.value = targetId;
+            loadArticle(targetId);
         }
     } catch (err) {
         console.error('加载文章列表失败:', err);
@@ -420,6 +426,11 @@ function togglePlayPause() {
 function playSentence(idx) {
     if (idx < 0 || idx >= state.sentences.length) return;
 
+    if (state.audioTimer) {
+        clearTimeout(state.audioTimer);
+        state.audioTimer = null;
+    }
+
     const s = state.sentences[idx];
     const md5 = s.sentence_md5;
     if (!md5) return;
@@ -427,23 +438,27 @@ function playSentence(idx) {
     setActiveSentence(idx);
     setPlayingState(idx);
 
+    state.isPlaying = true;
+    dom.btnPlay.textContent = '⏸';
+    dom.audioLabel.textContent = `正在播放 #${s.sentance_id}`;
+    dom.audioProgress.textContent = `${idx + 1} / ${state.sentences.length}`;
+
     dom.audioPlayer.src = `/data/audio/${md5}.mp3`;
-    dom.audioPlayer.play().then(() => {
-        state.isPlaying = true;
-        dom.btnPlay.textContent = '⏸';
-        dom.audioLabel.textContent = `正在播放 #${s.sentance_id}`;
-        dom.audioProgress.textContent = `${idx + 1} / ${state.sentences.length}`;
-    }).catch(err => {
-        console.warn('音频播放失败:', err);
+    dom.audioPlayer.play().catch(err => {
+        console.warn('音频播放中断或被拒绝:', err);
+        // 如果被中断则不继续(例如在未播放完时按了暂停)
+        if (err.name === 'AbortError') return;
+
         dom.audioLabel.textContent = `⚠️ 音频不可用 #${s.sentance_id}`;
-        // 自动跳到下一句（如果循环模式）
-        if (state.isLooping && state.mode === 'reading') {
-            setTimeout(() => playNext(), 1500);
-        }
+        // 为了防止重复跳转，实际跳转将只在 onAudioError 中处理
     });
 }
 
 function pauseAudio() {
+    if (state.audioTimer) {
+        clearTimeout(state.audioTimer);
+        state.audioTimer = null;
+    }
     dom.audioPlayer.pause();
     state.isPlaying = false;
     dom.btnPlay.textContent = '▶';
@@ -489,8 +504,14 @@ function onAudioEnded() {
 
 function onAudioError() {
     clearPlayingState();
+
+    if (!state.isPlaying) return;
+
     if (state.mode === 'reading' && state.isLooping) {
-        setTimeout(() => playNext(), 800);
+        state.audioTimer = setTimeout(() => {
+            state.audioTimer = null;
+            playNext();
+        }, 1500);
     }
 }
 

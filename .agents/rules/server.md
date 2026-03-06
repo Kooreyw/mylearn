@@ -20,3 +20,7 @@ Apache (80端口)
        └── js/
 
 scp 时需要忽略.git目录
+
+音频生成:
+ tts 依赖环境：mtnote上虚拟python环境venv路径为 /opt/tts-backend/venv 这里安装了tts的依赖。
+ 在mtnote上用脚本生产音频。

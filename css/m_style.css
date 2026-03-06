@@ -361,6 +361,7 @@ body.mobile-native-theme {
     border-radius: 50%;
     border: 2px solid var(--accent);
     animation: pulseRing 1.5s ease-out infinite;
+    pointer-events: none;
 }
 
 @keyframes pulseRing {
@@ -382,6 +383,8 @@ body.mobile-native-theme {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
+    z-index: 1;
 }
 
 .capsule-btn-main:active {

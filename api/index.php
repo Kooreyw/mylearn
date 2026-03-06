@@ -11,6 +11,9 @@ header('Content-Type: application/json; charset=utf-8');
 header('Access-Control-Allow-Origin: *');
 header('Access-Control-Allow-Methods: GET, OPTIONS');
 header('Access-Control-Allow-Headers: Content-Type');
+header('Cache-Control: no-cache, no-store, must-revalidate');
+header('Pragma: no-cache');
+header('Expires: 0');
 
 // 处理 OPTIONS 预检请求
 if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
@@ -59,10 +62,12 @@ function getArticleList(string $dataDir): void
         $articleId = pathinfo($filename, PATHINFO_FILENAME);
 
         $content = file_get_contents($filepath);
-        if ($content === false) continue;
+        if ($content === false)
+            continue;
 
         $data = json_decode($content, true);
-        if ($data === null) continue;
+        if ($data === null)
+            continue;
 
         $title = $data['article_metadata']['title'] ?? $articleId;
         $articles[] = [

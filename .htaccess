@@ -1,7 +1,11 @@
 RewriteEngine On
 
+DirectoryIndex index.php index.html
+
+# 强制重写 index.html 为 index.php 以便触发设备检测
+RewriteRule ^index\.html$ index.php [L]
+
 # API 路由重写
-# GET /api/articles → api/index.php?action=list
 RewriteRule ^api/articles/?$ api/index.php?action=list [L,QSA]
 
 # GET /api/articles/{id} → api/index.php?action=detail&id={id}

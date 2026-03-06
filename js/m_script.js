@@ -18,6 +18,7 @@ const state = {
     currentArticleId: null,
     isPlaying: false,
     isLooping: true,
+    audioTimer: null,
 };
 
 // ==================== DOM 缓存 ====================
@@ -26,23 +27,23 @@ const $$ = (sel) => document.querySelectorAll(sel);
 const dom = {};
 
 function initDOM() {
-    dom.readerFlow         = $('#reader-flow');
-    dom.readerContainer    = $('#reader-flow-container');
-    dom.statusBar          = $('#scroll-status-bar');
-    dom.articleTitle        = $('#current-article-title');
-    dom.audioCapsule       = $('#audio-capsule');
-    dom.audioPlayer        = document.getElementById('audio-player');
-    dom.btnPlay            = $('#btn-play');
-    dom.btnPrev            = $('#btn-prev');
-    dom.btnNext            = $('#btn-next');
-    dom.playTrigger        = $('#play-trigger');
-    dom.mainFab            = $('#main-fab');
-    dom.overlay            = $('#native-menu-overlay');
-    dom.overlayClose       = $('.close-overlay');
-    dom.articleListNative   = $('#article-list-native');
-    dom.detailSheet        = $('#bottom-detail-sheet');
-    dom.analysisContent    = $('#analysis-content');
-    dom.sheetBackdrop      = $('#sheet-backdrop');
+    dom.readerFlow = $('#reader-flow');
+    dom.readerContainer = $('#reader-flow-container');
+    dom.statusBar = $('#scroll-status-bar');
+    dom.articleTitle = $('#current-article-title');
+    dom.audioCapsule = $('#audio-capsule');
+    dom.audioPlayer = document.getElementById('audio-player');
+    dom.btnPlay = $('#btn-play');
+    dom.btnPrev = $('#btn-prev');
+    dom.btnNext = $('#btn-next');
+    dom.playTrigger = $('#play-trigger');
+    dom.mainFab = $('#main-fab');
+    dom.overlay = $('#native-menu-overlay');
+    dom.overlayClose = $('.close-overlay');
+    dom.articleListNative = $('#article-list-native');
+    dom.detailSheet = $('#bottom-detail-sheet');
+    dom.analysisContent = $('#analysis-content');
+    dom.sheetBackdrop = $('#sheet-backdrop');
 }
 
 // ==================== 初始化 ====================
@@ -143,9 +144,11 @@ async function loadArticleList() {
             dom.articleListNative.appendChild(item);
         });
 
-        // 自动加载第一篇
+        // 自动加载上次阅读或第一篇
         if (articles.length > 0) {
-            selectArticle(articles[0].id);
+            const savedId = localStorage.getItem('lastArticleId');
+            const targetId = articles.some(a => a.id === savedId) ? savedId : articles[0].id;
+            selectArticle(targetId);
         }
     } catch (err) {
         console.error('加载文章列表失败:', err);
@@ -157,6 +160,7 @@ async function loadArticleList() {
 }
 
 function selectArticle(id) {
+    localStorage.setItem('lastArticleId', id);
     // 更新列表高亮
     $$('.native-list-item').forEach(item => {
         item.classList.toggle('active', item.dataset.id === id);
@@ -415,6 +419,11 @@ function togglePlayPause() {
 async function playSentence(idx) {
     if (idx < 0 || idx >= state.sentences.length) return;
 
+    if (state.audioTimer) {
+        clearTimeout(state.audioTimer);
+        state.audioTimer = null;
+    }
+
     const s = state.sentences[idx];
     const md5 = s.sentence_md5;
     if (!md5) {
@@ -435,32 +444,33 @@ async function playSentence(idx) {
         target.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }
 
-    // 播放呼吸环动画
+    // 设置状态
+    state.isPlaying = true;
+    dom.btnPlay.textContent = '⏸';
     dom.playTrigger.classList.add('active');
 
     // 加载并播放
     dom.audioPlayer.src = `/data/audio/${md5}.mp3`;
     try {
         await dom.audioPlayer.play();
-        state.isPlaying = true;
-        dom.btnPlay.textContent = '⏸';
     } catch (e) {
-        console.warn('音频播放失败:', e);
-        // 自动跳过
-        setTimeout(() => playNext(), 800);
+        console.warn('音频播放中断或被拒绝:', e);
+        // 我们统一在 onAudioError 中处理 404 等加载失败情况（并校验是否依然是播放状态）
+        // 这里静默拦截即可，避免重复触发 playNext，导致疯狂跳句无法被暂停。
     }
 }
 
 function resumeOrPlay(idx) {
     if (dom.audioPlayer.src && !dom.audioPlayer.ended) {
-        dom.audioPlayer.play().then(() => {
-            state.isPlaying = true;
-            dom.btnPlay.textContent = '⏸';
-            dom.playTrigger.classList.add('active');
+        state.isPlaying = true;
+        dom.btnPlay.textContent = '⏸';
+        dom.playTrigger.classList.add('active');
 
-            const target = document.getElementById(`sent-${idx}`);
-            if (target) target.classList.add('playing');
-        }).catch(() => {
+        const target = document.getElementById(`sent-${idx}`);
+        if (target) target.classList.add('playing');
+
+        dom.audioPlayer.play().catch(e => {
+            if (e.name === 'AbortError' || !state.isPlaying) return;
             playSentence(idx);
         });
     } else {
@@ -469,6 +479,10 @@ function resumeOrPlay(idx) {
 }
 
 function pauseAudio() {
+    if (state.audioTimer) {
+        clearTimeout(state.audioTimer);
+        state.audioTimer = null;
+    }
     dom.audioPlayer.pause();
     state.isPlaying = false;
     dom.btnPlay.textContent = '▶';
@@ -506,7 +520,12 @@ function onAudioError() {
     console.warn('音频加载错误');
     dom.playTrigger.classList.remove('active');
 
+    if (!state.isPlaying) return;
+
     if (state.isLooping || state.mode === 'reading') {
-        setTimeout(() => playNext(), 800);
+        state.audioTimer = setTimeout(() => {
+            state.audioTimer = null;
+            playNext();
+        }, 800);
     }
 }
