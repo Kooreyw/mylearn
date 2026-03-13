@@ -2,1028 +2,847 @@
     "article_metadata": {
         "title": "2014_passage_two",
         "author": "Unknown",
-        "source": "CET-4/6 2014"
+        "source": "CET-4/6"
     },
     "sentences": [
         {
             "paragraph": 1,
-            "sentance_id": 1,
-            "sentence_md5": "8b0d3fc703805254cba074079deddfcc",
-            "sentance": "Passage Two",
-            "phonetic": "/ˈpæsɪdʒ tuː/",
-            "translation": "第二篇",
-            "audio_file": "data/audio/8b0d3fc703805254cba074079deddfcc.mp3",
-            "analysis": {
-                "long_sentence_analysis": "",
-                "core_vocabulary": [],
-                "phrases": []
-            }
-        },
-        {
-            "paragraph": 2,
-            "sentance_id": 2,
+            "sentence_id": 1,
             "sentence_md5": "8759b6441c976333783d5d35ac96c574",
-            "sentance": "Cheating is nothing new.",
-            "phonetic": "/ˈtʃiːtɪŋ ɪz ˈnʌθɪŋ njuː./",
+            "sentence": "Cheating is nothing new.",
+            "phonetic": "/ˈtʃiːtɪŋ ɪz ˈnʌθɪŋ njuː/",
             "translation": "作弊并不是什么新鲜事。",
             "audio_file": "data/audio/8759b6441c976333783d5d35ac96c574.mp3",
             "analysis": {
-                "long_sentence_analysis": "",
+                "long_sentence_analysis": "简单句，主系表结构。主语 Cheating，系动词 is，表语 nothing new。",
                 "core_vocabulary": [
                     {
                         "word": "cheating",
                         "phonetic": "/ˈtʃiːtɪŋ/",
-                        "meaning": "n. 作弊",
+                        "meaning": "n. 作弊；欺骗行为",
                         "context": "Cheating is nothing new."
                     }
                 ],
-                "phrases": []
+                "phrases": [
+                    {
+                        "phrase": "nothing new",
+                        "meaning": "不是什么新鲜事"
+                    }
+                ]
             }
         },
         {
-            "paragraph": 2,
-            "sentance_id": 3,
+            "paragraph": 1,
+            "sentence_id": 2,
             "sentence_md5": "c5c7a5acb9280801534dc32b8676106f",
-            "sentance": "But today, educators and administrators are finding that instances of academic dishonesty on the part of students have become more frequent and are less likely to be punished than in the past.",
-            "phonetic": "/bʌt təˈdeɪ, ˈedʒukeɪtəz ænd ədˈmɪnɪstreɪtəz ɑː(r) ˈfaɪndɪŋ ðæt ˈɪnstənsɪz ɒv ˌækəˈdemɪk dɪsˈɒnɪsti ɒn ðə pɑːt ɒv ˈstjuːdnts həv bɪˈkʌm mɔː(r) ˈfriːkwənt ænd ɑː(r) les ˈlaɪkli tə bi ˈpʌnɪʃt ðæn ɪn ðə pɑːst./",
-            "translation": "但是今天，教育工作者和管理者发现，学生方面的学术不诚实事件变得越来越频繁，而且比过去更不可能受到惩罚。",
+            "sentence": "But today, educators and administrators are finding that instances of academic dishonesty on the part of students have become more frequent and are less likely to be punished than in the past.",
+            "phonetic": "/bʌt təˈdeɪ ˈedʒukeɪtəz ənd ədˈmɪnɪstreɪtəz ɑː ˈfaɪndɪŋ ðæt ˈɪnstənsɪz əv ækəˈdemɪk dɪsˈɒnɪsti ɒn ðə pɑːt əv ˈstjuːdənts hæv bɪˈkʌm mɔː ˈfriːkwənt ənd ɑː les ˈlaɪkli tu bi ˈpʌnɪʃt ðæn ɪn ðə pɑːst/",
+            "translation": "但如今，教育工作者和管理人员发现，学生的学术不端行为比过去更频繁，而且受到惩罚的可能性也更小。",
             "audio_file": "data/audio/c5c7a5acb9280801534dc32b8676106f.mp3",
             "analysis": {
-                "long_sentence_analysis": "宾语从句that...中包含一个并列谓语have become... and are less likely to...",
+                "long_sentence_analysis": "复合句。主句 educators...are finding that...，宾语从句中 instances 作主语，并列谓语 have become... 和 are less likely...，含比较结构。",
                 "core_vocabulary": [
                     {
+                        "word": "educator",
+                        "phonetic": "/ˈedʒukeɪtə(r)/",
+                        "meaning": "n. 教育工作者",
+                        "context": "educators and administrators are finding..."
+                    },
+                    {
+                        "word": "administrator",
+                        "phonetic": "/ədˈmɪnɪstreɪtə(r)/",
+                        "meaning": "n. 管理者；行政人员",
+                        "context": "educators and administrators are finding..."
+                    },
+                    {
                         "word": "academic",
-                        "phonetic": "/ˌækəˈdemɪk/",
+                        "phonetic": "/ækəˈdemɪk/",
                         "meaning": "adj. 学术的",
                         "context": "academic dishonesty"
                     },
                     {
                         "word": "dishonesty",
                         "phonetic": "/dɪsˈɒnɪsti/",
-                        "meaning": "n. 不诚实",
+                        "meaning": "n. 不诚实；欺诈",
                         "context": "academic dishonesty"
+                    },
+                    {
+                        "word": "frequent",
+                        "phonetic": "/ˈfriːkwənt/",
+                        "meaning": "adj. 频繁的",
+                        "context": "have become more frequent"
+                    },
+                    {
+                        "word": "punish",
+                        "phonetic": "/ˈpʌnɪʃ/",
+                        "meaning": "v. 惩罚",
+                        "context": "less likely to be punished"
                     }
                 ],
                 "phrases": [
                     {
+                        "phrase": "academic dishonesty",
+                        "meaning": "学术不端"
+                    },
+                    {
                         "phrase": "on the part of",
-                        "meaning": "在...方面"
+                        "meaning": "在……方面；由……做出的"
+                    },
+                    {
+                        "phrase": "be likely to do",
+                        "meaning": "有可能做某事"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 1,
+            "sentence_id": 3,
+            "sentence_md5": "971410054bd9a06c87b1bbe4a426e51b",
+            "sentence": "Cheating appears to have gained acceptance among good and poor students alike.",
+            "phonetic": "/ˈtʃiːtɪŋ əˈpɪəz tu hæv ɡeɪnd əkˈseptəns əˈmʌŋ ɡʊd ənd pɔː ˈstjuːdənts əˈlaɪk/",
+            "translation": "作弊似乎已经得到了好学生和差学生的共同认可。",
+            "audio_file": "data/audio/971410054bd9a06c87b1bbe4a426e51b.mp3",
+            "analysis": {
+                "long_sentence_analysis": "简单句。主语 Cheating，谓语 appears to have gained，宾语 acceptance。",
+                "core_vocabulary": [
+                    {
+                        "word": "appear",
+                        "phonetic": "/əˈpɪə(r)/",
+                        "meaning": "v. 似乎；显得",
+                        "context": "Cheating appears to..."
+                    },
+                    {
+                        "word": "gain",
+                        "phonetic": "/ɡeɪn/",
+                        "meaning": "v. 获得；得到",
+                        "context": "have gained acceptance"
+                    },
+                    {
+                        "word": "acceptance",
+                        "phonetic": "/əkˈseptəns/",
+                        "meaning": "n. 接受；认可",
+                        "context": "have gained acceptance"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "gain acceptance",
+                        "meaning": "获得认可"
+                    },
+                    {
+                        "phrase": "good and poor students alike",
+                        "meaning": "无论好学生还是差学生"
                     }
                 ]
             }
         },
         {
             "paragraph": 2,
-            "sentance_id": 4,
-            "sentence_md5": "90779697b6e8877a93a721870115c906",
-            "sentance": "Cheating appears to have gained cceptance among good and poor students alike.",
-            "phonetic": "/ˈtʃiːtɪŋ əˈpɪəz tə həv ɡeɪnd /əkˈseptəns/ əˈmʌŋ ɡʊd ænd pʊə(r) ˈstjuːdnts əˈlaɪk./",
-            "translation": "作弊似乎在好学生和差生中都获得了认可。",
-            "audio_file": "data/audio/90779697b6e8877a93a721870115c906.mp3",
+            "sentence_id": 4,
+            "sentence_md5": "3496eee82bdda70cf18d5cd29cc10b98",
+            "sentence": "Why is student cheating on the rise?",
+            "phonetic": "/waɪ ɪz ˈstjuːdənt ˈtʃiːtɪŋ ɒn ðə raɪz/",
+            "translation": "为什么学生作弊现象在增加？",
+            "audio_file": "data/audio/3496eee82bdda70cf18d5cd29cc10b98.mp3",
             "analysis": {
-                "long_sentence_analysis": "",
+                "long_sentence_analysis": "特殊疑问句，主系表结构。",
                 "core_vocabulary": [
                     {
-                        "word": "acceptance",
-                        "phonetic": "/əkˈseptəns/",
-                        "meaning": "n. 认可，接受",
-                        "context": "gained acceptance"
+                        "word": "rise",
+                        "phonetic": "/raɪz/",
+                        "meaning": "n. 上升；增加",
+                        "context": "on the rise"
                     }
                 ],
                 "phrases": [
                     {
-                        "phrase": "among ... alike",
-                        "meaning": "在...之中同样如此"
-                    }
-                ]
-            }
-        },
-        {
-            "paragraph": 3,
-            "sentance_id": 5,
-            "sentence_md5": "3496eee82bdda70cf18d5cd29cc10b98",
-            "sentance": "Why is student cheating on the rise?",
-            "phonetic": "/waɪ ɪz ˈstjuːdnt ˈtʃiːtɪŋ ɒn ðə raɪz?/",
-            "translation": "为什么学生作弊现象在上升？",
-            "audio_file": "data/audio/3496eee82bdda70cf18d5cd29cc10b98.mp3",
-            "analysis": {
-                "long_sentence_analysis": "",
-                "core_vocabulary": [],
-                "phrases": [
-                    {
                         "phrase": "on the rise",
-                        "meaning": "正在上升"
+                        "meaning": "在上升；在增加"
                     }
                 ]
             }
         },
         {
-            "paragraph": 3,
-            "sentance_id": 6,
+            "paragraph": 2,
+            "sentence_id": 5,
             "sentence_md5": "b1de5f46dcce70ac7dc910164d911ab9",
-            "sentance": "No one really knows.",
-            "phonetic": "/nəʊ wʌn ˈriːəli nəʊz./",
+            "sentence": "No one really knows.",
+            "phonetic": "/nəʊ wʌn ˈriːəli nəʊz/",
             "translation": "没有人真正知道。",
             "audio_file": "data/audio/b1de5f46dcce70ac7dc910164d911ab9.mp3",
             "analysis": {
-                "long_sentence_analysis": "",
+                "long_sentence_analysis": "简单句，主谓结构。",
                 "core_vocabulary": [],
                 "phrases": []
             }
         },
         {
-            "paragraph": 3,
-            "sentance_id": 7,
+            "paragraph": 2,
+            "sentence_id": 6,
             "sentence_md5": "7dc09d29b1373b4642a58f9713d8ea40",
-            "sentance": "Some blame the trend on a general loosening to the fact that today’s youth are far more pragmatic than their more idealistic predecessors.",
-            "phonetic": "/sʌm bleɪm ðə trend ɒn ə ˈdʒenrəl ˈluːsənɪŋ tə ðə fækt ðæt təˈdeɪz juːθ ɑː(r) fɑː(r) mɔː(r) præɡˈmætɪk ðæn ðeə(r) mɔː(r) ˌaɪdiəˈlɪstɪk ˈpriːdɪsesəz./",
-            "translation": "一些人将这种趋势归咎于一种普遍的松懈，即今天的年轻人在很大程度上比他们理想主义的前辈更加务实。",
+            "sentence": "Some blame the trend on a general loosening to the fact that today’s youth are far more pragmatic than their more idealistic predecessors.",
+            "phonetic": "/səm bleɪm ðə trend ɒn ə ˈdʒenrəl ˈluːsnɪŋ tu ðə fækt ðət təˈdeɪz juːθ ɑː fɑː mɔː præɡˈmætɪk ðæn ðeə mɔː aɪˌdɪəˈlɪstɪk ˈpriːdɪsesəz/",
+            "translation": "一些人将这一趋势归咎于道德普遍松懈，事实上现在的年轻人比他们更理想主义的前辈要务实得多。",
             "audio_file": "data/audio/7dc09d29b1373b4642a58f9713d8ea40.mp3",
             "analysis": {
-                "long_sentence_analysis": "",
+                "long_sentence_analysis": "复合句。主句 Some blame...，同位语从句 that 解释 fact，含比较级。",
                 "core_vocabulary": [
+                    {
+                        "word": "trend",
+                        "phonetic": "/trend/",
+                        "meaning": "n. 趋势；倾向",
+                        "context": "blame the trend on..."
+                    },
+                    {
+                        "word": "loosening",
+                        "phonetic": "/ˈluːsnɪŋ/",
+                        "meaning": "n. 松弛；松懈",
+                        "context": "a general loosening"
+                    },
                     {
                         "word": "pragmatic",
                         "phonetic": "/præɡˈmætɪk/",
-                        "meaning": "adj. 务实的"
+                        "meaning": "adj. 务实的；实用主义的",
+                        "context": "far more pragmatic"
                     },
                     {
                         "word": "idealistic",
-                        "phonetic": "/ˌaɪdiəˈlɪstɪk/",
-                        "meaning": "adj. 理想主义的"
+                        "phonetic": "/aɪˌdɪəˈlɪstɪk/",
+                        "meaning": "adj. 理想主义的",
+                        "context": "more idealistic predecessors"
                     },
                     {
                         "word": "predecessor",
                         "phonetic": "/ˈpriːdɪsesə(r)/",
-                        "meaning": "n. 前辈"
+                        "meaning": "n. 前辈；前任",
+                        "context": "their more idealistic predecessors"
                     }
                 ],
                 "phrases": [
                     {
-                        "phrase": "blame ... on",
-                        "meaning": "把...归咎于"
+                        "phrase": "blame sth on sb/sth",
+                        "meaning": "把某事归咎于……"
                     }
                 ]
             }
         },
         {
-            "paragraph": 3,
-            "sentance_id": 8,
+            "paragraph": 2,
+            "sentence_id": 7,
             "sentence_md5": "abfbb9657ef3d6de53f343866bb74773",
-            "sentance": "Whereas in the late sixties and early seventies, students were filled with visions about changing the world, today’s students feel great pressure to conform and succeed.",
-            "phonetic": "/ˌweərˈæz ɪn ðə leɪt ˈsɪkstiz ænd ˈɜːli ˈsevntiz, ˈstjuːdnts wɜː(r) fɪld wɪð ˈvɪʒnz əˈbaʊt ˈtʃeɪndʒɪŋ ðə wɜːld, təˈdeɪz ˈstjuːdnts fiːl ɡreɪt ˈpreʃə(r) tə kənˈfɔːm ænd səkˈsiːd./",
-            "translation": "在60年代末和70年代初，学生们充满了改变世界的愿景，而今天的学生则感到遵守规矩和取得成功的巨大压力。",
+            "sentence": "Whereas in the late sixties and early seventies, students were filled with visions about changing the world, today’s students feel great pressure to conform and succeed.",
+            "phonetic": "/weərˈæz ɪn ðə leɪt ˈsɪkstiːz ənd ˈɜːli ˈsevntiːz ˈstjuːdənts wɜː fɪld wɪð ˈvɪʒnz əˈbaʊt ˈtʃeɪndʒɪŋ ðə wɜːld təˈdeɪz ˈstjuːdənts fiːl ɡreɪt ˈpreʃə tu kənˈfɔːm ənd səkˈsiːd/",
+            "translation": "在60年代末70年代初，学生们满怀改变世界的理想，而如今的学生则感受到巨大的遵从与成功压力。",
             "audio_file": "data/audio/abfbb9657ef3d6de53f343866bb74773.mp3",
             "analysis": {
-                "long_sentence_analysis": "Whereas引导让步状语从句",
+                "long_sentence_analysis": "并列复合句，whereas 表对比。前句描述过去，后句描述现在，结构清晰，考点为对比逻辑。",
                 "core_vocabulary": [
+                    {
+                        "word": "vision",
+                        "phonetic": "/ˈvɪʒn/",
+                        "meaning": "n. 愿景；幻想",
+                        "context": "filled with visions"
+                    },
+                    {
+                        "word": "pressure",
+                        "phonetic": "/ˈpreʃə(r)/",
+                        "meaning": "n. 压力",
+                        "context": "feel great pressure"
+                    },
                     {
                         "word": "conform",
                         "phonetic": "/kənˈfɔːm/",
-                        "meaning": "v. 顺从，遵从"
+                        "meaning": "v. 遵守；顺从",
+                        "context": "pressure to conform"
+                    },
+                    {
+                        "word": "succeed",
+                        "phonetic": "/səkˈsiːd/",
+                        "meaning": "v. 成功",
+                        "context": "pressure to conform and succeed"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "be filled with",
+                        "meaning": "充满"
+                    },
+                    {
+                        "phrase": "feel pressure to do",
+                        "meaning": "感到有压力做某事"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 2,
+            "sentence_id": 8,
+            "sentence_md5": "282db93f72203ae556637acb9fe7c91e",
+            "sentence": "In interviews with students at high schools and colleges around the country, both young men and women said that cheating had become easy.",
+            "phonetic": "/ɪn ˈɪntəvjuːz wɪð ˈstjuːdənts æt haɪ skuːlz ənd ˈkɒlɪdʒɪz əˈraʊnd ðə ˈkʌntri bəʊθ jʌŋ men ənd ˈwɪmɪn sed ðæt ˈtʃiːtɪŋ hæd bɪˈkʌm ˈiːzi/",
+            "translation": "在对全国高中和大学学生的采访中，年轻男女们都说作弊变得很容易。",
+            "audio_file": "data/audio/282db93f72203ae556637acb9fe7c91e.mp3",
+            "analysis": {
+                "long_sentence_analysis": "复合句。状语前置，主句 said 后接宾语从句。",
+                "core_vocabulary": [
+                    {
+                        "word": "interview",
+                        "phonetic": "/ˈɪntəvjuː/",
+                        "meaning": "n. 采访；面试",
+                        "context": "In interviews with students"
+                    },
+                    {
+                        "word": "college",
+                        "phonetic": "/ˈkɒlɪdʒ/",
+                        "meaning": "n. 大学；学院",
+                        "context": "high schools and colleges"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "around the country",
+                        "meaning": "全国"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 2,
+            "sentence_id": 9,
+            "sentence_md5": "d5ac17613630c26a59bc703a8f770647",
+            "sentence": "Some suggested they did it out of spite for teachers they did not respect.",
+            "phonetic": "/səm səˈdʒestɪd ðeɪ dɪd ɪt aʊt əv spaɪt fɔː ˈtiːtʃəz ðeɪ dɪd nɒt rɪˈspekt/",
+            "translation": "一些人表示，他们这么做是出于对不尊重老师的恶意。",
+            "audio_file": "data/audio/d5ac17613630c26a59bc703a8f770647.mp3",
+            "analysis": {
+                "long_sentence_analysis": "复合句。宾语从句中含定语从句。",
+                "core_vocabulary": [
+                    {
+                        "word": "suggest",
+                        "phonetic": "/səˈdʒest/",
+                        "meaning": "v. 认为；表明",
+                        "context": "Some suggested they did it..."
+                    },
+                    {
+                        "word": "spite",
+                        "phonetic": "/spaɪt/",
+                        "meaning": "n. 恶意；怨恨",
+                        "context": "out of spite"
+                    },
+                    {
+                        "word": "respect",
+                        "phonetic": "/rɪˈspekt/",
+                        "meaning": "v./n. 尊重",
+                        "context": "teachers they did not respect"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "out of spite",
+                        "meaning": "出于恶意；泄愤"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 2,
+            "sentence_id": 10,
+            "sentence_md5": "14ae9d3aa1ce4359ad562617a70448bc",
+            "sentence": "Others looked at it as a game.",
+            "phonetic": "/ˈʌðəz lʊkt æt ɪt æz ə ɡeɪm/",
+            "translation": "其他人则把作弊当成一种游戏。",
+            "audio_file": "data/audio/14ae9d3aa1ce4359ad562617a70448bc.mp3",
+            "analysis": {
+                "long_sentence_analysis": "简单句，主谓宾结构。",
+                "core_vocabulary": [],
+                "phrases": [
+                    {
+                        "phrase": "look at...as...",
+                        "meaning": "把……看作……"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 2,
+            "sentence_id": 11,
+            "sentence_md5": "cf665a9d76eae94367efad683b8dbe70",
+            "sentence": "Only if they were caught, some said, would they feel guilty.",
+            "phonetic": "/ˈəʊnli ɪf ðeɪ wɜː kɔːt səm sed wʊd ðeɪ fiːl ˈɡɪlti/",
+            "translation": "有些人说，只有被抓住时，他们才会感到内疚。",
+            "audio_file": "data/audio/cf665a9d76eae94367efad683b8dbe70.mp3",
+            "analysis": {
+                "long_sentence_analysis": "倒装句。Only if 引导条件状语从句置于句首，主句部分倒装。核心考点：部分倒装结构。",
+                "core_vocabulary": [
+                    {
+                        "word": "guilty",
+                        "phonetic": "/ˈɡɪlti/",
+                        "meaning": "adj. 内疚的；有罪的",
+                        "context": "would they feel guilty"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "be caught",
+                        "meaning": "被抓住"
+                    },
+                    {
+                        "phrase": "feel guilty",
+                        "meaning": "感到内疚"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 2,
+            "sentence_id": 12,
+            "sentence_md5": "ee09f171202943f5559e68a272d758b6",
+            "sentence": "“People are competitive,” said a second-year college student named Anna, from Chicago.",
+            "phonetic": "/ˈpiːpl ɑː kəmˈpetətɪv sed ə ˈsekənd jɪə ˈkɒlɪdʒ ˈstjuːdənt neɪmd ˈænə frəm ʃɪˈkɑːɡəʊ/",
+            "translation": "“人们都充满竞争意识，”一位来自芝加哥的大二学生安娜说。",
+            "audio_file": "data/audio/ee09f171202943f5559e68a272d758b6.mp3",
+            "analysis": {
+                "long_sentence_analysis": "直接引语句，主谓倒装结构，引语前置。",
+                "core_vocabulary": [
+                    {
+                        "word": "competitive",
+                        "phonetic": "/kəmˈpetətɪv/",
+                        "meaning": "adj. 竞争的；好胜的",
+                        "context": "People are competitive"
                     }
                 ],
                 "phrases": []
             }
         },
         {
-            "paragraph": 3,
-            "sentance_id": 9,
-            "sentence_md5": "a802cf3f5c1a9e8338b3edb7f794ae12",
-            "sentance": "In interviews with tudents feel great pressure to conform and succeed.",
-            "phonetic": "",
-            "translation": "在采访中，学生感到遵守规矩和取得成功的巨大压力。（这句原文本就有重复）",
-            "audio_file": "data/audio/a802cf3f5c1a9e8338b3edb7f794ae12.mp3",
+            "paragraph": 2,
+            "sentence_id": 13,
+            "sentence_md5": "7f0d859aaafe58723f260dab0d1b99a0",
+            "sentence": "There's an underlying fear.",
+            "phonetic": "/ðeəz ən ˌʌndəˈlaɪən fɪə/",
+            "translation": "内心有一种潜在的恐惧。",
+            "audio_file": "data/audio/7f0d859aaafe58723f260dab0d1b99a0.mp3",
             "analysis": {
-                "long_sentence_analysis": "",
-                "core_vocabulary": [],
-                "phrases": []
-            }
-        },
-        {
-            "paragraph": 3,
-            "sentance_id": 10,
-            "sentence_md5": "282db93f72203ae556637acb9fe7c91e",
-            "sentance": "In interviews with students at high schools and colleges around the country, both young men and women said that cheating had become easy.",
-            "phonetic": "/ɪn ˈɪntəvjuːz wɪð ˈstjuːdnts æt haɪ skuːlz ænd ˈkɒlɪdʒɪz əˈraʊnd ðə ˈkʌntri, bəʊθ jʌŋ men ænd ˈwɪmɪn sed ðæt ˈtʃiːtɪŋ hæd bɪˈkʌm ˈiːzi./",
-            "translation": "在对全国各地的中学和大学学生的采访中，年轻男女都表示作弊变得很容易了。",
-            "audio_file": "data/audio/282db93f72203ae556637acb9fe7c91e.mp3",
-            "analysis": {
-                "long_sentence_analysis": "said后面是that引导的宾语从句",
-                "core_vocabulary": [],
-                "phrases": []
-            }
-        },
-        {
-            "paragraph": 3,
-            "sentance_id": 11,
-            "sentence_md5": "d5ac17613630c26a59bc703a8f770647",
-            "sentance": "Some suggested they did it out of spite for teachers they did not respect.",
-            "phonetic": "/sʌm səˈdʒestɪd ðeɪ dɪd ɪt aʊt ɒv spaɪt fə(r) ˈtiːtʃəz ðeɪ dɪd nɒt rɪˈspekt./",
-            "translation": "一些人暗示，他们这样做是出于对他们不尊重的老师的怨恨。",
-            "audio_file": "data/audio/d5ac17613630c26a59bc703a8f770647.mp3",
-            "analysis": {
-                "long_sentence_analysis": "",
-                "core_vocabulary": [],
-                "phrases": [
-                    {
-                        "phrase": "out of spite",
-                        "meaning": "出于怨恨"
-                    }
-                ]
-            }
-        },
-        {
-            "paragraph": 3,
-            "sentance_id": 12,
-            "sentence_md5": "14ae9d3aa1ce4359ad562617a70448bc",
-            "sentance": "Others looked at it as a game.",
-            "phonetic": "/ˈʌðəz lʊkt æt ɪt æz ə ɡeɪm./",
-            "translation": "另一些人把它看作一场游戏。",
-            "audio_file": "data/audio/14ae9d3aa1ce4359ad562617a70448bc.mp3",
-            "analysis": {
-                "long_sentence_analysis": "",
-                "core_vocabulary": [],
-                "phrases": [
-                    {
-                        "phrase": "look at ... as",
-                        "meaning": "把...看作"
-                    }
-                ]
-            }
-        },
-        {
-            "paragraph": 3,
-            "sentance_id": 13,
-            "sentence_md5": "cf665a9d76eae94367efad683b8dbe70",
-            "sentance": "Only if they were caught, some said, would they feel guilty.",
-            "phonetic": "/ˈəʊnli ɪf ðeɪ wɜː(r) kɔːt, sʌm sed, wʊd ðeɪ fiːl ˈɡɪlti./",
-            "translation": "有些人说，只有当他们被抓住时，他们才会感到内疚。",
-            "audio_file": "data/audio/cf665a9d76eae94367efad683b8dbe70.mp3",
-            "analysis": {
-                "long_sentence_analysis": "Only if 放在句首引起部分倒装 (would they feel guilty)。",
-                "core_vocabulary": [],
-                "phrases": []
-            }
-        },
-        {
-            "paragraph": 3,
-            "sentance_id": 14,
-            "sentence_md5": "ee09f171202943f5559e68a272d758b6",
-            "sentance": "“People are competitive,” said a second-year college student named Anna, from Chicago.",
-            "phonetic": "/ˈpiːpl ɑː(r) kəmˈpetətɪv, sed ə ˈsekənd-jɪə(r) ˈkɒlɪdʒ ˈstjuːdnt neɪmd ˈænə, frɒm ʃɪˈkɑːɡəʊ./",
-            "translation": "“人们都是有竞争力的，”一位来自芝加哥的名叫安娜的大二学生说。",
-            "audio_file": "data/audio/ee09f171202943f5559e68a272d758b6.mp3",
-            "analysis": {
-                "long_sentence_analysis": "",
-                "core_vocabulary": [],
-                "phrases": []
-            }
-        },
-        {
-            "paragraph": 3,
-            "sentance_id": 15,
-            "sentence_md5": "dcb8885993d99936ea21af46250e0183",
-            "sentance": "There’s an underlying fear.",
-            "phonetic": "/ðeəz ən ˌʌndəˈlaɪɪŋ fɪə(r)./",
-            "translation": "有一种潜在的恐惧。",
-            "audio_file": "data/audio/dcb8885993d99936ea21af46250e0183.mp3",
-            "analysis": {
-                "long_sentence_analysis": "",
+                "long_sentence_analysis": "简单句，there be 句型。",
                 "core_vocabulary": [
                     {
                         "word": "underlying",
                         "phonetic": "/ˌʌndəˈlaɪɪŋ/",
-                        "meaning": "adj. 潜在的"
+                        "meaning": "adj. 潜在的；根本的",
+                        "context": "an underlying fear"
+                    },
+                    {
+                        "word": "fear",
+                        "phonetic": "/fɪə/",
+                        "meaning": "n. 恐惧；害怕",
+                        "context": "an underlying fear"
                     }
                 ],
                 "phrases": []
             }
         },
         {
-            "paragraph": 3,
-            "sentance_id": 16,
-            "sentence_md5": "31c06a0ceccd0ed99ad5c547a30ca5c9",
-            "sentance": "If you don’t do well, your life is going to be ruined.",
-            "phonetic": "/ɪf ju dəʊnt duː wel, jɔː(r) laɪf ɪz ˈɡəʊɪŋ tə bi ˈruːɪnd./",
-            "translation": "如果你做得不好，你的一生都毁了。",
-            "audio_file": "data/audio/31c06a0ceccd0ed99ad5c547a30ca5c9.mp3",
+            "paragraph": 2,
+            "sentence_id": 14,
+            "sentence_md5": "efb482eec13f07502a1653edf28527e8",
+            "sentence": "If you don't do well, your life is going to be ruined.",
+            "phonetic": "/ɪf juː dəʊnt duː wel jɔː laɪf ɪz ˈɡəʊɪŋ tu bi ˈruːɪnd/",
+            "translation": "如果你表现不好，你的人生就会被毁了。",
+            "audio_file": "data/audio/efb482eec13f07502a1653edf28527e8.mp3",
             "analysis": {
-                "long_sentence_analysis": "",
+                "long_sentence_analysis": "条件状语从句，主句为一般将来时被动结构。",
                 "core_vocabulary": [
                     {
                         "word": "ruin",
                         "phonetic": "/ˈruːɪn/",
-                        "meaning": "v. 毁灭"
+                        "meaning": "v. 毁坏；毁灭",
+                        "context": "your life is going to be ruined"
                     }
                 ],
                 "phrases": []
             }
         },
         {
-            "paragraph": 3,
-            "sentance_id": 17,
+            "paragraph": 2,
+            "sentence_id": 15,
             "sentence_md5": "ecf17cfee4dc79107850de96c79a9151",
-            "sentance": "The pressure is not only from parents and friends but from yourself.",
-            "phonetic": "/ðə ˈpreʃə(r) ɪz nɒt ˈəʊnli frɒm ˈpeərənts ænd frendz bʌt frɒm jɔːˈself./",
+            "sentence": "The pressure is not only from parents and friends but from yourself.",
+            "phonetic": "/ðə ˈpreʃə ɪz nɒt ˈəʊnli frəm ˈpeərənts ənd frendz bʌt frəm jɔːˈself/",
             "translation": "压力不仅来自父母和朋友，也来自你自己。",
             "audio_file": "data/audio/ecf17cfee4dc79107850de96c79a9151.mp3",
             "analysis": {
-                "long_sentence_analysis": "",
-                "core_vocabulary": [],
+                "long_sentence_analysis": "简单句，主系表结构，使用 not only...but... 并列结构。",
+                "core_vocabulary": [
+                    {
+                        "word": "pressure",
+                        "phonetic": "/ˈpreʃə(r)/",
+                        "meaning": "n. 压力",
+                        "context": "The pressure is not only from..."
+                    }
+                ],
                 "phrases": [
                     {
-                        "phrase": "not only ... but (also)",
-                        "meaning": "不仅...而且"
+                        "phrase": "not only...but...",
+                        "meaning": "不仅……而且……"
                     }
                 ]
             }
         },
         {
-            "paragraph": 3,
-            "sentance_id": 18,
+            "paragraph": 2,
+            "sentence_id": 16,
             "sentence_md5": "7e0f4616736a1fde8bd963d0474578f2",
-            "sentance": "To achieve.",
-            "phonetic": "/tə əˈtʃiːv./",
-            "translation": "去实现（目标）。",
+            "sentence": "To achieve.",
+            "phonetic": "/tu əˈtʃiːv/",
+            "translation": "想要有所成就。",
             "audio_file": "data/audio/7e0f4616736a1fde8bd963d0474578f2.mp3",
             "analysis": {
-                "long_sentence_analysis": "",
-                "core_vocabulary": [],
+                "long_sentence_analysis": "省略句，不定式结构，表目的。",
+                "core_vocabulary": [
+                    {
+                        "word": "achieve",
+                        "phonetic": "/əˈtʃiːv/",
+                        "meaning": "v. 实现；达到",
+                        "context": "To achieve."
+                    }
+                ],
                 "phrases": []
             }
         },
         {
-            "paragraph": 3,
-            "sentance_id": 19,
+            "paragraph": 2,
+            "sentence_id": 17,
             "sentence_md5": "b0adece0f6f4ed4d1dc7a8bb10ac6763",
-            "sentance": "To succeed.",
-            "phonetic": "/tə səkˈsiːd./",
-            "translation": "去成功。",
+            "sentence": "To succeed.",
+            "phonetic": "/tu səkˈsiːd/",
+            "translation": "想要成功。",
             "audio_file": "data/audio/b0adece0f6f4ed4d1dc7a8bb10ac6763.mp3",
             "analysis": {
-                "long_sentence_analysis": "",
-                "core_vocabulary": [],
+                "long_sentence_analysis": "省略句，不定式结构，表目的。",
+                "core_vocabulary": [
+                    {
+                        "word": "succeed",
+                        "phonetic": "/səkˈsiːd/",
+                        "meaning": "v. 成功",
+                        "context": "To succeed."
+                    }
+                ],
                 "phrases": []
             }
         },
         {
-            "paragraph": 3,
-            "sentance_id": 20,
-            "sentence_md5": "6ee711f3a51849473d3dcbc3c59d31cd",
-            "sentance": "It’s almost as though we have to outdo other people to achieve our own goals.",
-            "phonetic": "/ɪts ˈɔːlməʊst æz ðəʊ wi hæv tə ˌaʊtˈduː ˈʌðə(r) ˈpiːpl tə əˈtʃiːv aʊə(r) əʊn ɡəʊlz./",
-            "translation": "就好像我们必须超越别人才能实现我们自己的目标。",
-            "audio_file": "data/audio/6ee711f3a51849473d3dcbc3c59d31cd.mp3",
+            "paragraph": 2,
+            "sentence_id": 18,
+            "sentence_md5": "f0592568ba7da62eab5f506179068486",
+            "sentence": "It's almost as though we have to outdo other people to achieve our own goals.",
+            "phonetic": "/ɪts ˈɔːlməʊ æz ðəʊ wiː hæv tu ˌaʊtˈduː ˈʌðə ˈpiːpl tu əˈtʃiːv ˈaʊən əʊn ɡəʊlz/",
+            "translation": "这几乎就好像我们必须胜过别人才能实现自己的目标。",
+            "audio_file": "data/audio/f0592568ba7da62eab5f506179068486.mp3",
             "analysis": {
-                "long_sentence_analysis": "",
+                "long_sentence_analysis": "复合句，as though 引导表语从句，从句中含不定式作目的状语。",
                 "core_vocabulary": [
                     {
                         "word": "outdo",
                         "phonetic": "/ˌaʊtˈduː/",
-                        "meaning": "v. 胜过，超越"
+                        "meaning": "v. 超过；胜过",
+                        "context": "have to outdo other people"
+                    },
+                    {
+                        "word": "goal",
+                        "phonetic": "/ɡəʊl/",
+                        "meaning": "n. 目标",
+                        "context": "achieve our own goals"
                     }
                 ],
                 "phrases": [
                     {
                         "phrase": "as though",
-                        "meaning": "仿佛，好像"
+                        "meaning": "好像；仿佛"
+                    },
+                    {
+                        "phrase": "achieve one's goals",
+                        "meaning": "实现某人的目标"
                     }
                 ]
             }
         },
         {
-            "paragraph": 4,
-            "sentance_id": 21,
+            "paragraph": 3,
+            "sentence_id": 19,
             "sentence_md5": "4ae233b1c9523b202d7556adf63ae21d",
-            "sentance": "Edward Wynne, editor of a magazine blames the rise in academic dishonesty on the schools.",
-            "phonetic": "/ˈedwəd wɪn, ˈedɪtə(r) ɒv ə ˌmæɡəˈziːn bleɪmz ðə raɪz ɪn ˌækəˈdemɪk dɪsˈɒnɪsti ɒn ðə skuːlz./",
-            "translation": "一家杂志的主编爱德华·温将学术不诚实行为的上升归咎于学校。",
+            "sentence": "Edward Wynne, editor of a magazine blames the rise in academic dishonesty on the schools.",
+            "phonetic": "/ˈedwəd wɪn ˈedɪtə əv ə ˌmæɡəˈziːn bleɪmz ðə raɪz ɪn ˌækəˈdemɪk dɪsˈɒnəsti ɒn ðə skuːlz/",
+            "translation": "一本杂志的编辑爱德华·韦恩将学术不端行为的增加归咎于学校。",
             "audio_file": "data/audio/4ae233b1c9523b202d7556adf63ae21d.mp3",
             "analysis": {
-                "long_sentence_analysis": "",
-                "core_vocabulary": [],
-                "phrases": []
+                "long_sentence_analysis": "简单句，主谓宾结构，editor of a magazine 为同位语。",
+                "core_vocabulary": [
+                    {
+                        "word": "editor",
+                        "phonetic": "/ˈedɪtə/",
+                        "meaning": "n. 编辑",
+                        "context": "editor of a magazine"
+                    },
+                    {
+                        "word": "blame",
+                        "phonetic": "/bleɪm/",
+                        "meaning": "v. 责备；把……归咎于",
+                        "context": "blames the rise...on the schools"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "blame sth on sb",
+                        "meaning": "把某事归咎于某人"
+                    }
+                ]
             }
         },
         {
-            "paragraph": 4,
-            "sentance_id": 22,
+            "paragraph": 3,
+            "sentence_id": 20,
             "sentence_md5": "ed4d9c9ea8dd224035554a019e52fef8",
-            "sentance": "He claims that administrators and teachers have been too hesitant to take action.",
-            "phonetic": "/hi kleɪmz ðæt ədˈmɪnɪstreɪtəz ænd ˈtiːtʃəz həv biːn tuː ˈhezɪtənt tə teɪk ˈækʃn./",
-            "translation": "他声称管理者和老师在采取行动方面过于犹豫不决。",
+            "sentence": "He claims that administrators and teachers have been too hesitant to take action.",
+            "phonetic": "/hiː kleɪmz ðət ədˈmɪnɪstreɪtəz ənd ˈtiːtʃəz hæv biːn tuː ˈhezɪənt tu teɪk ˈækʃn/",
+            "translation": "他声称，管理者和教师们一直过于犹豫，不愿采取行动。",
             "audio_file": "data/audio/ed4d9c9ea8dd224035554a019e52fef8.mp3",
             "analysis": {
-                "long_sentence_analysis": "",
+                "long_sentence_analysis": "复合句，that 引导宾语从句，从句使用 too...to... 结构。",
                 "core_vocabulary": [
                     {
+                        "word": "claim",
+                        "phonetic": "/kleɪm/",
+                        "meaning": "v. 声称；宣称",
+                        "context": "He claims that..."
+                    },
+                    {
                         "word": "hesitant",
-                        "phonetic": "/ˈhezɪtənt/",
-                        "meaning": "adj. 犹豫的"
+                        "phonetic": "/ˈhezɪənt/",
+                        "meaning": "adj. 犹豫的；迟疑的",
+                        "context": "too hesitant to take action"
+                    },
+                    {
+                        "word": "action",
+                        "phonetic": "/ˈækʃn/",
+                        "meaning": "n. 行动",
+                        "context": "take action"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "too...to...",
+                        "meaning": "太……而不能……"
+                    },
+                    {
+                        "phrase": "take action",
+                        "meaning": "采取行动"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 3,
+            "sentence_id": 21,
+            "sentence_md5": "301633dab1ccddc9cff87f8ed0962706",
+            "sentence": "Dwight Huber, chairman of the English department at Amarillo sees the matter differently, blaming the rise in cheating on the way students are evaluated.",
+            "phonetic": "/dwaɪt ˈhjuːbə ˈtʃeəmən əv ði ˈɪŋɡlɪʃ dɪˈpɑːtmənt æt ˌæməˈrɪləʊ siːz ðə ˈmætə ˈdɪfrəntli ˈbleɪmɪŋ ðə raɪz ɪn ˈtʃiːtɪŋ ɒn ðə weɪ ˈstjuːdənts ɑː ɪˈvæljueɪtɪd/",
+            "translation": "阿马里洛市英语系主任德怀特·休伯对此看法不同，他将作弊现象的增加归咎于对学生的评价方式。",
+            "audio_file": "data/audio/301633dab1ccddc9cff87f8ed0962706.mp3",
+            "analysis": {
+                "long_sentence_analysis": "简单句，主谓宾结构。chairman of...为同位语，现在分词 blaming 作伴随状语，含定语从句 the way (that) students are evaluated。",
+                "core_vocabulary": [
+                    {
+                        "word": "chairman",
+                        "phonetic": "/ˈtʃeəmən/",
+                        "meaning": "n. 主席；主任",
+                        "context": "chairman of the English department"
+                    },
+                    {
+                        "word": "evaluate",
+                        "phonetic": "/ɪˈvæljueɪt/",
+                        "meaning": "v. 评价；评估",
+                        "context": "students are evaluated"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "English department",
+                        "meaning": "英语系"
+                    },
+                    {
+                        "phrase": "see the matter differently",
+                        "meaning": "对此事看法不同"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 3,
+            "sentence_id": 22,
+            "sentence_md5": "f515cbbbcd1daa089a7b692d6da100ed",
+            "sentence": "I would cheat if I felt I was being cheated.",
+            "phonetic": "/aɪ wʊd tʃiːt ɪf aɪ felt aɪ wəz ˈbiːɪŋ ˈtʃiːtɪd/",
+            "translation": "如果我觉得自己在被欺骗，我也会作弊。",
+            "audio_file": "data/audio/f515cbbbcd1daa089a7b692d6da100ed.mp3",
+            "analysis": {
+                "long_sentence_analysis": "复合句，if 引导条件状语从句，从句中使用进行时被动语态。",
+                "core_vocabulary": [
+                    {
+                        "word": "cheat",
+                        "phonetic": "/tʃiːt/",
+                        "meaning": "v. 欺骗；作弊",
+                        "context": "I would cheat...I was being cheated"
                     }
                 ],
                 "phrases": []
             }
         },
         {
-            "paragraph": 4,
-            "sentance_id": 23,
-            "sentence_md5": "301633dab1ccddc9cff87f8ed0962706",
-            "sentance": "Dwight Huber, chairman of the English department at Amarillo sees the matter differently, blaming the rise in cheating on the way students are evaluated.",
-            "phonetic": "/dwaɪt ˈhjuːbə(r), ˈtʃeəmən ɒv ðə ˈɪŋɡlɪʃ dɪˈpɑːtmənt æt Amarillo siːz ðə ˈmætə(r) ˈdɪfrəntli, ˈbleɪmɪŋ ðə raɪz ɪn ˈtʃiːtɪŋ ɒn ðə weɪ ˈstjuːdnts ɑː(r) ɪˈvæljueɪtɪd./",
-            "translation": "阿马里洛高中英语系主任德怀特·胡伯对这件事有不同看法，他把作弊的上升归咎于评估学生的方式。",
-            "audio_file": "data/audio/301633dab1ccddc9cff87f8ed0962706.mp3",
-            "analysis": {
-                "long_sentence_analysis": "blaming ... 为分词做伴随状语",
-                "core_vocabulary": [],
-                "phrases": []
-            }
-        },
-        {
-            "paragraph": 4,
-            "sentance_id": 24,
-            "sentence_md5": "d56e194257ef55652d89df027022469e",
-            "sentance": "“I would cheat if I felt I was being cheated,” Mr. huber said.",
-            "phonetic": "/aɪ wʊd tʃiːt ɪf aɪ felt aɪ wəz ˈbiːɪŋ ˈtʃiːtɪd, ˈmɪstə(r) ˈhjuːbə(r) sed./",
-            "translation": "“如果我觉得我被欺骗了，我就会作弊，”胡伯先生说。",
-            "audio_file": "data/audio/d56e194257ef55652d89df027022469e.mp3",
-            "analysis": {
-                "long_sentence_analysis": "",
-                "core_vocabulary": [],
-                "phrases": []
-            }
-        },
-        {
-            "paragraph": 4,
-            "sentance_id": 25,
+            "paragraph": 3,
+            "sentence_id": 23,
             "sentence_md5": "81c27c37d5e754b1f891a526eec0cc6f",
-            "sentance": "He feels that as long as teachers give short-answer tests rather than essay questions and rate students by the number of facts they can memorize rather than by how well they can synthesize information, students will try to beat the system.",
-            "phonetic": "/hi fiːlz ðæt æz lɒŋ æz ˈtiːtʃəz ɡɪv ʃɔːt-ˈɑːnsə(r) tests ˈrɑːðə(r) ðæn ˈeseɪ ˈkwestʃənz ænd reɪt ˈstjuːdnts baɪ ðə ˈnʌmbə(r) ɒv fækts ðeɪ kæn ˈmeməraɪz ˈrɑːðə(r) ðæn baɪ haʊ wel ðeɪ kæn ˈsɪnθəsaɪz ˌɪnfəˈmeɪʃn, ˈstjuːdnts wɪl traɪ tə biːt ðə ˈsɪstəm./",
-            "translation": "他认为，只要老师给出简答题而不是论述题，并通过学生能记住的事实数量而不是他们能综合信息的程度来评估学生，学生就会试图寻找系统漏洞。",
+            "sentence": "He feels that as long as teachers give short-answer tests rather than essay questions and rate students by the number of facts they can memorize rather than by how well they can synthesize information, students will try to beat the system.",
+            "phonetic": "/hiː fiːlz ðæt æz lɒŋ æz ˈtiːtʃəz ɡɪv ʃɔːt ˈɑːnsə tests ˈrɑːðə ðæn ˈeseɪ ˈkwestʃənz ənd reɪt ˈstjuːdənts baɪ ðə ˈnʌmbə əv fæks ðeɪ kæn ˈmeməraɪz ˈrɑːðə ðæn baɪ haʊ wel ðeɪ kæn ˈsɪnθəsaɪz ˌɪnfəˈmeɪʃn ˈstjuːdənts wɪl traɪ tu biːt ðə ˈsɪstəm/",
+            "translation": "他认为，只要老师进行简答题测试而不是论述题测试，并且只根据学生记忆事实的数量来评分，而不是根据他们综合信息的能力来评价，学生就会试图钻制度的空子。",
             "audio_file": "data/audio/81c27c37d5e754b1f891a526eec0cc6f.mp3",
             "analysis": {
-                "long_sentence_analysis": "主句是students will try to beat the system。前面包含了as long as引导的条件状语从句",
+                "long_sentence_analysis": "多重复合句。that 引导宾语从句，从句中 as long as 引导条件状语从句，含 rather than 并列对比结构。",
                 "core_vocabulary": [
+                    {
+                        "word": "rate",
+                        "phonetic": "/reɪt/",
+                        "meaning": "v. 评价；评级",
+                        "context": "rate students by..."
+                    },
+                    {
+                        "word": "memorize",
+                        "phonetic": "/ˈmeməraɪz/",
+                        "meaning": "v. 记住；记忆",
+                        "context": "facts they can memorize"
+                    },
                     {
                         "word": "synthesize",
                         "phonetic": "/ˈsɪnθəsaɪz/",
-                        "meaning": "v. 综合"
+                        "meaning": "v. 综合；整合",
+                        "context": "synthesize information"
+                    },
+                    {
+                        "word": "system",
+                        "phonetic": "/ˈsɪstəm/",
+                        "meaning": "n. 体系；制度",
+                        "context": "beat the system"
                     }
                 ],
-                "phrases": []
+                "phrases": [
+                    {
+                        "phrase": "as long as",
+                        "meaning": "只要"
+                    },
+                    {
+                        "phrase": "rather than",
+                        "meaning": "而不是"
+                    },
+                    {
+                        "phrase": "short-answer tests",
+                        "meaning": "简答题测试"
+                    },
+                    {
+                        "phrase": "essay questions",
+                        "meaning": "论述题；作文题"
+                    }
+                ]
             }
         },
         {
-            "paragraph": 4,
-            "sentance_id": 26,
-            "sentence_md5": "6db868ddcb9a8cd3eb8d99bea9e4b88f",
-            "sentance": "“The concept of cheating is based on the false assumption that the system is legitimate and there is something wrong with the individual who’s doing it,” he said, “That’s too easy an answer.",
-            "phonetic": "/ðə ˈkɒnsept ɒv ˈtʃiːtɪŋ ɪz beɪst ɒn ðə fɔːls əˈsʌmpʃn ðæt ðə ˈsɪstəm ɪz lɪˈdʒɪtɪmət ænd ðeə(r) ɪz ˈsʌmθɪŋ rɒŋ wɪð ði ˌɪndɪˈvɪdʒuəl huːz ˈduːɪŋ ɪt, hi sed, ðæts tuː ˈiːzi ən ˈɑːnsə(r)./",
-            "translation": "他说：“作弊的概念是基于这样一种错误的假设：体制是合法的，而做这件事的个人有问题，这是一个太过于简单的答案。”",
-            "audio_file": "data/audio/6db868ddcb9a8cd3eb8d99bea9e4b88f.mp3",
+            "paragraph": 3,
+            "sentence_id": 24,
+            "sentence_md5": "a0e6f2605d48e1deca2bb847a412bcf3",
+            "sentence": "The concept of cheating is based on the false assumption that the system is legitimate and there is something wrong with the individual who's doing it.",
+            "phonetic": "/ðə ˈkɒnsept əv ˈtʃiːtɪŋ ɪz beɪst ɒn ðə fɔːls əˈsʌmpʃn ðæt ðə ˈsɪstəm ɪz lɪˈdʒɪtɪmət ənd ðeə s ˈsʌmθɪŋ rɒŋ wɪð ði ˌɪndɪˈvɪdʒuəl huːz ˈduːɪŋ ɪt/",
+            "translation": "作弊这一概念是基于一个错误的假设：即这个制度是合理合法的，而作弊的个人本身是有问题的。",
+            "audio_file": "data/audio/a0e6f2605d48e1deca2bb847a412bcf3.mp3",
             "analysis": {
-                "long_sentence_analysis": "",
+                "long_sentence_analysis": "复合句。that 引导同位语从句解释 assumption，从句中含定语从句 who's doing it 修饰 individual。",
                 "core_vocabulary": [
+                    {
+                        "word": "concept",
+                        "phonetic": "/ˈkɒnsept/",
+                        "meaning": "n. 概念",
+                        "context": "The concept of cheating"
+                    },
+                    {
+                        "word": "false",
+                        "phonetic": "/fɔːls/",
+                        "meaning": "adj. 错误的；虚假的",
+                        "context": "the false assumption"
+                    },
+                    {
+                        "word": "assumption",
+                        "phonetic": "/əˈsʌmpʃn/",
+                        "meaning": "n. 假设；假定",
+                        "context": "the false assumption"
+                    },
                     {
                         "word": "legitimate",
                         "phonetic": "/lɪˈdʒɪtɪmət/",
-                        "meaning": "adj. 合法的，合理的"
+                        "meaning": "adj. 合法的；合理的",
+                        "context": "the system is legitimate"
+                    },
+                    {
+                        "word": "individual",
+                        "phonetic": "/ˌɪndɪˈvɪdʒuəl/",
+                        "meaning": "n. 个人；个体",
+                        "context": "the individual who's doing it"
                     }
                 ],
-                "phrases": []
+                "phrases": [
+                    {
+                        "phrase": "be based on",
+                        "meaning": "基于"
+                    },
+                    {
+                        "phrase": "something wrong with",
+                        "meaning": "……有问题；出毛病"
+                    }
+                ]
             }
         },
         {
-            "paragraph": 4,
-            "sentance_id": 27,
-            "sentence_md5": "5e80fb3840e176f02b96c1244866cec2",
-            "sentance": "We’ve got to start looking at the system.”",
-            "phonetic": "/wiːv ɡɒt tə stɑːt ˈlʊkɪŋ æt ðə ˈsɪstəm./",
-            "translation": "我们必须从考察这个体制开始。",
-            "audio_file": "data/audio/5e80fb3840e176f02b96c1244866cec2.mp3",
+            "paragraph": 3,
+            "sentence_id": 25,
+            "sentence_md5": "769db9c33ac715b23a2b49aca91c8e13",
+            "sentence": "That's too easy an answer.",
+            "phonetic": "/ðæts tuː ˈiːzi ən ˈɑːnsə/",
+            "translation": "这个答案太过简单了。",
+            "audio_file": "data/audio/769db9c33ac715b23a2b49aca91c8e13.mp3",
             "analysis": {
-                "long_sentence_analysis": "",
+                "long_sentence_analysis": "简单句，主系表结构。",
                 "core_vocabulary": [],
                 "phrases": []
             }
         },
         {
-            "paragraph": 5,
-            "sentance_id": 28,
-            "sentence_md5": "dd3391b01e6d23199e9d35f0a4f5d427",
-            "sentance": "26.",
-            "phonetic": "",
-            "translation": "（题目或选项翻译暂略）",
-            "audio_file": "data/audio/dd3391b01e6d23199e9d35f0a4f5d427.mp3",
+            "paragraph": 3,
+            "sentence_id": 26,
+            "sentence_md5": "6c653072e3b2a7584d442a02027ad4f5",
+            "sentence": "We've got to start looking at the system.",
+            "phonetic": "/wiːv ɡɒt tu stɑːt ˈlʊkɪŋ æt ðə ˈsɪstəm/",
+            "translation": "我们必须开始审视这个制度本身。",
+            "audio_file": "data/audio/6c653072e3b2a7584d442a02027ad4f5.mp3",
             "analysis": {
-                "long_sentence_analysis": "",
+                "long_sentence_analysis": "简单句，主谓宾结构，start doing sth 开始做某事。",
                 "core_vocabulary": [],
-                "phrases": []
-            }
-        },
-        {
-            "paragraph": 5,
-            "sentance_id": 29,
-            "sentence_md5": "59ff7b8a93197fb9faea1217ed9402bf",
-            "sentance": "Educators are finding that students who cheat_______.",
-            "phonetic": "",
-            "translation": "（题目或选项翻译暂略）",
-            "audio_file": "data/audio/59ff7b8a93197fb9faea1217ed9402bf.mp3",
-            "analysis": {
-                "long_sentence_analysis": "",
-                "core_vocabulary": [],
-                "phrases": []
-            }
-        },
-        {
-            "paragraph": 5,
-            "sentance_id": 30,
-            "sentence_md5": "b9eb86a1ed6590097afbabd03310f3d2",
-            "sentance": "A. are not only those academically weak.",
-            "phonetic": "",
-            "translation": "（题目或选项翻译暂略）",
-            "audio_file": "data/audio/b9eb86a1ed6590097afbabd03310f3d2.mp3",
-            "analysis": {
-                "long_sentence_analysis": "",
-                "core_vocabulary": [],
-                "phrases": []
-            }
-        },
-        {
-            "paragraph": 5,
-            "sentance_id": 31,
-            "sentence_md5": "e2d474a4e31d0e29e32fd2cc7a6fe8d3",
-            "sentance": "B. tend to be dishonest in later years.",
-            "phonetic": "",
-            "translation": "（题目或选项翻译暂略）",
-            "audio_file": "data/audio/e2d474a4e31d0e29e32fd2cc7a6fe8d3.mp3",
-            "analysis": {
-                "long_sentence_analysis": "",
-                "core_vocabulary": [],
-                "phrases": []
-            }
-        },
-        {
-            "paragraph": 5,
-            "sentance_id": 32,
-            "sentence_md5": "0eb8d9c02ba86fa595c50999b3a35b0f",
-            "sentance": "C. are more likely to be punished than before.",
-            "phonetic": "",
-            "translation": "（题目或选项翻译暂略）",
-            "audio_file": "data/audio/0eb8d9c02ba86fa595c50999b3a35b0f.mp3",
-            "analysis": {
-                "long_sentence_analysis": "",
-                "core_vocabulary": [],
-                "phrases": []
-            }
-        },
-        {
-            "paragraph": 5,
-            "sentance_id": 33,
-            "sentence_md5": "7427344409ff3bc348d246f83e3d5889",
-            "sentance": "D. have poor academic records.",
-            "phonetic": "",
-            "translation": "（题目或选项翻译暂略）",
-            "audio_file": "data/audio/7427344409ff3bc348d246f83e3d5889.mp3",
-            "analysis": {
-                "long_sentence_analysis": "",
-                "core_vocabulary": [],
-                "phrases": []
-            }
-        },
-        {
-            "paragraph": 6,
-            "sentance_id": 34,
-            "sentence_md5": "2cdebd29aacaf69cf85ee986bf491f6c",
-            "sentance": "27.",
-            "phonetic": "",
-            "translation": "（题目或选项翻译暂略）",
-            "audio_file": "data/audio/2cdebd29aacaf69cf85ee986bf491f6c.mp3",
-            "analysis": {
-                "long_sentence_analysis": "",
-                "core_vocabulary": [],
-                "phrases": []
-            }
-        },
-        {
-            "paragraph": 6,
-            "sentance_id": 35,
-            "sentence_md5": "e12c6b4031ff86ef05ca5fc1d2e5f7c9",
-            "sentance": "According to the passage, which of the following statements is true?",
-            "phonetic": "",
-            "translation": "（题目或选项翻译暂略）",
-            "audio_file": "data/audio/e12c6b4031ff86ef05ca5fc1d2e5f7c9.mp3",
-            "analysis": {
-                "long_sentence_analysis": "",
-                "core_vocabulary": [],
-                "phrases": []
-            }
-        },
-        {
-            "paragraph": 6,
-            "sentance_id": 36,
-            "sentence_md5": "e1354cc842cc323c307b3424ed3dfa81",
-            "sentance": "A.",
-            "phonetic": "",
-            "translation": "（题目或选项翻译暂略）",
-            "audio_file": "data/audio/e1354cc842cc323c307b3424ed3dfa81.mp3",
-            "analysis": {
-                "long_sentence_analysis": "",
-                "core_vocabulary": [],
-                "phrases": []
-            }
-        },
-        {
-            "paragraph": 6,
-            "sentance_id": 37,
-            "sentence_md5": "2d130c0b3b58658ad795dcf3957461c5",
-            "sentance": "Reform in the testing system will eliminate cheating.",
-            "phonetic": "",
-            "translation": "（题目或选项翻译暂略）",
-            "audio_file": "data/audio/2d130c0b3b58658ad795dcf3957461c5.mp3",
-            "analysis": {
-                "long_sentence_analysis": "",
-                "core_vocabulary": [],
-                "phrases": []
-            }
-        },
-        {
-            "paragraph": 6,
-            "sentance_id": 38,
-            "sentence_md5": "b06c26aed02d969d0f2315ba11b5432b",
-            "sentance": "B.",
-            "phonetic": "",
-            "translation": "（题目或选项翻译暂略）",
-            "audio_file": "data/audio/b06c26aed02d969d0f2315ba11b5432b.mp3",
-            "analysis": {
-                "long_sentence_analysis": "",
-                "core_vocabulary": [],
-                "phrases": []
-            }
-        },
-        {
-            "paragraph": 6,
-            "sentance_id": 39,
-            "sentence_md5": "99da716172e2c34069037aef1927cbcd",
-            "sentance": "Punishment is an effective method to stop cheating.",
-            "phonetic": "",
-            "translation": "（题目或选项翻译暂略）",
-            "audio_file": "data/audio/99da716172e2c34069037aef1927cbcd.mp3",
-            "analysis": {
-                "long_sentence_analysis": "",
-                "core_vocabulary": [],
-                "phrases": []
-            }
-        },
-        {
-            "paragraph": 6,
-            "sentance_id": 40,
-            "sentence_md5": "9bce147872014965a531500da2666847",
-            "sentance": "C.",
-            "phonetic": "",
-            "translation": "（题目或选项翻译暂略）",
-            "audio_file": "data/audio/9bce147872014965a531500da2666847.mp3",
-            "analysis": {
-                "long_sentence_analysis": "",
-                "core_vocabulary": [],
-                "phrases": []
-            }
-        },
-        {
-            "paragraph": 6,
-            "sentance_id": 41,
-            "sentence_md5": "2044ed458aefe6fde90aa9c68cde4a34",
-            "sentance": "Students' cheating has deep social roots.",
-            "phonetic": "",
-            "translation": "（题目或选项翻译暂略）",
-            "audio_file": "data/audio/2044ed458aefe6fde90aa9c68cde4a34.mp3",
-            "analysis": {
-                "long_sentence_analysis": "",
-                "core_vocabulary": [],
-                "phrases": []
-            }
-        },
-        {
-            "paragraph": 6,
-            "sentance_id": 42,
-            "sentence_md5": "d0904fd99a2cfb13f897223b9213c6f1",
-            "sentance": "D.",
-            "phonetic": "",
-            "translation": "（题目或选项翻译暂略）",
-            "audio_file": "data/audio/d0904fd99a2cfb13f897223b9213c6f1.mp3",
-            "analysis": {
-                "long_sentence_analysis": "",
-                "core_vocabulary": [],
-                "phrases": []
-            }
-        },
-        {
-            "paragraph": 6,
-            "sentance_id": 43,
-            "sentence_md5": "e3f34c296c8109175760c3d8766fc81a",
-            "sentance": "Students do not cheat on essay tests.",
-            "phonetic": "",
-            "translation": "（题目或选项翻译暂略）",
-            "audio_file": "data/audio/e3f34c296c8109175760c3d8766fc81a.mp3",
-            "analysis": {
-                "long_sentence_analysis": "",
-                "core_vocabulary": [],
-                "phrases": []
-            }
-        },
-        {
-            "paragraph": 7,
-            "sentance_id": 44,
-            "sentence_md5": "97f35d6fd654c8e23c1c8085806d2012",
-            "sentance": "28.",
-            "phonetic": "",
-            "translation": "（题目或选项翻译暂略）",
-            "audio_file": "data/audio/97f35d6fd654c8e23c1c8085806d2012.mp3",
-            "analysis": {
-                "long_sentence_analysis": "",
-                "core_vocabulary": [],
-                "phrases": []
-            }
-        },
-        {
-            "paragraph": 7,
-            "sentance_id": 45,
-            "sentence_md5": "7a7b24d0d6b0a116d6c0385c996e564b",
-            "sentance": "Which of the following points of view would Mr.",
-            "phonetic": "",
-            "translation": "（题目或选项翻译暂略）",
-            "audio_file": "data/audio/7a7b24d0d6b0a116d6c0385c996e564b.mp3",
-            "analysis": {
-                "long_sentence_analysis": "",
-                "core_vocabulary": [],
-                "phrases": []
-            }
-        },
-        {
-            "paragraph": 7,
-            "sentance_id": 46,
-            "sentence_md5": "a1c5e9581b150aad960804509662920b",
-            "sentance": "Huberagree with?",
-            "phonetic": "",
-            "translation": "（题目或选项翻译暂略）",
-            "audio_file": "data/audio/a1c5e9581b150aad960804509662920b.mp3",
-            "analysis": {
-                "long_sentence_analysis": "",
-                "core_vocabulary": [],
-                "phrases": []
-            }
-        },
-        {
-            "paragraph": 7,
-            "sentance_id": 47,
-            "sentence_md5": "e1354cc842cc323c307b3424ed3dfa81",
-            "sentance": "A.",
-            "phonetic": "",
-            "translation": "（题目或选项翻译暂略）",
-            "audio_file": "data/audio/e1354cc842cc323c307b3424ed3dfa81.mp3",
-            "analysis": {
-                "long_sentence_analysis": "",
-                "core_vocabulary": [],
-                "phrases": []
-            }
-        },
-        {
-            "paragraph": 7,
-            "sentance_id": 48,
-            "sentence_md5": "56d449005012cb3101a09ce3eb39e7cf",
-            "sentance": "Cheating would be reduced through an educational reform.",
-            "phonetic": "",
-            "translation": "（题目或选项翻译暂略）",
-            "audio_file": "data/audio/56d449005012cb3101a09ce3eb39e7cf.mp3",
-            "analysis": {
-                "long_sentence_analysis": "",
-                "core_vocabulary": [],
-                "phrases": []
-            }
-        },
-        {
-            "paragraph": 7,
-            "sentance_id": 49,
-            "sentence_md5": "b06c26aed02d969d0f2315ba11b5432b",
-            "sentance": "B.",
-            "phonetic": "",
-            "translation": "（题目或选项翻译暂略）",
-            "audio_file": "data/audio/b06c26aed02d969d0f2315ba11b5432b.mp3",
-            "analysis": {
-                "long_sentence_analysis": "",
-                "core_vocabulary": [],
-                "phrases": []
-            }
-        },
-        {
-            "paragraph": 7,
-            "sentance_id": 50,
-            "sentence_md5": "8a1c3ea500ef25a015c3c88b623f1e2e",
-            "sentance": "Students who cheat should be expelled from school.",
-            "phonetic": "",
-            "translation": "（题目或选项翻译暂略）",
-            "audio_file": "data/audio/8a1c3ea500ef25a015c3c88b623f1e2e.mp3",
-            "analysis": {
-                "long_sentence_analysis": "",
-                "core_vocabulary": [],
-                "phrases": []
-            }
-        },
-        {
-            "paragraph": 7,
-            "sentance_id": 51,
-            "sentence_md5": "9bce147872014965a531500da2666847",
-            "sentance": "C.",
-            "phonetic": "",
-            "translation": "（题目或选项翻译暂略）",
-            "audio_file": "data/audio/9bce147872014965a531500da2666847.mp3",
-            "analysis": {
-                "long_sentence_analysis": "",
-                "core_vocabulary": [],
-                "phrases": []
-            }
-        },
-        {
-            "paragraph": 7,
-            "sentance_id": 52,
-            "sentence_md5": "d932f8f40da42d80a3b19b24c8f27670",
-            "sentance": "Punishment for cheaters should be severe in this country.",
-            "phonetic": "",
-            "translation": "（题目或选项翻译暂略）",
-            "audio_file": "data/audio/d932f8f40da42d80a3b19b24c8f27670.mp3",
-            "analysis": {
-                "long_sentence_analysis": "",
-                "core_vocabulary": [],
-                "phrases": []
-            }
-        },
-        {
-            "paragraph": 7,
-            "sentance_id": 53,
-            "sentence_md5": "d0904fd99a2cfb13f897223b9213c6f1",
-            "sentance": "D.",
-            "phonetic": "",
-            "translation": "（题目或选项翻译暂略）",
-            "audio_file": "data/audio/d0904fd99a2cfb13f897223b9213c6f1.mp3",
-            "analysis": {
-                "long_sentence_analysis": "",
-                "core_vocabulary": [],
-                "phrases": []
-            }
-        },
-        {
-            "paragraph": 7,
-            "sentance_id": 54,
-            "sentence_md5": "956867e5d50169f39c86aa252732280d",
-            "sentance": "Parents must take responsibility for the rise in cheating.",
-            "phonetic": "",
-            "translation": "（题目或选项翻译暂略）",
-            "audio_file": "data/audio/956867e5d50169f39c86aa252732280d.mp3",
-            "analysis": {
-                "long_sentence_analysis": "",
-                "core_vocabulary": [],
-                "phrases": []
-            }
-        },
-        {
-            "paragraph": 8,
-            "sentance_id": 55,
-            "sentence_md5": "fa429db80d7f2e42225c65eca3a5e0fe",
-            "sentance": "29.",
-            "phonetic": "",
-            "translation": "（题目或选项翻译暂略）",
-            "audio_file": "data/audio/fa429db80d7f2e42225c65eca3a5e0fe.mp3",
-            "analysis": {
-                "long_sentence_analysis": "",
-                "core_vocabulary": [],
-                "phrases": []
-            }
-        },
-        {
-            "paragraph": 8,
-            "sentance_id": 56,
-            "sentence_md5": "2db94a10f5c804ad5c32de180a2d8b63",
-            "sentance": "The expression \"the individuals\" (the last paragraph) refers to ________\nA. school administrators.",
-            "phonetic": "",
-            "translation": "（题目或选项翻译暂略）",
-            "audio_file": "data/audio/2db94a10f5c804ad5c32de180a2d8b63.mp3",
-            "analysis": {
-                "long_sentence_analysis": "",
-                "core_vocabulary": [],
-                "phrases": []
-            }
-        },
-        {
-            "paragraph": 8,
-            "sentance_id": 57,
-            "sentence_md5": "db5387b287ce42a66df6674135658f61",
-            "sentance": "B. students who cheat.",
-            "phonetic": "",
-            "translation": "（题目或选项翻译暂略）",
-            "audio_file": "data/audio/db5387b287ce42a66df6674135658f61.mp3",
-            "analysis": {
-                "long_sentence_analysis": "",
-                "core_vocabulary": [],
-                "phrases": []
-            }
-        },
-        {
-            "paragraph": 8,
-            "sentance_id": 58,
-            "sentence_md5": "ec4ccdf0059effc3d80d0782e32835c8",
-            "sentance": "C. parents.",
-            "phonetic": "",
-            "translation": "（题目或选项翻译暂略）",
-            "audio_file": "data/audio/ec4ccdf0059effc3d80d0782e32835c8.mp3",
-            "analysis": {
-                "long_sentence_analysis": "",
-                "core_vocabulary": [],
-                "phrases": []
-            }
-        },
-        {
-            "paragraph": 8,
-            "sentance_id": 59,
-            "sentence_md5": "7e721772b9d15863dbf0443d74267239",
-            "sentance": "D. teachers.",
-            "phonetic": "",
-            "translation": "（题目或选项翻译暂略）",
-            "audio_file": "data/audio/7e721772b9d15863dbf0443d74267239.mp3",
-            "analysis": {
-                "long_sentence_analysis": "",
-                "core_vocabulary": [],
-                "phrases": []
-            }
-        },
-        {
-            "paragraph": 9,
-            "sentance_id": 60,
-            "sentence_md5": "1cdc6cd68bb51aa7c2781179919aed54",
-            "sentance": "30.",
-            "phonetic": "",
-            "translation": "（题目或选项翻译暂略）",
-            "audio_file": "data/audio/1cdc6cd68bb51aa7c2781179919aed54.mp3",
-            "analysis": {
-                "long_sentence_analysis": "",
-                "core_vocabulary": [],
-                "phrases": []
-            }
-        },
-        {
-            "paragraph": 9,
-            "sentance_id": 61,
-            "sentence_md5": "236895261a3b43cd95a9a4d2869cfcff",
-            "sentance": "The passage mainly discusses_______\nA: ways to eliminate academic dishonesty.",
-            "phonetic": "",
-            "translation": "（题目或选项翻译暂略）",
-            "audio_file": "data/audio/236895261a3b43cd95a9a4d2869cfcff.mp3",
-            "analysis": {
-                "long_sentence_analysis": "",
-                "core_vocabulary": [],
-                "phrases": []
-            }
-        },
-        {
-            "paragraph": 9,
-            "sentance_id": 62,
-            "sentence_md5": "085abdd85ee36224d24cd63f7d0f5bea",
-            "sentance": "B: factors leading to academic dishonesty.",
-            "phonetic": "",
-            "translation": "（题目或选项翻译暂略）",
-            "audio_file": "data/audio/085abdd85ee36224d24cd63f7d0f5bea.mp3",
-            "analysis": {
-                "long_sentence_analysis": "",
-                "core_vocabulary": [],
-                "phrases": []
-            }
-        },
-        {
-            "paragraph": 9,
-            "sentance_id": 63,
-            "sentence_md5": "37a1041667c86f9a42d3194ba8f03266",
-            "sentance": "C: the decline of moral standards of today's youth.",
-            "phonetic": "",
-            "translation": "（题目或选项翻译暂略）",
-            "audio_file": "data/audio/37a1041667c86f9a42d3194ba8f03266.mp3",
-            "analysis": {
-                "long_sentence_analysis": "",
-                "core_vocabulary": [],
-                "phrases": []
-            }
-        },
-        {
-            "paragraph": 9,
-            "sentance_id": 64,
-            "sentence_md5": "f36f3e81cc6164d0f946d2e9271bfd66",
-            "sentance": "D: people's tolerance of students' cheating.",
-            "phonetic": "",
-            "translation": "（题目或选项翻译暂略）",
-            "audio_file": "data/audio/f36f3e81cc6164d0f946d2e9271bfd66.mp3",
-            "analysis": {
-                "long_sentence_analysis": "",
-                "core_vocabulary": [],
-                "phrases": []
+                "phrases": [
+                    {
+                        "phrase": "have got to",
+                        "meaning": "必须；不得不"
+                    },
+                    {
+                        "phrase": "start doing sth",
+                        "meaning": "开始做某事"
+                    }
+                ]
             }
         }
     ]

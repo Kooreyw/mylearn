@@ -34,7 +34,7 @@ def generate_audio(json_path: str):
 
     for i, s in enumerate(sentences, 1):
         md5 = s.get("sentence_md5", "")
-        text = s.get("sentance", "")
+        text = s.get("sentence", "")
         if not md5 or not text:
             print(f"  [{i}/{total}] ⚠️  跳过：缺少 MD5 或文本")
             skipped += 1

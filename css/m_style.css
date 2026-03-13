@@ -482,12 +482,20 @@ body.mobile-native-theme {
 }
 
 /* 分析内容样式 */
+.sheet-original-text {
+    font-size: 1.15rem;
+    font-weight: 500;
+    color: var(--text-bright);
+    margin: 8px 0 6px 0;
+    line-height: 1.4;
+}
+
 .sheet-content h3 {
     font-family: var(--font-cn);
-    font-size: 1rem;
-    font-weight: 600;
-    color: var(--text-bright);
-    margin-bottom: 16px;
+    font-size: 0.92rem;
+    font-weight: 400;
+    color: var(--text-translation);
+    margin-bottom: 20px;
     line-height: 1.6;
 }
 

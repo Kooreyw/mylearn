@@ -1,0 +1,928 @@
+{
+    "article_metadata": {
+        "title": "2014 passage cloze",
+        "author": "Unknown",
+        "source": "CET"
+    },
+    "sentences": [
+        {
+            "paragraph": 1,
+            "sentence_id": 1,
+            "sentence_md5": "9c4ae49d867745d6834139c49f1e3258",
+            "sentence": "Ironically, a study finds that we’re awful gift-givers precisely because we spend too much time trying to be considerate.",
+            "phonetic": "/aɪˈrɑːnɪkli ə ˈstʌdi faɪndz ðæt wɪr ˈɔːfəl ˈɡɪft ɡɪvəz prɪˈsaɪsli bɪˈkɑːz wi spɛnd tu mʌʧ taɪm ˈtraɪɪŋ tu bi kənˈsɪdərət/",
+            "translation": "具有讽刺意味的是，一项研究发现，我们之所以是糟糕的送礼者，恰恰是因为我们花了太多时间试图做到体贴。",
+            "audio_file": "data/audio/9c4ae49d867745d6834139c49f1e3258.mp3",
+            "analysis": {
+                "long_sentence_analysis": "主句为a study finds，后接that引导的宾语从句；宾语从句中包含because引导的原因状语从句；trying to be considerate为现在分词短语作伴随状语。",
+                "core_vocabulary": [
+                    {
+                        "word": "Ironically",
+                        "phonetic": "/aɪˈrɑːnɪkli/",
+                        "meaning": "adv. 具有讽刺意味地"
+                    },
+                    {
+                        "word": "study",
+                        "phonetic": "/ˈstʌdi/",
+                        "meaning": "n. 研究"
+                    },
+                    {
+                        "word": "finds",
+                        "phonetic": "/faɪndz/",
+                        "meaning": "v. 发现"
+                    },
+                    {
+                        "word": "awful",
+                        "phonetic": "/ˈɔːfəl/",
+                        "meaning": "adj. 糟糕的"
+                    },
+                    {
+                        "word": "gift-givers",
+                        "phonetic": "/ˈɡɪft ɡɪvəz/",
+                        "meaning": "n. 送礼者"
+                    },
+                    {
+                        "word": "precisely",
+                        "phonetic": "/prɪˈsaɪsli/",
+                        "meaning": "adv. 恰恰"
+                    },
+                    {
+                        "word": "because",
+                        "phonetic": "/bɪˈkɑːz/",
+                        "meaning": "conj. 因为"
+                    },
+                    {
+                        "word": "spend",
+                        "phonetic": "/spɛnd/",
+                        "meaning": "v. 花费"
+                    },
+                    {
+                        "word": "too",
+                        "phonetic": "/tu/",
+                        "meaning": "adv. 太"
+                    },
+                    {
+                        "word": "much",
+                        "phonetic": "/mʌʧ/",
+                        "meaning": "adj. 多的"
+                    },
+                    {
+                        "word": "time",
+                        "phonetic": "/taɪm/",
+                        "meaning": "n. 时间"
+                    },
+                    {
+                        "word": "trying",
+                        "phonetic": "/ˈtraɪɪŋ/",
+                        "meaning": "v. 尝试"
+                    },
+                    {
+                        "word": "be",
+                        "phonetic": "/bi/",
+                        "meaning": "v. 成为"
+                    },
+                    {
+                        "word": "considerate",
+                        "phonetic": "/kənˈsɪdərət/",
+                        "meaning": "adj. 体贴的"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "spend time doing",
+                        "meaning": "/spɛnd taɪm ˈduɪŋ/ 花费时间做某事"
+                    },
+                    {
+                        "phrase": "try to be",
+                        "meaning": "/traɪ tu bi/ 试图成为"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 1,
+            "sentence_id": 2,
+            "sentence_md5": "32d053cf307ec27b3c4c02baeb27c7f9",
+            "sentence": "We imagine our friends opening a gift that is impressive, expensive, and sentimental.",
+            "phonetic": "/wi ɪˈmædʒɪn ˈaʊər frɛndz ˈoʊpənɪŋ ə ɡɪft ðæt ɪz ɪmˈprɛsɪv ɪkˈspɛnsɪv ænd ˌsɛntɪˈmɛntl/",
+            "translation": "我们想象朋友打开一份令人印象深刻、昂贵且充满情感的礼物。",
+            "audio_file": "data/audio/32d053cf307ec27b3c4c02baeb27c7f9.mp3",
+            "analysis": {
+                "long_sentence_analysis": "主句为We imagine，后接宾语our friends opening a gift；其中opening为现在分词作宾语补足语；that引导定语从句修饰gift。",
+                "core_vocabulary": [
+                    {
+                        "word": "imagine",
+                        "phonetic": "/ɪˈmædʒɪn/",
+                        "meaning": "v. 想象"
+                    },
+                    {
+                        "word": "our",
+                        "phonetic": "/aʊər/",
+                        "meaning": "pron. 我们的"
+                    },
+                    {
+                        "word": "friends",
+                        "phonetic": "/frɛndz/",
+                        "meaning": "n. 朋友"
+                    },
+                    {
+                        "word": "opening",
+                        "phonetic": "/ˈoʊpənɪŋ/",
+                        "meaning": "v. 打开"
+                    },
+                    {
+                        "word": "gift",
+                        "phonetic": "/ɡɪft/",
+                        "meaning": "n. 礼物"
+                    },
+                    {
+                        "word": "that",
+                        "phonetic": "/ðæt/",
+                        "meaning": "pron. 那个"
+                    },
+                    {
+                        "word": "impressive",
+                        "phonetic": "/ɪmˈprɛsɪv/",
+                        "meaning": "adj. 令人印象深刻的"
+                    },
+                    {
+                        "word": "expensive",
+                        "phonetic": "/ɪkˈspɛnsɪv/",
+                        "meaning": "adj. 昂贵的"
+                    },
+                    {
+                        "word": "and",
+                        "phonetic": "/ænd/",
+                        "meaning": "conj. 和"
+                    },
+                    {
+                        "word": "sentimental",
+                        "phonetic": "/ˌsɛntɪˈmɛntl/",
+                        "meaning": "adj. 充满情感的"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "imagine someone doing",
+                        "meaning": "/ɪˈmædʒɪn ˈsʌmwʌn ˈduɪŋ/ 想象某人做某事"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 1,
+            "sentence_id": 3,
+            "sentence_md5": "a0f07d63c932507773bd66d7432e9d6a",
+            "sentence": "We imagine the look of happiness and surprise on their faces and the warmth we feel in return.",
+            "phonetic": "/wi ɪˈmædʒɪn ðə lʊk əv ˈhæpinəs ænd sərˈpraɪz ɑn ðɛr ˈfeɪsɪz ænd ðə wɔrəmθ wi fil ɪn rɪˈtɜrn/",
+            "translation": "我们想象他们脸上幸福和惊讶的表情，以及我们感受到的温暖作为回报。",
+            "audio_file": "data/audio/a0f07d63c932507773bd66d7432e9d6a.mp3",
+            "analysis": {
+                "long_sentence_analysis": "主句为We imagine，后接两个并列宾语：the look和the warmth；the look后跟of短语，the warmth后跟定语从句we feel；in return为介词短语作状语。",
+                "core_vocabulary": [
+                    {
+                        "word": "look",
+                        "phonetic": "/lʊk/",
+                        "meaning": "n. 表情"
+                    },
+                    {
+                        "word": "happiness",
+                        "phonetic": "/ˈhæpinəs/",
+                        "meaning": "n. 幸福"
+                    },
+                    {
+                        "word": "surprise",
+                        "phonetic": "/sərˈpraɪz/",
+                        "meaning": "n. 惊讶"
+                    },
+                    {
+                        "word": "on",
+                        "phonetic": "/ɑn/",
+                        "meaning": "prep. 在...上"
+                    },
+                    {
+                        "word": "their",
+                        "phonetic": "/ðɛr/",
+                        "meaning": "pron. 他们的"
+                    },
+                    {
+                        "word": "faces",
+                        "phonetic": "/ˈfeɪsɪz/",
+                        "meaning": "n. 脸"
+                    },
+                    {
+                        "word": "warmth",
+                        "phonetic": "/wɔrəmθ/",
+                        "meaning": "n. 温暖"
+                    },
+                    {
+                        "word": "feel",
+                        "phonetic": "/fil/",
+                        "meaning": "v. 感到"
+                    },
+                    {
+                        "word": "return",
+                        "phonetic": "/rɪˈtɜrn/",
+                        "meaning": "n. 回报"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "in return",
+                        "meaning": "/ɪn rɪˈtɜrn/ 作为回报"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 1,
+            "sentence_id": 4,
+            "sentence_md5": "fc010b4b218cf945b68ee8641f5b9687",
+            "sentence": "But there’s something that the most sentimental-gift-givers tend not to think too much about: whether the gift is practical in the first place.",
+            "phonetic": "/bʌt ðɛrz ˈsʌmθɪŋ ðæt ðə moʊst ˌsɛntɪˈmɛntl ˈɡɪft ɡɪvəz tɛnd nɑt tu θɪŋk tu mʌtʃ əˈbaʊt ˈwɛðər ðə ɡɪft ɪz ˈpræktɪkəl ɪn ðə fɜrst pleɪs/",
+            "translation": "但最注重情感的送礼者往往不太考虑一件事：礼物首先是否实用。",
+            "audio_file": "data/audio/fc010b4b218cf945b68ee8641f5b9687.mp3",
+            "analysis": {
+                "long_sentence_analysis": "But there's something为存在句，that引导定语从句修饰something；定语从句中不定式to think about作tend的宾语；whether引导同位语从句解释something。",
+                "core_vocabulary": [
+                    {
+                        "word": "but",
+                        "phonetic": "/bʌt/",
+                        "meaning": "conj. 但是"
+                    },
+                    {
+                        "word": "something",
+                        "phonetic": "/ˈsʌmθɪŋ/",
+                        "meaning": "pron. 某事"
+                    },
+                    {
+                        "word": "most",
+                        "phonetic": "/moʊst/",
+                        "meaning": "adj. 最"
+                    },
+                    {
+                        "word": "sentimental-gift-givers",
+                        "phonetic": "/ˌsɛntɪˈmɛntl ˈɡɪft ɡɪvəz/",
+                        "meaning": "n. 情感型送礼者"
+                    },
+                    {
+                        "word": "tend",
+                        "phonetic": "/tɛnd/",
+                        "meaning": "v. 倾向于"
+                    },
+                    {
+                        "word": "not",
+                        "phonetic": "/nɑt/",
+                        "meaning": "adv. 不"
+                    },
+                    {
+                        "word": "think",
+                        "phonetic": "/θɪŋk/",
+                        "meaning": "v. 思考"
+                    },
+                    {
+                        "word": "about",
+                        "phonetic": "/əˈbaʊt/",
+                        "meaning": "prep. 关于"
+                    },
+                    {
+                        "word": "whether",
+                        "phonetic": "/ˈwɛðər/",
+                        "meaning": "conj. 是否"
+                    },
+                    {
+                        "word": "practical",
+                        "phonetic": "/ˈpræktɪkəl/",
+                        "meaning": "adj. 实用的"
+                    },
+                    {
+                        "word": "first",
+                        "phonetic": "/fɜrst/",
+                        "meaning": "adj. 第一的"
+                    },
+                    {
+                        "word": "place",
+                        "phonetic": "/pleɪs/",
+                        "meaning": "n. 位置"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "in the first place",
+                        "meaning": "/ɪn ðə fɜrst pleɪs/ 首先"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 3,
+            "sentence_id": 5,
+            "sentence_md5": "ed9bf9b240a33181e5ed46002db0cd86",
+            "sentence": "In many ways, practicality seems like an enemy of great gift giving.",
+            "phonetic": "/ɪn ˈmɛni weɪz prækˈtɪkəlti sims laɪk ən ˈɛnəmi əv ɡreɪt ɡɪft ˈɡɪvɪŋ/",
+            "translation": "在很多方面，实用性似乎是大方送礼的敌人。",
+            "audio_file": "data/audio/ed9bf9b240a33181e5ed46002db0cd86.mp3",
+            "analysis": {
+                "long_sentence_analysis": "简单主系表结构：practicality seems like an enemy；介词短语In many ways作状语。",
+                "core_vocabulary": [
+                    {
+                        "word": "many",
+                        "phonetic": "/ˈmɛni/",
+                        "meaning": "adj. 许多"
+                    },
+                    {
+                        "word": "ways",
+                        "phonetic": "/weɪz/",
+                        "meaning": "n. 方面"
+                    },
+                    {
+                        "word": "practicality",
+                        "phonetic": "/prækˈtɪkəlti/",
+                        "meaning": "n. 实用性"
+                    },
+                    {
+                        "word": "seems",
+                        "phonetic": "/simz/",
+                        "meaning": "v. 似乎"
+                    },
+                    {
+                        "word": "like",
+                        "phonetic": "/laɪk/",
+                        "meaning": "prep. 像"
+                    },
+                    {
+                        "word": "enemy",
+                        "phonetic": "/ˈɛnəmi/",
+                        "meaning": "n. 敌人"
+                    },
+                    {
+                        "word": "great",
+                        "phonetic": "/ɡreɪt/",
+                        "meaning": "adj. 伟大的"
+                    },
+                    {
+                        "word": "gift giving",
+                        "phonetic": "/ɡɪft ˈɡɪvɪŋ/",
+                        "meaning": "n. 送礼"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "in many ways",
+                        "meaning": "/ɪn ˈmɛni weɪz/ 在很多方面"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 3,
+            "sentence_id": 6,
+            "sentence_md5": "8fd0c542f2939acb9a7d642cfa1eb883",
+            "sentence": "Beautiful jewelry, lovely watches, perfect rugs, finely crafted kitchen hardware: These things make for great gifts because they communicate something beyond practicality.",
+            "phonetic": "/ˈbjutəfəl ˈdʒuəlri ˈlʌvli wɒʧɪz ˈpɜrfɪkt rʌgz ˈfaɪnli ˈkræftɪd ˈkɪʧɪn ˈhɑrdwɛr ðiz θɪŋz meɪk fɔr ɡreɪt ɡɪfts bɪˈkɑz ðeɪ kəˈmjunɪkeɪt ˈsʌmθɪŋ bɪˈjɑnd prækˈtɪkəlti/",
+            "translation": "美丽的珠宝、可爱的手表、完美的小地毯、精雕细琢的厨房五金：这些东西能成为很好的礼物，因为它们传达了超越实用性的东西。",
+            "audio_file": "data/audio/8fd0c542f2939acb9a7d642cfa1eb883.mp3",
+            "analysis": {
+                "long_sentence_analysis": "冒号前为并列名词短语作主语，These things为主句主语，make for为谓语，because引导原因状语从句。",
+                "core_vocabulary": [
+                    {
+                        "word": "beautiful",
+                        "phonetic": "/ˈbjutəfəl/",
+                        "meaning": "adj. 美丽的"
+                    },
+                    {
+                        "word": "jewelry",
+                        "phonetic": "/ˈdʒuəlri/",
+                        "meaning": "n. 珠宝"
+                    },
+                    {
+                        "word": "lovely",
+                        "phonetic": "/ˈlʌvli/",
+                        "meaning": "adj. 可爱的"
+                    },
+                    {
+                        "word": "watches",
+                        "phonetic": "/ˈwɒʧɪz/",
+                        "meaning": "n. 手表"
+                    },
+                    {
+                        "word": "perfect",
+                        "phonetic": "/ˈpɜrfɪkt/",
+                        "meaning": "adj. 完美的"
+                    },
+                    {
+                        "word": "rugs",
+                        "phonetic": "/rʌgz/",
+                        "meaning": "n. 地毯"
+                    },
+                    {
+                        "word": "finely",
+                        "phonetic": "/ˈfaɪnli/",
+                        "meaning": "adv. 精细地"
+                    },
+                    {
+                        "word": "crafted",
+                        "phonetic": "/ˈkræftɪd/",
+                        "meaning": "adj. 精心制作的"
+                    },
+                    {
+                        "word": "kitchen",
+                        "phonetic": "/ˈkɪʧɪn/",
+                        "meaning": "n. 厨房"
+                    },
+                    {
+                        "word": "hardware",
+                        "phonetic": "/ˈhɑrdwɛr/",
+                        "meaning": "n. 硬件"
+                    },
+                    {
+                        "word": "these",
+                        "phonetic": "/ðiz/",
+                        "meaning": "pron. 这些"
+                    },
+                    {
+                        "word": "things",
+                        "phonetic": "/θɪŋz/",
+                        "meaning": "n. 东西"
+                    },
+                    {
+                        "word": "make",
+                        "phonetic": "/meɪk/",
+                        "meaning": "v. 使成为"
+                    },
+                    {
+                        "word": "for",
+                        "phonetic": "/fɔr/",
+                        "meaning": "prep. 为了"
+                    },
+                    {
+                        "word": "great",
+                        "phonetic": "/ɡreɪt/",
+                        "meaning": "adj. 好的"
+                    },
+                    {
+                        "word": "gifts",
+                        "phonetic": "/ɡɪfts/",
+                        "meaning": "n. 礼物"
+                    },
+                    {
+                        "word": "because",
+                        "phonetic": "/bɪˈkɑz/",
+                        "meaning": "conj. 因为"
+                    },
+                    {
+                        "word": "communicate",
+                        "phonetic": "/kəˈmjunɪkeɪt/",
+                        "meaning": "v. 传达"
+                    },
+                    {
+                        "word": "beyond",
+                        "phonetic": "/bɪˈjɑnd/",
+                        "meaning": "prep. 超出"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "make for",
+                        "meaning": "/meɪk fɔr/ 促成，成为"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 3,
+            "sentence_id": 7,
+            "sentence_md5": "aa408fde5060251f4befbc226dc7d3b9",
+            "sentence": "They communicate that the giver cares.",
+            "phonetic": "/ðeɪ kəˈmjunɪkeɪt ðæt ðə ˈɡɪvər kɛrz/",
+            "translation": "它们传达出送礼者在意。",
+            "audio_file": "data/audio/aa408fde5060251f4befbc226dc7d3b9.mp3",
+            "analysis": {
+                "long_sentence_analysis": "主句They communicate，后接that引导的宾语从句。",
+                "core_vocabulary": [
+                    {
+                        "word": "they",
+                        "phonetic": "/ðeɪ/",
+                        "meaning": "pron. 它们"
+                    },
+                    {
+                        "word": "communicate",
+                        "phonetic": "/kəˈmjunɪkeɪt/",
+                        "meaning": "v. 传达"
+                    },
+                    {
+                        "word": "that",
+                        "phonetic": "/ðæt/",
+                        "meaning": "conj. 那个"
+                    },
+                    {
+                        "word": "giver",
+                        "phonetic": "/ˈɡɪvər/",
+                        "meaning": "n. 给予者"
+                    },
+                    {
+                        "word": "cares",
+                        "phonetic": "/kɛrz/",
+                        "meaning": "v. 关心"
+                    }
+                ],
+                "phrases": []
+            }
+        },
+        {
+            "paragraph": 5,
+            "sentence_id": 8,
+            "sentence_md5": "b1c72a862f27a2c7069a0cc05bc2fc96",
+            "sentence": "But do the receivers care?",
+            "phonetic": "/bʌt du ðə rɪˈsivərz kɛr/",
+            "translation": "但收礼者在意吗？",
+            "audio_file": "data/audio/b1c72a862f27a2c7069a0cc05bc2fc96.mp3",
+            "analysis": {
+                "long_sentence_analysis": "一般疑问句，助动词do提前，主语the receivers，谓语care。",
+                "core_vocabulary": [
+                    {
+                        "word": "but",
+                        "phonetic": "/bʌt/",
+                        "meaning": "conj. 但是"
+                    },
+                    {
+                        "word": "do",
+                        "phonetic": "/du/",
+                        "meaning": "aux. 助动词"
+                    },
+                    {
+                        "word": "receivers",
+                        "phonetic": "/rɪˈsivərz/",
+                        "meaning": "n. 接收者"
+                    },
+                    {
+                        "word": "care",
+                        "phonetic": "/kɛr/",
+                        "meaning": "v. 在意"
+                    }
+                ],
+                "phrases": []
+            }
+        },
+        {
+            "paragraph": 5,
+            "sentence_id": 9,
+            "sentence_md5": "e87ddf63e07ae09d9500f8cc499dc150",
+            "sentence": "Often, no.",
+            "phonetic": "/ˈɔfən noʊ/",
+            "translation": "通常不。",
+            "audio_file": "data/audio/e87ddf63e07ae09d9500f8cc499dc150.mp3",
+            "analysis": {
+                "long_sentence_analysis": "省略句，完整为Often they do not care.",
+                "core_vocabulary": [
+                    {
+                        "word": "often",
+                        "phonetic": "/ˈɔfən/",
+                        "meaning": "adv. 经常"
+                    },
+                    {
+                        "word": "no",
+                        "phonetic": "/noʊ/",
+                        "meaning": "adv. 不"
+                    }
+                ],
+                "phrases": []
+            }
+        },
+        {
+            "paragraph": 5,
+            "sentence_id": 10,
+            "sentence_md5": "491bf4e04183630acf21eebadcb80048",
+            "sentence": "“Gift receivers would be happier if givers gave them exactly what they requested rather than attempting to be ‘thoughtful and considerate’ by buying gifts they did not explicitly request” to surprise them, the researchers write.",
+            "phonetic": "/ɡɪft rɪˈsivərz wʊd bi ˈhæpiər ɪf ˈɡɪvərz ɡeɪv ðəm ɪgˈzæktli wɒt ðeɪ rɪˈkwɛstɪd ˈræðər ðæn əˈtɛmptɪŋ tu bi ˈθɔtfəl ænd kənˈsɪdərət baɪ ˈbaɪɪŋ ɡɪfts ðeɪ dɪd nɑt ɪkˈsplɪsɪtli rɪˈkwɛst tu sərˈpraɪz ðəm ðə rɪˈsɜrʧərz raɪt/",
+            "translation": "研究人员写道：“如果送礼者给他们正是他们要求的东西，而不是试图通过购买他们没有明确要求的礼物来‘体贴周到’地给他们惊喜，收礼者会更高兴。”",
+            "audio_file": "data/audio/491bf4e04183630acf21eebadcb80048.mp3",
+            "analysis": {
+                "long_sentence_analysis": "直接引语为主句，包含if引导的条件状语从句，从句中rather than连接两个并列结构，to surprise them为不定式表目的；最后the researchers write为插入语。",
+                "core_vocabulary": [
+                    {
+                        "word": "receivers",
+                        "phonetic": "/rɪˈsivərz/",
+                        "meaning": "n. 接收者"
+                    },
+                    {
+                        "word": "would",
+                        "phonetic": "/wʊd/",
+                        "meaning": "aux. 会"
+                    },
+                    {
+                        "word": "be",
+                        "phonetic": "/bi/",
+                        "meaning": "v. 是"
+                    },
+                    {
+                        "word": "happier",
+                        "phonetic": "/ˈhæpiər/",
+                        "meaning": "adj. 更高兴"
+                    },
+                    {
+                        "word": "if",
+                        "phonetic": "/ɪf/",
+                        "meaning": "conj. 如果"
+                    },
+                    {
+                        "word": "givers",
+                        "phonetic": "/ˈɡɪvərz/",
+                        "meaning": "n. 给予者"
+                    },
+                    {
+                        "word": "gave",
+                        "phonetic": "/ɡeɪv/",
+                        "meaning": "v. 给"
+                    },
+                    {
+                        "word": "them",
+                        "phonetic": "/ðəm/",
+                        "meaning": "pron. 他们"
+                    },
+                    {
+                        "word": "exactly",
+                        "phonetic": "/ɪgˈzæktli/",
+                        "meaning": "adv. 确切地"
+                    },
+                    {
+                        "word": "what",
+                        "phonetic": "/wɒt/",
+                        "meaning": "pron. 什么"
+                    },
+                    {
+                        "word": "requested",
+                        "phonetic": "/rɪˈkwɛstɪd/",
+                        "meaning": "v. 要求"
+                    },
+                    {
+                        "word": "rather",
+                        "phonetic": "/ˈræðər/",
+                        "meaning": "adv. 相当"
+                    },
+                    {
+                        "word": "than",
+                        "phonetic": "/ðæn/",
+                        "meaning": "conj. 比"
+                    },
+                    {
+                        "word": "attempting",
+                        "phonetic": "/əˈtɛmptɪŋ/",
+                        "meaning": "v. 尝试"
+                    },
+                    {
+                        "word": "thoughtful",
+                        "phonetic": "/ˈθɔtfəl/",
+                        "meaning": "adj. 体贴的"
+                    },
+                    {
+                        "word": "considerate",
+                        "phonetic": "/kənˈsɪdərət/",
+                        "meaning": "adj. 考虑周到的"
+                    },
+                    {
+                        "word": "buying",
+                        "phonetic": "/ˈbaɪɪŋ/",
+                        "meaning": "v. 购买"
+                    },
+                    {
+                        "word": "did",
+                        "phonetic": "/dɪd/",
+                        "meaning": "aux. 助动词"
+                    },
+                    {
+                        "word": "not",
+                        "phonetic": "/nɑt/",
+                        "meaning": "adv. 不"
+                    },
+                    {
+                        "word": "explicitly",
+                        "phonetic": "/ɪkˈsplɪsɪtli/",
+                        "meaning": "adv. 明确地"
+                    },
+                    {
+                        "word": "surprise",
+                        "phonetic": "/sərˈpraɪz/",
+                        "meaning": "v. 使惊讶"
+                    },
+                    {
+                        "word": "researchers",
+                        "phonetic": "/ˈrɪsɜrʧərz/",
+                        "meaning": "n. 研究人员"
+                    },
+                    {
+                        "word": "write",
+                        "phonetic": "/raɪt/",
+                        "meaning": "v. 写道"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "rather than",
+                        "meaning": "/ˈræðər ðæn/ 而不是"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 5,
+            "sentence_id": 11,
+            "sentence_md5": "f960591b309e78ae1bbc3da30bed84dd",
+            "sentence": "Their clever paper asks givers and receivers to classify gifts from two perspectives: desirability (e.g. the cost of a coffee maker) and feasibility (e.g. the ease of the coffee maker).",
+            "phonetic": "/ðɛr ˈklɛvər ˈpeɪpər æsks ˈɡɪvərz ænd rɪˈsivərz tu ˈklæsɪfaɪ ɡɪfts frʌm tu pərˈspɛktɪvz dɪˈzaɪrəbɪləti iːdʒ ðə kɔst əv ə ˈkɔfi ˈmeɪkər ænd ˌfizəˈbɪləti iːdʒ ðə iz əv ðə ˈkɔfi ˈmeɪkər/",
+            "translation": "他们巧妙的论文要求送礼者和收礼者从两个角度对礼物进行分类：渴望性（例如咖啡机的价格）和可行性（例如咖啡机的易用性）。",
+            "audio_file": "data/audio/f960591b309e78ae1bbc3da30bed84dd.mp3",
+            "analysis": {
+                "long_sentence_analysis": "主句Their clever paper asks，后接复合宾语givers and receivers to classify...；from two perspectives作状语，冒号后为同位语解释两个角度。",
+                "core_vocabulary": [
+                    {
+                        "word": "their",
+                        "phonetic": "/ðɛr/",
+                        "meaning": "pron. 他们的"
+                    },
+                    {
+                        "word": "clever",
+                        "phonetic": "/ˈklɛvər/",
+                        "meaning": "adj. 巧妙的"
+                    },
+                    {
+                        "word": "paper",
+                        "phonetic": "/ˈpeɪpər/",
+                        "meaning": "n. 论文"
+                    },
+                    {
+                        "word": "asks",
+                        "phonetic": "/æsks/",
+                        "meaning": "v. 要求"
+                    },
+                    {
+                        "word": "givers",
+                        "phonetic": "/ˈɡɪvərz/",
+                        "meaning": "n. 给予者"
+                    },
+                    {
+                        "word": "receivers",
+                        "phonetic": "/rɪˈsivərz/",
+                        "meaning": "n. 接收者"
+                    },
+                    {
+                        "word": "classify",
+                        "phonetic": "/ˈklæsɪfaɪ/",
+                        "meaning": "v. 分类"
+                    },
+                    {
+                        "word": "gifts",
+                        "phonetic": "/ɡɪfts/",
+                        "meaning": "n. 礼物"
+                    },
+                    {
+                        "word": "from",
+                        "phonetic": "/frʌm/",
+                        "meaning": "prep. 从"
+                    },
+                    {
+                        "word": "two",
+                        "phonetic": "/tu/",
+                        "meaning": "num. 二"
+                    },
+                    {
+                        "word": "perspectives",
+                        "phonetic": "/pərˈspɛktɪvz/",
+                        "meaning": "n. 角度"
+                    },
+                    {
+                        "word": "desirability",
+                        "phonetic": "/dɪˌzaɪrəˈbɪləti/",
+                        "meaning": "n. 渴望性"
+                    },
+                    {
+                        "word": "e.g.",
+                        "phonetic": "/ˌiːˈdʒiː/",
+                        "meaning": "abbr. 例如"
+                    },
+                    {
+                        "word": "cost",
+                        "phonetic": "/kɔst/",
+                        "meaning": "n. 成本"
+                    },
+                    {
+                        "word": "coffee maker",
+                        "phonetic": "/ˈkɔfi ˈmeɪkər/",
+                        "meaning": "n. 咖啡机"
+                    },
+                    {
+                        "word": "feasibility",
+                        "phonetic": "/ˌfizəˈbɪləti/",
+                        "meaning": "n. 可行性"
+                    },
+                    {
+                        "word": "ease",
+                        "phonetic": "/iz/",
+                        "meaning": "n. 容易"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "ask someone to do",
+                        "meaning": "/æsk ˈsʌmwʌn tu du/ 要求某人做某事"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 5,
+            "sentence_id": 12,
+            "sentence_md5": "219aad50078ccbe26b4f400682a6e211",
+            "sentence": "Across several experiments, they find that givers consistently give gifts based on desirability and receivers, whereas, favor gifts based on feasibility.",
+            "phonetic": "/əˈkrɔs ˈsɛvrəl ɪkˈspɛrəmənts ðeɪ faɪnd ðæt ˈɡɪvərz kənˈsɪstəntli ɡɪv ɡɪfts beɪst ɑn dɪˈzaɪrəbɪləti ænd rɪˈsivərz ˈwɛræz ˈfeɪvər ɡɪfts beɪst ɑn ˌfizəˈbɪləti/",
+            "translation": "在多个实验中，他们发现送礼者一贯根据渴望性送礼，而收礼者则更喜欢基于可行性的礼物。",
+            "audio_file": "data/audio/219aad50078ccbe26b4f400682a6e211.mp3",
+            "analysis": {
+                "long_sentence_analysis": "Across several experiments作状语，主句they find，后接that引导的宾语从句；宾语从句为并列句，由and连接，第二个分句用whereas表示对比。",
+                "core_vocabulary": [
+                    {
+                        "word": "across",
+                        "phonetic": "/əˈkrɔs/",
+                        "meaning": "prep. 跨越"
+                    },
+                    {
+                        "word": "several",
+                        "phonetic": "/ˈsɛvrəl/",
+                        "meaning": "adj. 几个"
+                    },
+                    {
+                        "word": "experiments",
+                        "phonetic": "/ɪkˈspɛrəmənts/",
+                        "meaning": "n. 实验"
+                    },
+                    {
+                        "word": "find",
+                        "phonetic": "/faɪnd/",
+                        "meaning": "v. 发现"
+                    },
+                    {
+                        "word": "givers",
+                        "phonetic": "/ˈɡɪvərz/",
+                        "meaning": "n. 给予者"
+                    },
+                    {
+                        "word": "consistently",
+                        "phonetic": "/kənˈsɪstəntli/",
+                        "meaning": "adv. 一贯地"
+                    },
+                    {
+                        "word": "give",
+                        "phonetic": "/ɡɪv/",
+                        "meaning": "v. 给"
+                    },
+                    {
+                        "word": "based",
+                        "phonetic": "/beɪst/",
+                        "meaning": "v. 基于"
+                    },
+                    {
+                        "word": "on",
+                        "phonetic": "/ɑn/",
+                        "meaning": "prep. 在...上"
+                    },
+                    {
+                        "word": "desirability",
+                        "phonetic": "/dɪˌzaɪrəˈbɪləti/",
+                        "meaning": "n. 渴望性"
+                    },
+                    {
+                        "word": "and",
+                        "phonetic": "/ænd/",
+                        "meaning": "conj. 和"
+                    },
+                    {
+                        "word": "receivers",
+                        "phonetic": "/rɪˈsivərz/",
+                        "meaning": "n. 接收者"
+                    },
+                    {
+                        "word": "whereas",
+                        "phonetic": "/ˈwɛræz/",
+                        "meaning": "conj. 然而"
+                    },
+                    {
+                        "word": "favor",
+                        "phonetic": "/ˈfeɪvər/",
+                        "meaning": "v. 更喜欢"
+                    },
+                    {
+                        "word": "feasibility",
+                        "phonetic": "/ˌfizəˈbɪləti/",
+                        "meaning": "n. 可行性"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "based on",
+                        "meaning": "/beɪst ɑn/ 基于"
+                    }
+                ]
+            }
+        }
+    ]
+}

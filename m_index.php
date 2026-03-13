@@ -15,7 +15,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Noto+Serif+SC:wght@400;700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="css/m_style.css?v=5">
+    <link rel="stylesheet" href="css/m_style.css?v=6">
 </head>
 
 <body class="mobile-native-theme">
@@ -76,6 +76,13 @@
             </section>
 
             <section class="overlay-section">
+                <label>播放偏好</label>
+                <div class="preference-grid">
+                    <button class="pref-btn active" id="btn-loop-toggle">自动循环</button>
+                </div>
+            </section>
+
+            <section class="overlay-section">
                 <label>阅读偏好</label>
                 <div class="preference-grid">
                     <button class="pref-btn active" data-mode="reading">精读模式</button>
@@ -99,7 +106,7 @@
     <!-- 隐藏的 Audio 元素 -->
     <audio id="audio-player" preload="auto"></audio>
 
-    <script src="js/m_script.js?v=6"></script>
+    <script src="js/m_script.js?v=9"></script>
 </body>
 
 </html>

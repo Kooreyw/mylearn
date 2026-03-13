@@ -10,7 +10,8 @@ const state = {
     sentences: [],          // 句子数组
     currentSentenceIdx: -1, // 当前选中/播放的句子索引
     isPlaying: false,
-    isLooping: true,        // 阅读模式默认循环
+    isGlobalPlaying: false, // true = 全局连续播放模式, false = 单句播放模式
+    isLooping: true,        // 全局播放时是否循环
     fontSize: 17,           // 基础字号 px
     audioTimer: null,
 };
@@ -191,20 +192,21 @@ function renderSentences() {
             sentenceSpan.dataset.idx = s._idx;
             sentenceSpan.id = `sentence-${s._idx}`;
 
-            const words = splitSentence(s.sentance || '');
+            const words = splitSentence(s.sentence || '');
             const phonetics = splitPhonetic(s.phonetic || '');
+            const aligned = alignWordsWithPhonetics(words, phonetics);
 
-            words.forEach((w, i) => {
+            aligned.forEach(item => {
                 const unit = document.createElement('span');
                 unit.className = 'word-unit';
 
                 const wordSpan = document.createElement('span');
                 wordSpan.className = 'word-text';
-                wordSpan.textContent = w;
+                wordSpan.textContent = item.word;
 
                 const phSpan = document.createElement('span');
                 phSpan.className = 'word-phonetic';
-                phSpan.textContent = phonetics[i] || '';
+                phSpan.textContent = item.phonetic;
 
                 unit.appendChild(wordSpan);
                 unit.appendChild(phSpan);
@@ -260,11 +262,55 @@ function splitSentence(text) {
  * 去掉首尾 /.../ 再按空格拆分
  */
 function splitPhonetic(ph) {
+    if (!ph) return [];
     // 去掉首尾 /
     let cleaned = ph.replace(/^\//, '').replace(/\/$/, '').trim();
     // 去掉可能的 <br> 标签
     cleaned = cleaned.replace(/<br\s*\/?>/gi, '');
     return cleaned.split(/\s+/).filter(Boolean);
+}
+
+/**
+ * 核心对齐算法：将单词数组与音标数组进行智能对齐
+ * 处理：1. 连字符 '-' 跳过音标 2. 数字或含连字符词（如 money-management）优先消化多余音标
+ */
+function alignWordsWithPhonetics(words, phonetics) {
+    const result = [];
+    let pIdx = 0;
+
+    for (let i = 0; i < words.length; i++) {
+        const word = words[i];
+        const isStandaloneHyphen = /^[-\u2014\u2013]$/.test(word.trim());
+        const isNeedy = /^\d+/.test(word) || (word.length > 1 && word.includes('-'));
+
+        const phLeft = phonetics.length - pIdx;
+        const wordsLeft = words.length - i;
+
+        let assignedPh = "";
+
+        if (isStandaloneHyphen) {
+            // 孤立连字符：只有当音标数组当前确实是连字符时才消耗
+            if (pIdx < phonetics.length && (phonetics[pIdx] === '-' || phonetics[pIdx] === '—')) {
+                assignedPh = phonetics[pIdx++];
+            } else {
+                assignedPh = "";
+            }
+        } else {
+            if (pIdx < phonetics.length) {
+                assignedPh = phonetics[pIdx++];
+
+                // 如果是“饥饿”词（数字或复合词），且当前音标有多余，则进行合并
+                if (isNeedy) {
+                    while (pIdx < phonetics.length && (phonetics.length - pIdx) > (words.length - (i + 1))) {
+                        assignedPh += " " + phonetics[pIdx++];
+                    }
+                }
+            }
+        }
+
+        result.push({ word, phonetic: assignedPh });
+    }
+    return result;
 }
 
 // ==================== 右侧面板渲染 ====================
@@ -330,7 +376,7 @@ function renderAnalysis(idx) {
 
     // 原文预览
     html += `<div class="analysis-original">
-        <div>${s.sentance}</div>
+        <div>${s.sentence}</div>
         <div class="analysis-translation">${s.translation || ''}</div>
     </div>`;
 
@@ -379,7 +425,10 @@ function renderAnalysis(idx) {
 
 // ==================== 句子交互 ====================
 function onSentenceClick(idx) {
+    // 点击句子 = 单句播放模式，播完不自动跳下一句
+    state.isGlobalPlaying = false;
     setActiveSentence(idx);
+    playSentence(idx);
 
     if (state.mode === 'learning') {
         renderAnalysis(idx);
@@ -415,6 +464,8 @@ function togglePlayPause() {
     if (state.isPlaying) {
         pauseAudio();
     } else {
+        // 通过底部播放按钮触发 = 全局连续播放模式
+        state.isGlobalPlaying = true;
         if (state.currentSentenceIdx < 0) {
             playSentence(0);
         } else {
@@ -440,7 +491,7 @@ function playSentence(idx) {
 
     state.isPlaying = true;
     dom.btnPlay.textContent = '⏸';
-    dom.audioLabel.textContent = `正在播放 #${s.sentance_id}`;
+    dom.audioLabel.textContent = `正在播放 #${s.sentence_id}`;
     dom.audioProgress.textContent = `${idx + 1} / ${state.sentences.length}`;
 
     dom.audioPlayer.src = `/data/audio/${md5}.mp3`;
@@ -449,7 +500,7 @@ function playSentence(idx) {
         // 如果被中断则不继续(例如在未播放完时按了暂停)
         if (err.name === 'AbortError') return;
 
-        dom.audioLabel.textContent = `⚠️ 音频不可用 #${s.sentance_id}`;
+        dom.audioLabel.textContent = `⚠️ 音频不可用 #${s.sentence_id}`;
         // 为了防止重复跳转，实际跳转将只在 onAudioError 中处理
     });
 }
@@ -461,6 +512,7 @@ function pauseAudio() {
     }
     dom.audioPlayer.pause();
     state.isPlaying = false;
+    state.isGlobalPlaying = false;
     dom.btnPlay.textContent = '▶';
     clearPlayingState();
 }
@@ -474,6 +526,8 @@ function resumeAudio() {
 }
 
 function playPrev() {
+    // 底部按钮操作 → 全局播放模式
+    state.isGlobalPlaying = true;
     const idx = Math.max(0, state.currentSentenceIdx - 1);
     playSentence(idx);
 }
@@ -492,26 +546,26 @@ function playNext() {
 }
 
 function onAudioEnded() {
-    clearPlayingState();
-    if (state.mode === 'reading') {
-        // 阅读模式：自动播放下一句
+    if (state.isGlobalPlaying) {
+        // 全局连续播放模式：自动播放下一句
         playNext();
     } else {
+        // 单句播放模式（点击句子触发）：播完即停
         state.isPlaying = false;
         dom.btnPlay.textContent = '▶';
+        clearPlayingState();
+        const s = state.sentences[state.currentSentenceIdx];
+        if (s) {
+            dom.audioLabel.textContent = `播放完毕 #${s.sentence_id}`;
+        }
     }
 }
 
 function onAudioError() {
-    clearPlayingState();
-
-    if (!state.isPlaying) return;
-
-    if (state.mode === 'reading' && state.isLooping) {
-        state.audioTimer = setTimeout(() => {
-            state.audioTimer = null;
-            playNext();
-        }, 1500);
+    pauseAudio();
+    const s = state.sentences[state.currentSentenceIdx];
+    if (s) {
+        dom.audioLabel.textContent = `⚠️ 音频加载失败 #${s.sentence_id}`;
     }
 }
 

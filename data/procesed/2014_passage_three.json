@@ -1,0 +1,811 @@
+{
+    "article_metadata": {
+        "title": "2014_passage_three",
+        "author": "Unknown",
+        "source": "CET-4/6"
+    },
+    "sentences": [
+        {
+            "paragraph": 1,
+            "sentence_id": 1,
+            "sentence_md5": "d41d8cd98f00b204e9800998ecf8427e",
+            "sentence": "Last week, I read a story about a 34-year-old British woman who is extremely afraid of metal forks.",
+            "phonetic": "læst wiːk, aɪ riːd ə ˈstɔːri əˈbaʊt ə ˈθɜːrti-fɔːr jɪər oʊld ˈbrɪtɪʃ ˈwʊmən huː ɪz ɪkˈstriːmli əˈfreɪd ʌv ˈmetl fɔːrks.",
+            "translation": "上周，我读了一个故事，关于一个34岁的英国女性，她极其害怕金属叉子。",
+            "audio_file": "data/audio/d41d8cd98f00b204e9800998ecf8427e.mp3",
+            "analysis": {
+                "long_sentence_analysis": "",
+                "core_vocabulary": [
+                    {
+                        "word": "extremely",
+                        "phonetic": "ɪkˈstriːmli",
+                        "meaning": "adv. 极其，非常",
+                        "context": "extremely afraid"
+                    },
+                    {
+                        "word": "afraid",
+                        "phonetic": "əˈfreɪd",
+                        "meaning": "adj. 害怕的，恐惧的",
+                        "context": "is extremely afraid of"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "a story about",
+                        "meaning": "一个关于……的故事"
+                    },
+                    {
+                        "phrase": "afraid of",
+                        "meaning": "害怕"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 1,
+            "sentence_id": 2,
+            "sentence_md5": "d41d8cd98f00b204e9800998ecf8427e",
+            "sentence": "She’s been using plastic ones for 17 years because the sound of a fork rubbing against a plate gives her a panic attack.",
+            "phonetic": "ʃiːz bɪn ˈjuːzɪŋ ˈplæstɪk wʌnz fɔːr ˈsɛvnˈtiːn jɪərz bɪˈkʌz ðə saʊnd ʌv ə fɔːrk ˈrʌbɪŋ əˈgɛnst ə pleɪt gɪvz hɜːr ə ˈpænɪk əˈtæk.",
+            "translation": "她使用塑料叉子已经17年了，因为金属叉子摩擦盘子的声音会让她惊恐发作。",
+            "audio_file": "data/audio/d41d8cd98f00b204e9800998ecf8427e.mp3",
+            "analysis": {
+                "long_sentence_analysis": "该句包含一个由 because 引导的原因状语从句。主句是 \"She’s been using plastic ones for 17 years\"，现在完成进行时表示动作从过去开始一直持续到现在。because 引导的从句解释了主句动作的原因，从句的主语是 \"the sound of a fork rubbing against a plate\"，其中 \"of a fork rubbing against a plate\" 是介词短语作后置定语，修饰 sound。",
+                "core_vocabulary": [
+                    {
+                        "word": "plastic",
+                        "phonetic": "ˈplæstɪk",
+                        "meaning": "n./adj. 塑料(的)",
+                        "context": "plastic ones"
+                    },
+                    {
+                        "word": "rubbing",
+                        "phonetic": "ˈrʌbɪŋ",
+                        "meaning": "v. 摩擦，搓 (rub的现在分词)",
+                        "context": "rubbing against a plate"
+                    },
+                    {
+                        "word": "panic",
+                        "phonetic": "ˈpænɪk",
+                        "meaning": "n. 恐慌，惊慌",
+                        "context": "panic attack"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "panic attack",
+                        "meaning": "惊恐发作(突然的强烈恐惧感)"
+                    },
+                    {
+                        "phrase": "rubbing against",
+                        "meaning": "摩擦，蹭到"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 2,
+            "sentence_id": 3,
+            "sentence_md5": "d41d8cd98f00b204e9800998ecf8427e",
+            "sentence": "Strange, right?",
+            "phonetic": "streɪndʒ, raɪt?",
+            "translation": "很奇怪，对吧？",
+            "audio_file": "data/audio/d41d8cd98f00b204e9800998ecf8427e.mp3",
+            "analysis": {
+                "long_sentence_analysis": "",
+                "core_vocabulary": [
+                    {
+                        "word": "strange",
+                        "phonetic": "streɪndʒ",
+                        "meaning": "adj. 奇怪的，奇特的",
+                        "context": "Strange"
+                    }
+                ],
+                "phrases": []
+            }
+        },
+        {
+            "paragraph": 2,
+            "sentence_id": 4,
+            "sentence_md5": "d41d8cd98f00b204e9800998ecf8427e",
+            "sentence": "But she’s not alone.",
+            "phonetic": "bʌt ʃiːz nɑːt əˈloʊn.",
+            "translation": "但她并不孤单。",
+            "audio_file": "data/audio/d41d8cd98f00b204e9800998ecf8427e.mp3",
+            "analysis": {
+                "long_sentence_analysis": "",
+                "core_vocabulary": [
+                    {
+                        "word": "alone",
+                        "phonetic": "əˈloʊn",
+                        "meaning": "adj./adv. 单独的(地)，独自的(地)",
+                        "context": "not alone"
+                    }
+                ],
+                "phrases": []
+            }
+        },
+        {
+            "paragraph": 2,
+            "sentence_id": 5,
+            "sentence_md5": "d41d8cd98f00b204e9800998ecf8427e",
+            "sentence": "While popular phobias about snakes and spiders might get all of the attention, there are a wide variety of not-so-obvious horrors that make people nervous.",
+            "phonetic": "waɪl ˈpɑːpjələr ˈfoʊbiəs əˈbaʊt sneɪks ænd ˈspaɪdərz maɪt gɛt ɔːl ʌv ði əˈtɛnʃən, ðɛr ɑːr ə waɪd vəˈraɪəti ʌv nɑːt-soʊ-ˈɑːbviəs ˈhɔːrərz ðæt meɪk ˈpiːpəl ˈnɜːrvəs.",
+            "translation": "虽然关于蛇和蜘蛛的常见恐惧症可能会得到所有的关注，但也有各种各样不那么明显的恐惧让人紧张。",
+            "audio_file": "data/audio/d41d8cd98f00b204e9800998ecf8427e.mp3",
+            "analysis": {
+                "long_sentence_analysis": "这是一个复合句，句首 While 引导的是让步状语从句，意为“虽然”。主句是 there be 句型 \"there are a wide variety of...\"。在主句中，\"that make people nervous\" 是定语从句，修饰先行词 \"horrors\"。",
+                "core_vocabulary": [
+                    {
+                        "word": "phobias",
+                        "phonetic": "ˈfoʊbiəs",
+                        "meaning": "n. 恐惧症 (phobia的复数)",
+                        "context": "popular phobias"
+                    },
+                    {
+                        "word": "variety",
+                        "phonetic": "vəˈraɪəti",
+                        "meaning": "n. 多样化，种类",
+                        "context": "a wide variety of"
+                    },
+                    {
+                        "word": "obvious",
+                        "phonetic": "ˈɑːbviəs",
+                        "meaning": "adj. 明显的，显然的",
+                        "context": "not-so-obvious"
+                    },
+                    {
+                        "word": "horrors",
+                        "phonetic": "ˈhɔːrərz",
+                        "meaning": "n. 恐惧，令人恐怖的事物 (horror的复数)",
+                        "context": "not-so-obvious horrors"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "a wide variety of",
+                        "meaning": "各种各样的"
+                    },
+                    {
+                        "phrase": "get all of the attention",
+                        "meaning": "获得所有关注"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 3,
+            "sentence_id": 6,
+            "sentence_md5": "d41d8cd98f00b204e9800998ecf8427e",
+            "sentence": "While some phobias might seem a bit silly, they can cause serious emotional distress.",
+            "phonetic": "waɪl sʌm ˈfoʊbiəs maɪt siːm ə bɪt ˈsɪli, ðeɪ kæn kɔːz ˈsɪriəs ɪˈmoʊʃənl dɪˈstrɛs.",
+            "translation": "虽然有些恐惧症可能看起来有点傻，但它们会造成严重的情感痛苦。",
+            "audio_file": "data/audio/d41d8cd98f00b204e9800998ecf8427e.mp3",
+            "analysis": {
+                "long_sentence_analysis": "",
+                "core_vocabulary": [
+                    {
+                        "word": "silly",
+                        "phonetic": "ˈsɪli",
+                        "meaning": "adj. 愚蠢的，可笑的",
+                        "context": "a bit silly"
+                    },
+                    {
+                        "word": "serious",
+                        "phonetic": "ˈsɪriəs",
+                        "meaning": "adj. 严重的，严肃的",
+                        "context": "serious emotional distress"
+                    },
+                    {
+                        "word": "emotional",
+                        "phonetic": "ɪˈmoʊʃənl",
+                        "meaning": "adj. 情绪的，情感的",
+                        "context": "emotional distress"
+                    },
+                    {
+                        "word": "distress",
+                        "phonetic": "dɪˈstrɛs",
+                        "meaning": "n. 痛苦，忧虑",
+                        "context": "emotional distress"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "a bit",
+                        "meaning": "有一点，稍微"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 3,
+            "sentence_id": 7,
+            "sentence_md5": "d41d8cd98f00b204e9800998ecf8427e",
+            "sentence": "My co-worker Magda is terrified of pigeons, a phobia that is taking over her life.",
+            "phonetic": "maɪ ˈkoʊˌwɜːrkər ˈmægdə ɪz ˈtɛrəfaɪd ʌv ˈpɪdʒənz, ə ˈfoʊbiə ðæt ɪz ˈteɪkɪŋ ˈoʊvər hɜːr laɪf.",
+            "translation": "我的同事玛格达非常害怕鸽子，这种恐惧症正在影响她的生活。",
+            "audio_file": "data/audio/d41d8cd98f00b204e9800998ecf8427e.mp3",
+            "analysis": {
+                "long_sentence_analysis": "主句是 \"My co-worker Magda is terrified of pigeons\"。逗号后面的 \"a phobia that is taking over her life\" 是一个同位语，对 pigeons 进行补充说明，其中 \"that is taking over her life\" 是定语从句，修饰先行词 phobia。",
+                "core_vocabulary": [
+                    {
+                        "word": "terrified",
+                        "phonetic": "ˈtɛrəfaɪd",
+                        "meaning": "adj. 非常害怕的，极度恐惧的",
+                        "context": "terrified of"
+                    },
+                    {
+                        "word": "pigeons",
+                        "phonetic": "ˈpɪdʒənz",
+                        "meaning": "n. 鸽子 (pigeon的复数)",
+                        "context": "terrified of pigeons"
+                    },
+                    {
+                        "word": "taking",
+                        "phonetic": "ˈteɪkɪŋ",
+                        "meaning": "v. 占据，带走 (take的现在分词)",
+                        "context": "taking over"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "terrified of",
+                        "meaning": "对……极其恐惧"
+                    },
+                    {
+                        "phrase": "taking over",
+                        "meaning": "接管，占据"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 3,
+            "sentence_id": 8,
+            "sentence_md5": "d41d8cd98f00b204e9800998ecf8427e",
+            "sentence": "She won’t walk in certain parts of the city and runs screaming from the subway when one of these “rats with wings” finds its way onto the platform.",
+            "phonetic": "ʃiː woʊnt wɔːk ɪn ˈsɜːrtn pɑːrts ʌv ðə ˈsɪti ænd rʌnz ˈskriːmɪŋ frʌm ðə ˈsʌbweɪ wɛn wʌn ʌv ðiːz ræts wɪð wɪŋz faɪndz ɪts weɪ ˈɑːntə ðə ˈplætfɔːrm.",
+            "translation": "她不会在城市的某些地方行走，当这些“长翅膀的老鼠”中有一只进入地铁站台时，她会尖叫着跑开。",
+            "audio_file": "data/audio/d41d8cd98f00b204e9800998ecf8427e.mp3",
+            "analysis": {
+                "long_sentence_analysis": "这是一个由 and 连接的并列句。前半句是 \"She won’t walk in certain parts of the city\"。后半句是 \"runs screaming from the subway\"，后面跟着一个由 when 引导的时间状语从句 \"when one of these “rats with wings” finds its way onto the platform\"。\"screaming\" 是现在分词作伴随状语，修饰 runs。",
+                "core_vocabulary": [
+                    {
+                        "word": "certain",
+                        "phonetic": "ˈsɜːrtn",
+                        "meaning": "adj. 某一，某些；确定的",
+                        "context": "certain parts"
+                    },
+                    {
+                        "word": "screaming",
+                        "phonetic": "ˈskriːmɪŋ",
+                        "meaning": "v. 尖叫 (scream的现在分词)",
+                        "context": "runs screaming"
+                    },
+                    {
+                        "word": "subway",
+                        "phonetic": "ˈsʌbweɪ",
+                        "meaning": "n. 地铁",
+                        "context": "from the subway"
+                    },
+                    {
+                        "word": "platform",
+                        "phonetic": "ˈplætfɔːrm",
+                        "meaning": "n. 站台，平台",
+                        "context": "onto the platform"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "certain parts of",
+                        "meaning": "……的某些部分"
+                    },
+                    {
+                        "phrase": "finds its way onto",
+                        "meaning": "设法进入/到达"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 3,
+            "sentence_id": 9,
+            "sentence_md5": "d41d8cd98f00b204e9800998ecf8427e",
+            "sentence": "Another friend is disgusted with cheese.",
+            "phonetic": "əˈnʌðər frɛnd ɪz dɪsˈgʌstɪd wɪð ʧiːz.",
+            "translation": "另一个朋友讨厌奶酪。",
+            "audio_file": "data/audio/d41d8cd98f00b204e9800998ecf8427e.mp3",
+            "analysis": {
+                "long_sentence_analysis": "",
+                "core_vocabulary": [
+                    {
+                        "word": "disgusted",
+                        "phonetic": "dɪsˈgʌstɪd",
+                        "meaning": "adj. 厌恶的，反感的",
+                        "context": "disgusted with"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "disgusted with",
+                        "meaning": "对……感到厌恶"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 3,
+            "sentence_id": 10,
+            "sentence_md5": "d41d8cd98f00b204e9800998ecf8427e",
+            "sentence": "Once I saw her run away from a slice of it.",
+            "phonetic": "wʌns aɪ sɔː hɜːr rʌn əˈweɪ frʌm ə slaɪs ʌv ɪt.",
+            "translation": "有一次我看见她见到一片奶酪就跑开了。",
+            "audio_file": "data/audio/d41d8cd98f00b204e9800998ecf8427e.mp3",
+            "analysis": {
+                "long_sentence_analysis": "",
+                "core_vocabulary": [
+                    {
+                        "word": "once",
+                        "phonetic": "wʌns",
+                        "meaning": "adv. 一次，曾经",
+                        "context": "Once"
+                    },
+                    {
+                        "word": "slice",
+                        "phonetic": "slaɪs",
+                        "meaning": "n. 薄片，片",
+                        "context": "a slice of it"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "run away from",
+                        "meaning": "逃离，跑开"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 3,
+            "sentence_id": 11,
+            "sentence_md5": "d41d8cd98f00b204e9800998ecf8427e",
+            "sentence": "So where does an irrational fear of cheese come from?",
+            "phonetic": "soʊ wer dʌz ən ɪˈræʃənl fɪr ʌv ʧiːz kʌm frʌm?",
+            "translation": "那么，这种对奶酪的非理性恐惧从何而来呢？",
+            "audio_file": "data/audio/d41d8cd98f00b204e9800998ecf8427e.mp3",
+            "analysis": {
+                "long_sentence_analysis": "",
+                "core_vocabulary": [
+                    {
+                        "word": "irrational",
+                        "phonetic": "ɪˈræʃənl",
+                        "meaning": "adj. 不理性的，荒谬的",
+                        "context": "irrational fear"
+                    },
+                    {
+                        "word": "fear",
+                        "phonetic": "fɪr",
+                        "meaning": "n. 害怕，恐惧",
+                        "context": "irrational fear"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "come from",
+                        "meaning": "来自，源于"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 4,
+            "sentence_id": 12,
+            "sentence_md5": "d41d8cd98f00b204e9800998ecf8427e",
+            "sentence": "Are phobias something we inherit from our genes or do we acquire these unusual anxieties over time?",
+            "phonetic": "ɑːr ˈfoʊbiəs ˈsʌmθɪŋ wiː ɪnˈhɛrɪt frʌm aʊr ʤiːnz ɔːr duː wiː əˈkwaɪər ðiːz ʌnˈjuːʒuəl æŋˈzaɪətiz ˈoʊvər taɪm?",
+            "translation": "恐惧症是我们从基因中遗传来的东西，还是随着时间的推移我们后天习得了这些不寻常的焦虑？",
+            "audio_file": "data/audio/d41d8cd98f00b204e9800998ecf8427e.mp3",
+            "analysis": {
+                "long_sentence_analysis": "这是一个选择疑问句，由 or 连接两个一般疑问句构成。第一个分句是 \"Are phobias something we inherit from our genes\"，其中 \"we inherit from our genes\" 是定语从句，修饰 something。第二个分句是 \"do we acquire these unusual anxieties over time\"。",
+                "core_vocabulary": [
+                    {
+                        "word": "inherit",
+                        "phonetic": "ɪnˈhɛrɪt",
+                        "meaning": "v. 继承，经遗传获得",
+                        "context": "inherit from our genes"
+                    },
+                    {
+                        "word": "genes",
+                        "phonetic": "ʤiːnz",
+                        "meaning": "n. 基因 (gene的复数)",
+                        "context": "from our genes"
+                    },
+                    {
+                        "word": "acquire",
+                        "phonetic": "əˈkwaɪər",
+                        "meaning": "v. 获得，习得",
+                        "context": "acquire these unusual anxieties"
+                    },
+                    {
+                        "word": "unusual",
+                        "phonetic": "ʌnˈjuːʒuəl",
+                        "meaning": "adj. 不寻常的，独特的",
+                        "context": "unusual anxieties"
+                    },
+                    {
+                        "word": "anxieties",
+                        "phonetic": "æŋˈzaɪətiz",
+                        "meaning": "n. 焦虑，忧虑 (anxiety的复数)",
+                        "context": "unusual anxieties"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "over time",
+                        "meaning": "随着时间的推移"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 5,
+            "sentence_id": 13,
+            "sentence_md5": "d41d8cd98f00b204e9800998ecf8427e",
+            "sentence": "Ever since I can remember I have been unreasonably frightened of elevators.",
+            "phonetic": "ˈɛvər sɪns aɪ kæn rɪˈmɛmbər aɪ hæv bɪn ʌnˈriːzənəbli ˈfraɪtənd ʌv ˈɛlɪveɪtərz.",
+            "translation": "从我记事起，我就莫名其妙地害怕电梯。",
+            "audio_file": "data/audio/d41d8cd98f00b204e9800998ecf8427e.mp3",
+            "analysis": {
+                "long_sentence_analysis": "主句是 \"I have been unreasonably frightened of elevators\"，现在完成时表示从过去持续到现在的状态。\"Ever since I can remember\" 是时间状语从句。",
+                "core_vocabulary": [
+                    {
+                        "word": "unreasonably",
+                        "phonetic": "ʌnˈriːzənəbli",
+                        "meaning": "adv. 不合理地，无理由地",
+                        "context": "unreasonably frightened"
+                    },
+                    {
+                        "word": "frightened",
+                        "phonetic": "ˈfraɪtənd",
+                        "meaning": "adj. 害怕的，受惊的",
+                        "context": "frightened of"
+                    },
+                    {
+                        "word": "elevators",
+                        "phonetic": "ˈɛlɪveɪtərz",
+                        "meaning": "n. 电梯 (elevator的复数)",
+                        "context": "frightened of elevators"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "Ever since",
+                        "meaning": "自从"
+                    },
+                    {
+                        "phrase": "frightened of",
+                        "meaning": "害怕"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 5,
+            "sentence_id": 14,
+            "sentence_md5": "d41d8cd98f00b204e9800998ecf8427e",
+            "sentence": "There was no terrible childhood experience and I am fine with confined spaces, but something about elevators makes me nervous.",
+            "phonetic": "ðɛr wʌz noʊ ˈtɛrəbəl ˈʧaɪldhʊd ɪkˈspɪriəns ænd aɪ æm faɪn wɪð kənˈfaɪnd ˈspeɪsɪz, bʌt ˈsʌmθɪŋ əˈbaʊt ˈɛlɪveɪtərz meɪks miː ˈnɜːrvəs.",
+            "translation": "并没有什么可怕的童年经历，我也不怕密闭空间，但电梯的某些东西让我紧张。",
+            "audio_file": "data/audio/d41d8cd98f00b204e9800998ecf8427e.mp3",
+            "analysis": {
+                "long_sentence_analysis": "这是一个由 but 连接的并列句。but 之前的部分又由 and 连接了两个并列分句。第一个分句是 there be 句型的否定形式 \"There was no terrible childhood experience\"；第二个分句是 \"I am fine with confined spaces\"。but 之后的第三个分句 \"something about elevators makes me nervous\" 与前面构成转折关系。",
+                "core_vocabulary": [
+                    {
+                        "word": "terrible",
+                        "phonetic": "ˈtɛrəbəl",
+                        "meaning": "adj. 可怕的，糟糕的",
+                        "context": "terrible childhood experience"
+                    },
+                    {
+                        "word": "childhood",
+                        "phonetic": "ˈʧaɪldhʊd",
+                        "meaning": "n. 童年时期",
+                        "context": "childhood experience"
+                    },
+                    {
+                        "word": "confined",
+                        "phonetic": "kənˈfaɪnd",
+                        "meaning": "adj. 有限的，狭窄的，受限制的",
+                        "context": "confined spaces"
+                    },
+                    {
+                        "word": "spaces",
+                        "phonetic": "ˈspeɪsɪz",
+                        "meaning": "n. 空间，地方 (space的复数)",
+                        "context": "confined spaces"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "fine with",
+                        "meaning": "对……没问题，能接受"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 5,
+            "sentence_id": 15,
+            "sentence_md5": "d41d8cd98f00b204e9800998ecf8427e",
+            "sentence": "And so, when my boyfriend and I found ourselves trapped in an elevator last year—because these sorts of things always happen eventually—I was anticipating the worst.",
+            "phonetic": "ænd soʊ, wɛn maɪ ˈbɔɪfrɛnd ænd aɪ faʊnd aʊərˈsɛlvz træpt ɪn ən ˈɛlɪveɪtər læst jɪr—bɪˈkʌz ðiːz sɔːrts ʌv θɪŋz ˈɔːlweɪz ˈhæpən ɪˈvɛntʃuəli—aɪ wʌz ænˈtɪsɪpeɪtɪŋ ðə wɜːrst.",
+            "translation": "所以，去年当我和男友发现自己被困在电梯里时——因为这类事情最终总是会发生——我预感到了最坏的情况。",
+            "audio_file": "data/audio/d41d8cd98f00b204e9800998ecf8427e.mp3",
+            "analysis": {
+                "long_sentence_analysis": "这是一个主从复合句。主句是 \"I was anticipating the worst\"。句首的 \"when my boyfriend and I found ourselves trapped in an elevator last year\" 是时间状语从句，其中 \"trapped\" 是过去分词作宾语补足语。破折号中间的部分 \"because these sorts of things always happen eventually\" 是一个插入语，是由 because 引导的原因状语从句，解释为什么作者会预料到这种情况。",
+                "core_vocabulary": [
+                    {
+                        "word": "trapped",
+                        "phonetic": "træpt",
+                        "meaning": "adj./v. 被困住的 (trap的过去分词)",
+                        "context": "found ourselves trapped"
+                    },
+                    {
+                        "word": "elevator",
+                        "phonetic": "ˈɛlɪveɪtər",
+                        "meaning": "n. 电梯",
+                        "context": "in an elevator"
+                    },
+                    {
+                        "word": "eventually",
+                        "phonetic": "ɪˈvɛntʃuəli",
+                        "meaning": "adv. 最后，终于",
+                        "context": "happen eventually"
+                    },
+                    {
+                        "word": "anticipating",
+                        "phonetic": "ænˈtɪsɪpeɪtɪŋ",
+                        "meaning": "v. 预期，预料 (anticipate的现在分词)",
+                        "context": "anticipating the worst"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "found ourselves trapped",
+                        "meaning": "发现我们自己被困住了"
+                    },
+                    {
+                        "phrase": "these sorts of things",
+                        "meaning": "这类事情"
+                    },
+                    {
+                        "phrase": "anticipating the worst",
+                        "meaning": "预料最坏的情况"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 6,
+            "sentence_id": 16,
+            "sentence_md5": "d41d8cd98f00b204e9800998ecf8427e",
+            "sentence": "While he gave me a suggestive eyebrow raise and proposed we “take advantage of the situation,” I began screaming uncontrollably.",
+            "phonetic": "waɪl hiː geɪv miː ə səgˈʤɛstɪv ˈaɪbraʊ reɪz ænd prəˈpoʊzd wiː teɪk ædˈvæntɪʤ ʌv ðə ˌsɪʧuˈeɪʃən, aɪ bɪˈgæn ˈskriːmɪŋ ˌʌnkənˈtroʊləbli.",
+            "translation": "当他暗示性地扬起眉毛，提议我们“利用一下这种情况”时，我开始无法控制地尖叫起来。",
+            "audio_file": "data/audio/d41d8cd98f00b204e9800998ecf8427e.mp3",
+            "analysis": {
+                "long_sentence_analysis": "句首 While 引导的是时间状语从句，意为“当……的时候”。从句主语是 he，谓语是并列的 gave 和 proposed。在 proposed 后面是省略了 that 的宾语从句 \"we “take advantage of the situation”\"。主句是 \"I began screaming uncontrollably\"。",
+                "core_vocabulary": [
+                    {
+                        "word": "suggestive",
+                        "phonetic": "səgˈʤɛstɪv",
+                        "meaning": "adj. 暗示的，挑逗性的",
+                        "context": "suggestive eyebrow raise"
+                    },
+                    {
+                        "word": "eyebrow",
+                        "phonetic": "ˈaɪbraʊ",
+                        "meaning": "n. 眉毛",
+                        "context": "eyebrow raise"
+                    },
+                    {
+                        "word": "proposed",
+                        "phonetic": "prəˈpoʊzd",
+                        "meaning": "v. 提议，建议 (propose的过去式)",
+                        "context": "proposed we"
+                    },
+                    {
+                        "word": "situation",
+                        "phonetic": "ˌsɪʧuˈeɪʃən",
+                        "meaning": "n. 情况，形势",
+                        "context": "the situation"
+                    },
+                    {
+                        "word": "uncontrollably",
+                        "phonetic": "ˌʌnkənˈtroʊləbli",
+                        "meaning": "adv. 无法控制地",
+                        "context": "screaming uncontrollably"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "take advantage of",
+                        "meaning": "利用"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 6,
+            "sentence_id": 17,
+            "sentence_md5": "d41d8cd98f00b204e9800998ecf8427e",
+            "sentence": "I was far from turned on by the whole facing my worst nightmare thing.",
+            "phonetic": "aɪ wʌz fɑːr frʌm tɜːrnd ɑːn baɪ ðə hoʊl ˈfeɪsɪŋ maɪ wɜːrst ˈnaɪtmer θɪŋ.",
+            "translation": "我完全没有因为面对自己最可怕的噩梦这件事而感到兴奋。",
+            "audio_file": "data/audio/d41d8cd98f00b204e9800998ecf8427e.mp3",
+            "analysis": {
+                "long_sentence_analysis": "",
+                "core_vocabulary": [
+                    {
+                        "word": "turned on",
+                        "phonetic": "tɜːrnd ɑːn",
+                        "meaning": "v. 打开；使兴奋 (turn on的过去分词)",
+                        "context": "far from turned on"
+                    },
+                    {
+                        "word": "facing",
+                        "phonetic": "ˈfeɪsɪŋ",
+                        "meaning": "v. 面对 (face的现在分词)",
+                        "context": "facing my worst nightmare"
+                    },
+                    {
+                        "word": "nightmare",
+                        "phonetic": "ˈnaɪtmer",
+                        "meaning": "n. 噩梦",
+                        "context": "worst nightmare"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "far from",
+                        "meaning": "远非，完全不"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 7,
+            "sentence_id": 18,
+            "sentence_md5": "d41d8cd98f00b204e9800998ecf8427e",
+            "sentence": "However, after the fear subsided I realized that, yes, this was my greatest fear come true, and yet—it wasn’t all that bad.",
+            "phonetic": "haʊˈɛvər, ˈæftər ðə fɪr səbˈsaɪdɪd aɪ ˈriːəlaɪzd ðæt, jɛs, ðɪs wʌz maɪ ˈgreɪtəst fɪr kʌm truː, ænd jɛt—ɪt ˈwɑːzənt ɔːl ðæt bæd.",
+            "translation": "然而，当恐惧消退后，我意识到，是的，这是我最大的恐惧成真了，然而——它并没有那么糟糕。",
+            "audio_file": "data/audio/d41d8cd98f00b204e9800998ecf8427e.mp3",
+            "analysis": {
+                "long_sentence_analysis": "这是一个主从复合句。句首 \"after the fear subsided\" 是时间状语从句。主句是 \"I realized that...\"，其中 that 引导一个宾语从句。宾语从句本身是一个并列句，由 and yet 连接。第一部分是 \"yes, this was my greatest fear come true\"，其中 \"come true\" 是过去分词短语作后置定语，修饰 fear，相当于 \"which had come true\"。第二部分是 \"it wasn’t all that bad\"。",
+                "core_vocabulary": [
+                    {
+                        "word": "subsided",
+                        "phonetic": "səbˈsaɪdɪd",
+                        "meaning": "v. 消退，平息 (subside的过去式)",
+                        "context": "fear subsided"
+                    },
+                    {
+                        "word": "realized",
+                        "phonetic": "ˈriːəlaɪzd",
+                        "meaning": "v. 意识到，实现 (realize的过去式)",
+                        "context": "I realized"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "come true",
+                        "meaning": "成为现实，实现"
+                    },
+                    {
+                        "phrase": "all that bad",
+                        "meaning": "(口语) 那么糟糕"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 7,
+            "sentence_id": 19,
+            "sentence_md5": "d41d8cd98f00b204e9800998ecf8427e",
+            "sentence": "Nervous and inconvenient maybe, but terrifying?",
+            "phonetic": "ˈnɜːrvəs ænd ˌɪnkənˈviːnjənt ˈmeɪbi, bʌt ˈtɛrəfaɪɪŋ?",
+            "translation": "也许紧张和不便，但可怕吗？",
+            "audio_file": "data/audio/d41d8cd98f00b204e9800998ecf8427e.mp3",
+            "analysis": {
+                "long_sentence_analysis": "这是一个省略句，完整形式可能是 \"(It was) nervous and inconvenient maybe, but (was it) terrifying?\" 用于表达作者的感受变化。",
+                "core_vocabulary": [
+                    {
+                        "word": "inconvenient",
+                        "phonetic": "ˌɪnkənˈviːnjənt",
+                        "meaning": "adj. 不方便的，令人麻烦的",
+                        "context": "Nervous and inconvenient"
+                    },
+                    {
+                        "word": "terrifying",
+                        "phonetic": "ˈtɛrəfaɪɪŋ",
+                        "meaning": "adj. 极其可怕的，骇人的",
+                        "context": "but terrifying?"
+                    }
+                ],
+                "phrases": []
+            }
+        },
+        {
+            "paragraph": 7,
+            "sentence_id": 20,
+            "sentence_md5": "d41d8cd98f00b204e9800998ecf8427e",
+            "sentence": "Not so much.",
+            "phonetic": "nɑːt soʊ mʌʧ.",
+            "translation": "并不那么可怕。",
+            "audio_file": "data/audio/d41d8cd98f00b204e9800998ecf8427e.mp3",
+            "analysis": {
+                "long_sentence_analysis": "这是一个省略句，是对上一句 \"but terrifying?\" 的回答，完整形式可能是 \"(It was) not so much (terrifying)\"。",
+                "core_vocabulary": [],
+                "phrases": [
+                    {
+                        "phrase": "Not so much",
+                        "meaning": "不那么，并非如此"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 8,
+            "sentence_id": 21,
+            "sentence_md5": "d41d8cd98f00b204e9800998ecf8427e",
+            "sentence": "Liberating yourself from a deep-seated phobia can be a long and difficult process, but sometimes it can be as simple as confronting it head on.",
+            "phonetic": "ˈlɪbəreɪtɪŋ jɔːrˈsɛlf frʌm ə diːp-ˈsiːtɪd ˈfoʊbiə kæn biː ə lɔːŋ ænd ˈdɪfɪkəlt ˈprɑːsɛs, bʌt ˈsʌmtaɪmz ɪt kæn biː æz ˈsɪmpəl æz kənˈfrʌntɪŋ ɪt hɛd ɑːn.",
+            "translation": "将你自己从根深蒂固的恐惧症中解放出来可能是一个漫长而艰难的过程，但有时它也可以简单到直接面对它。",
+            "audio_file": "data/audio/d41d8cd98f00b204e9800998ecf8427e.mp3",
+            "analysis": {
+                "long_sentence_analysis": "这是一个由 but 连接的并列句。前半句的主语是动名词短语 \"Liberating yourself from a deep-seated phobia\"，谓语是 \"can be\"。后半句的主语是 it，指代前文提到的过程，包含一个 \"as simple as confronting it head on\" 的结构，表示“和……一样简单”。",
+                "core_vocabulary": [
+                    {
+                        "word": "liberating",
+                        "phonetic": "ˈlɪbəreɪtɪŋ",
+                        "meaning": "v. 解放，使自由 (liberate的现在分词)",
+                        "context": "Liberating yourself"
+                    },
+                    {
+                        "word": "deep-seated",
+                        "phonetic": "diːp-ˈsiːtɪd",
+                        "meaning": "adj. 根深蒂固的",
+                        "context": "deep-seated phobia"
+                    },
+                    {
+                        "word": "process",
+                        "phonetic": "ˈprɑːsɛs",
+                        "meaning": "n. 过程，进程",
+                        "context": "long and difficult process"
+                    },
+                    {
+                        "word": "confronting",
+                        "phonetic": "kənˈfrʌntɪŋ",
+                        "meaning": "v. 面对，对抗 (confront的现在分词)",
+                        "context": "confronting it"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "liberate... from",
+                        "meaning": "把……从……中解放出来"
+                    },
+                    {
+                        "phrase": "as simple as",
+                        "meaning": "和……一样简单"
+                    },
+                    {
+                        "phrase": "head on",
+                        "meaning": "迎面地，正面地"
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,716 @@
+{
+    "article_metadata": {
+        "title": "2014_passage_five",
+        "author": "Unknown",
+        "source": "CET-4/6"
+    },
+    "sentences": [
+        {
+            "paragraph": 1,
+            "sentence_id": 1,
+            "sentence_md5": "2cc5e9c907138182f7f76723a7848629",
+            "sentence": "One of the central principles of raising kids in America is that parents should be actively involved in their children’s education: meeting with teachers, volunteering, helping with homework, and doing a hundred other things that few working parents have time for.",
+            "phonetic": "/wʌn ɒv ðə ˈsentrəl ˈprɪnsəplz ɒv ˈreɪzɪŋ kɪdz ɪn əˈmerɪkə ɪz ðæt ˈpeərənts ʃʊd biː ˈæktɪvli ɪnˈvɒlvd ɪn ðeə ˈtʃɪldrənz ˌedʒuˈkeɪʃnː ˈmiːtɪŋ wɪð ˈtiːtʃəz, ˈvɒlənˈtɪərɪŋ, ˈhelpɪŋ wɪð ˈhəʊmwɜːk, ænd ˈduːɪŋ ə ˈhʌndrəd ˈʌðə θɪŋz ðæt fjuː ˈwɜːkɪŋ ˈpeərənts hæv ˈtaɪm fɔːr.",
+            "translation": "在美国养育孩子的核心原则之一是，父母应该积极参与孩子的教育：与老师见面、做志愿者、辅导家庭作业，以及做其他许多工作繁忙的父母无暇顾及的事情。",
+            "audio_file": "data/audio/2cc5e9c907138182f7f76723a7848629.mp3",
+            "analysis": {
+                "long_sentence_analysis": "该句为主从复合句。主句为One of the central principles of raising kids in America is that...，其中that引导表语从句，解释说明principle的内容；在表语从句中，meeting with teachers, volunteering...等一系列动名词短语作并列宾语；that few working parents have time for为定语从句，修饰先行词things。",
+                "core_vocabulary": [
+                    {
+                        "word": "central",
+                        "phonetic": "/ˈsentrəl/",
+                        "meaning": "核心的；中心的",
+                        "context": "One of the central principles of raising kids in America is that parents should be actively involved in their children’s education. 在美国养育孩子的核心原则之一是父母应积极参与孩子的教育。"
+                    },
+                    {
+                        "word": "involve",
+                        "phonetic": "/ɪnˈvɒlv/",
+                        "meaning": "参与；涉及",
+                        "context": "parents should be actively involved in their children’s education 父母应该积极参与孩子的教育"
+                    },
+                    {
+                        "word": "volunteer",
+                        "phonetic": "/ˈvɒlənˈtɪə(r)/",
+                        "meaning": "做志愿者",
+                        "context": "volunteering, helping with homework 做志愿者、辅导家庭作业"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "be involved in",
+                        "meaning": "参与；卷入"
+                    },
+                    {
+                        "phrase": "help with",
+                        "meaning": "帮助做……"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 1,
+            "sentence_id": 2,
+            "sentence_md5": "c349ffe95f8f7c4e73b53d42f5ed04d7",
+            "sentence": "These obligations are so baked into American values that few stop to ask whether they are worth the effort.",
+            "phonetic": "/ðiːz ˌɒblɪˈɡeɪʃənz ɑː səʊ beɪkt ˈɪntuː əˈmerɪkən ˈvæljuːz ðæt fjuː stɒp tuː ɑːsk ˈweðə(r) ðeɪ ɑː wɜːθ ðiː ˈefət.",
+            "translation": "这些义务深深融入了美国的价值观，以至于很少有人停下来思考它们是否值得付出努力。",
+            "audio_file": "data/audio/c349ffe95f8f7c4e73b53d42f5ed04d7.mp3",
+            "analysis": {
+                "long_sentence_analysis": "该句包含so...that...引导的结果状语从句，意为“如此……以至于……”；whether they are worth the effort为宾语从句，作ask的宾语。",
+                "core_vocabulary": [
+                    {
+                        "word": "obligation",
+                        "phonetic": "/ˌɒblɪˈɡeɪʃən/",
+                        "meaning": "义务；责任",
+                        "context": "These obligations are so baked into American values 这些义务深深融入了美国的价值观"
+                    },
+                    {
+                        "word": "bake",
+                        "phonetic": "/beɪk/",
+                        "meaning": "烘焙；（使）融入",
+                        "context": "These obligations are so baked into American values 这些义务深深融入了美国的价值观"
+                    },
+                    {
+                        "word": "worth",
+                        "phonetic": "/wɜːθ/",
+                        "meaning": "值得的",
+                        "context": "whether they are worth the effort 是否值得付出努力"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "be baked into",
+                        "meaning": "融入；嵌入"
+                    },
+                    {
+                        "phrase": "be worth",
+                        "meaning": "值得"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 2,
+            "sentence_id": 3,
+            "sentence_md5": "113885d265ed8668ab8ca64c4e3a3c9d",
+            "sentence": "Until this January, few researchers did, either.",
+            "phonetic": "/ənˈtɪl ðɪs ˈdʒænjuəri, fjuː rɪˈsɜːtʃəz dɪd, ˈaɪðə(r).",
+            "translation": "直到今年1月，也很少有研究人员这样做。",
+            "audio_file": "data/audio/113885d265ed8668ab8ca64c4e3a3c9d.mp3",
+            "analysis": {
+                "long_sentence_analysis": "此句为省略句，完整形式应为Until this January, few researchers did (stop to ask whether they are worth the effort), either. 以避免重复。",
+                "core_vocabulary": [
+                    {
+                        "word": "researcher",
+                        "phonetic": "/rɪˈsɜːtʃə(r)/",
+                        "meaning": "研究人员",
+                        "context": "Until this January, few researchers did, either. 直到今年1月，也很少有研究人员这样做。"
+                    }
+                ],
+                "phrases": []
+            }
+        },
+        {
+            "paragraph": 2,
+            "sentence_id": 4,
+            "sentence_md5": "eaa2647cbe7e640a4bf363b85326ec27",
+            "sentence": "In the largest - ever study of how parental involvement affects academic achievement, Keith Robinson and Angel L. Harris, sociology professors at Duke, found that mostly it doesn’t.",
+            "phonetic": "/ɪn ðə ˈlɑːdʒɪst ˈevə(r) ˈstʌdi ɒv haʊ pəˈrentl ɪnˈvɒlvmənt əˈfekts ˌækəˈdemɪk əˈtʃiːvmənt, kiːθ ˈrɒbɪnsən ænd ˈeɪndʒl el ˈhærɪs, ˌsəʊsiˈɒlədʒi prəˈfesəz æt djuːk, faʊnd ðæt ˈməʊstli ɪt ˈdʌznt.",
+            "translation": "在一项有史以来规模最大的关于父母参与如何影响学业成绩的研究中，杜克大学的社会学教授基思·罗宾逊和安吉尔·L·哈里斯发现，大多数情况下并没有影响。",
+            "audio_file": "data/audio/eaa2647cbe7e640a4bf363b85326ec27.mp3",
+            "analysis": {
+                "long_sentence_analysis": "句子开头In the largest - ever study of how parental involvement affects academic achievement为状语，表示研究的范围；how parental involvement affects academic achievement为宾语从句，作of的宾语；Keith Robinson and Angel L. Harris为句子主语，sociology professors at Duke是其同位语，对其身份进行说明；that mostly it doesn’t为宾语从句，作found的宾语。",
+                "core_vocabulary": [
+                    {
+                        "word": "parental",
+                        "phonetic": "/pəˈrentl/",
+                        "meaning": "父母的",
+                        "context": "In the largest - ever study of how parental involvement affects academic achievement 在一项关于父母参与如何影响学业成绩的研究中"
+                    },
+                    {
+                        "word": "involvement",
+                        "phonetic": "/ɪnˈvɒlvmənt/",
+                        "meaning": "参与",
+                        "context": "how parental involvement affects academic achievement 父母参与如何影响学业成绩"
+                    },
+                    {
+                        "word": "academic",
+                        "phonetic": "/ˌækəˈdemɪk/",
+                        "meaning": "学术的；学业的",
+                        "context": "how parental involvement affects academic achievement 父母参与如何影响学业成绩"
+                    },
+                    {
+                        "word": "achievement",
+                        "phonetic": "/əˈtʃiːvmənt/",
+                        "meaning": "成就；成绩",
+                        "context": "how parental involvement affects academic achievement 父母参与如何影响学业成绩"
+                    }
+                ],
+                "phrases": []
+            }
+        },
+        {
+            "paragraph": 2,
+            "sentence_id": 5,
+            "sentence_md5": "a5123402032924941a6c658b605b2c6b",
+            "sentence": "The researchers combed through nearly three decades’ worth of surveys of American parents and tracked 63 different measures of parental participation in kids’ academic lives, from helping them with homework, to talking with them about college plans.",
+            "phonetic": "/ðə rɪˈsɜːtʃəz kəʊmd θruː ˈnɪəli θriː ˈdekeɪdz wɜːθ ɒv ˈsɜːveɪz ɒv əˈmerɪkən ˈpeərənts ænd trækt ˈsɪkstiː θriː ˈdɪfrənt ˈmeʒəz ɒv pəˈrentl pɑːˈtɪsɪpeɪʃən ɪn kɪdz ˈækəˈdemɪk laɪvz, frəm ˈhelpɪŋ ðem wɪð ˈhəʊmwɜːk, tuː ˈtɔːkɪŋ wɪð ðem əˈbaʊt ˈkɒlɪdʒ plænz.",
+            "translation": "研究人员梳理了近三十年对美国父母的调查数据，追踪了63种不同的父母参与孩子学业生活的方式，从辅导家庭作业到与他们谈论大学计划。",
+            "audio_file": "data/audio/a5123402032924941a6c658b605b2c6b.mp3",
+            "analysis": {
+                "long_sentence_analysis": "此句为并列句，由and连接两个并列谓语combed through和tracked。from helping them with homework, to talking with them about college plans为介词短语作后置定语，修饰measures。",
+                "core_vocabulary": [
+                    {
+                        "word": "comb",
+                        "phonetic": "/kəʊm/",
+                        "meaning": "梳理；搜寻",
+                        "context": "The researchers combed through nearly three decades’ worth of surveys 研究人员梳理了近三十年的调查数据"
+                    },
+                    {
+                        "word": "decade",
+                        "phonetic": "/ˈdekeɪd/",
+                        "meaning": "十年",
+                        "context": "nearly three decades’ worth of surveys 近三十年的调查数据"
+                    },
+                    {
+                        "word": "survey",
+                        "phonetic": "/ˈsɜːveɪ/",
+                        "meaning": "调查",
+                        "context": "nearly three decades’ worth of surveys of American parents 近三十年对美国父母的调查数据"
+                    },
+                    {
+                        "word": "track",
+                        "phonetic": "/træk/",
+                        "meaning": "追踪；跟踪",
+                        "context": "tracked 63 different measures of parental participation 追踪63种不同的父母参与方式"
+                    },
+                    {
+                        "word": "participation",
+                        "phonetic": "/pɑːˈtɪsɪpeɪʃən/",
+                        "meaning": "参与",
+                        "context": "parental participation in kids’ academic lives 父母参与孩子的学业生活"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "comb through",
+                        "meaning": "梳理；仔细搜寻"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 2,
+            "sentence_id": 6,
+            "sentence_md5": "4c9dfe810673d8810fa54dfd966942ca",
+            "sentence": "In an attempt to show whether the kids of more - involved parents improved over time, the researchers indexed these measures to children’s academic performance, including test scores in reading and math.",
+            "phonetic": "/ɪn ən əˈtempt tuː ˈʃəʊ ˈweðə(r) ðə kɪdz ɒv mɔː(r) - ɪnˈvɒlvd ˈpeərənts ɪmˈpruːvd ˈəʊvə(r) taɪm, ðə rɪˈsɜːtʃəz ˈɪndekst ðiːz ˈmeʒəz tuː ˈtʃɪldrənz ˌækəˈdemɪk pəˈfɔːməns, ɪnˈkluːdɪŋ test skɔːz ɪn ˈriːdɪŋ ænd mæθ.",
+            "translation": "为了显示父母参与度更高的孩子是否随着时间的推移有所进步，研究人员将这些方式与孩子的学业表现挂钩，包括阅读和数学的考试成绩。",
+            "audio_file": "data/audio/4c9dfe810673d8810fa54dfd966942ca.mp3",
+            "analysis": {
+                "long_sentence_analysis": "句首In an attempt to show whether...为目的状语，其中whether the kids of more - involved parents improved over time为宾语从句，作show的宾语；主句为the researchers indexed these measures to children’s academic performance；including test scores in reading and math为现在分词短语作后置定语，补充说明performance。",
+                "core_vocabulary": [
+                    {
+                        "word": "attempt",
+                        "phonetic": "/əˈtempt/",
+                        "meaning": "尝试；试图",
+                        "context": "In an attempt to show whether the kids of more - involved parents improved over time 为了显示父母参与度更高的孩子是否随着时间的推移有所进步"
+                    },
+                    {
+                        "word": "index",
+                        "phonetic": "/ˈɪndeks/",
+                        "meaning": "将……与……挂钩；为……编索引",
+                        "context": "the researchers indexed these measures to children’s academic performance 研究人员将这些方式与孩子的学业表现挂钩"
+                    },
+                    {
+                        "word": "performance",
+                        "phonetic": "/pəˈfɔːməns/",
+                        "meaning": "表现；成绩",
+                        "context": "children’s academic performance 孩子的学业表现"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "in an attempt to",
+                        "meaning": "试图；为了"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 3,
+            "sentence_id": 7,
+            "sentence_md5": "046925c90e4e9573faafb39b2cbcc591",
+            "sentence": "What they found surprised them.",
+            "phonetic": "/wɒt ðeɪ faʊnd səˈpraɪzd ðem.",
+            "translation": "他们的发现让他们感到惊讶。",
+            "audio_file": "data/audio/046925c90e4e9573faafb39b2cbcc591.mp3",
+            "analysis": {
+                "long_sentence_analysis": "What they found为what引导的主语从句，在句中作主语。",
+                "core_vocabulary": [
+                    {
+                        "word": "surprise",
+                        "phonetic": "/səˈpraɪz/",
+                        "meaning": "使惊讶",
+                        "context": "What they found surprised them. 他们的发现让他们感到惊讶。"
+                    }
+                ],
+                "phrases": []
+            }
+        },
+        {
+            "paragraph": 3,
+            "sentence_id": 8,
+            "sentence_md5": "d41d8cd98f00b204e9800998ecf8427e",
+            "sentence": "Most measurable forms of parental involvement seem to yield few academic dividends for kids, or even to backfire — regardless of parent’s race, class, or level of education.",
+            "phonetic": "/ˈməʊst ˈmeʒərəbl fɔːmz ɒv pəˈrentl ɪnˈvɒlvmənt siːm tuː jiːld fjuː ˌækəˈdemɪk ˈdɪvɪdendz fɔː(r) kɪdz, ɔː(r) ˈiːvn tuː ˈbækfaɪə(r) — rɪˈɡɑːdləs ɒv ˈpeərənts reɪs, klɑːs, ɔː(r) ˈlevl ɒv ˌedʒuˈkeɪʃən.",
+            "translation": "大多数可衡量的父母参与形式似乎对孩子的学业收获甚微，甚至适得其反——无论父母的种族、阶级或教育水平如何。",
+            "audio_file": "data/audio/d41d8cd98f00b204e9800998ecf8427e.mp3",
+            "analysis": {
+                "long_sentence_analysis": "句子主语为Most measurable forms of parental involvement，seem to yield...为谓语部分，or even to backfire为并列谓语；破折号后的regardless of...引导让步状语，表示“无论……”。",
+                "core_vocabulary": [
+                    {
+                        "word": "measurable",
+                        "phonetic": "/ˈmeʒərəbl/",
+                        "meaning": "可衡量的",
+                        "context": "Most measurable forms of parental involvement 大多数可衡量的父母参与形式"
+                    },
+                    {
+                        "word": "yield",
+                        "phonetic": "/jiːld/",
+                        "meaning": "产生；带来",
+                        "context": "Most measurable forms of parental involvement seem to yield few academic dividends for kids 大多数可衡量的父母参与形式似乎对孩子的学业收获甚微"
+                    },
+                    {
+                        "word": "dividend",
+                        "phonetic": "/ˈdɪvɪdend/",
+                        "meaning": "红利；收获",
+                        "context": "Most measurable forms of parental involvement seem to yield few academic dividends for kids 大多数可衡量的父母参与形式似乎对孩子的学业收获甚微"
+                    },
+                    {
+                        "word": "backfire",
+                        "phonetic": "/ˈbækfaɪə(r)/",
+                        "meaning": "适得其反",
+                        "context": "Most measurable forms of parental involvement seem to yield few academic dividends for kids, or even to backfire 大多数可衡量的父母参与形式似乎对孩子的学业收获甚微，甚至适得其反"
+                    },
+                    {
+                        "word": "regardless",
+                        "phonetic": "/rɪˈɡɑːdləs/",
+                        "meaning": "不管；不顾",
+                        "context": "regardless of parent’s race, class, or level of education 无论父母的种族、阶级或教育水平如何"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "regardless of",
+                        "meaning": "不管；不顾"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 4,
+            "sentence_id": 9,
+            "sentence_md5": "d41d8cd98f00b204e9800998ecf8427e",
+            "sentence": "Do you review your daughter’s homework every night?",
+            "phonetic": "/duː juː rɪˈvjuː jɔː(r) ˈdɔːtəz ˈhəʊmwɜːk ˈevri naɪt?",
+            "translation": "你每晚都检查女儿的家庭作业吗？",
+            "audio_file": "data/audio/d41d8cd98f00b204e9800998ecf8427e.mp3",
+            "analysis": {
+                "long_sentence_analysis": "此句为一般疑问句，以助动词Do开头。",
+                "core_vocabulary": [
+                    {
+                        "word": "review",
+                        "phonetic": "/rɪˈvjuː/",
+                        "meaning": "检查；复习",
+                        "context": "Do you review your daughter’s homework every night? 你每晚都检查女儿的家庭作业吗？"
+                    }
+                ],
+                "phrases": []
+            }
+        },
+        {
+            "paragraph": 4,
+            "sentence_id": 10,
+            "sentence_md5": "d41d8cd98f00b204e9800998ecf8427e",
+            "sentence": "Robinson and Harris’s data show that this won’t help her score higher on standardized tests.",
+            "phonetic": "/ˈrɒbɪnsən ænd ˈhærɪsɪz ˈdeɪtə ʃəʊ ðæt ðɪs wəʊnt help hɜː(r) skɔː(r) ˈhaɪə(r) ɒn ˈstændədaɪzd tests.",
+            "translation": "罗宾逊和哈里斯的数据显示，这并不能帮助她在标准化考试中取得更高的分数。",
+            "audio_file": "data/audio/d41d8cd98f00b204e9800998ecf8427e.mp3",
+            "analysis": {
+                "long_sentence_analysis": "句子主语为Robinson and Harris’s data，谓语为show，that this won’t help her score higher on standardized tests为宾语从句，作show的宾语。",
+                "core_vocabulary": [
+                    {
+                        "word": "data",
+                        "phonetic": "/ˈdeɪtə/",
+                        "meaning": "数据",
+                        "context": "Robinson and Harris’s data show that...罗宾逊和哈里斯的数据显示……"
+                    },
+                    {
+                        "word": "standardized",
+                        "phonetic": "/ˈstændədaɪzd/",
+                        "meaning": "标准化的",
+                        "context": "this won ’t help her score higher on standardized tests这并不能帮助她在标准化考试中取得更高的分数"
+                    }
+                ],
+                "phrases": []
+            }
+        },
+        {
+            "paragraph": 4,
+            "sentence_id": 11,
+            "sentence_md5": "d41d8cd98f00b204e9800998ecf8427e",
+            "sentence": "Once kids enter middle school, parental help with homework can actually bring test scores down, an effect Robinson says could be caused by the fact that many parents may have forgotten, or never truly understood, the material their children learn in school.",
+            "phonetic": "/wʌns kɪdz ˈentə(r) ˈmɪdl skuːl, pəˈrentl help wɪð ˈhəʊmwɜːk kæn ˈæktʃuəli brɪŋ test skɔː(r)z daʊn, æn ɪˈfekt ˈrɒbɪnsən sez kʊd biː kɔːzd baɪ ðə fækt ðæt ˈmeni ˈpeərənts meɪ hæv fəˈɡɒtn, ɔː(r) ˈnevə(r) ˈtruːli ˌʌndəˈstʊd, ðə məˈtɪəriəl ðeə ˈtʃɪldrən lɜːn ɪn skuːl.",
+            "translation": "一旦孩子进入中学，家长辅导家庭作业实际上可能会使考试成绩下降，罗宾逊说，这种影响可能是由于许多家长可能已经忘记，或者从未真正理解他们孩子在学校所学的内容。",
+            "audio_file": "data/audio/d41d8cd98f00b204e9800998ecf8427e.mp3",
+            "analysis": {
+                "long_sentence_analysis": "Once kids enter middle school为时间状语从句；主句为parental help with homework can actually bring test scores down；an effect...为同位语，对前面整个句子进行补充说明，其中Robinson says为插入语，that many parents may have forgotten...为同位语从句，解释说明fact的内容，their children learn in school为定语从句，修饰material。",
+                "core_vocabulary": [
+                    {
+                        "word": "enter",
+                        "phonetic": "/ˈentə(r)/",
+                        "meaning": "进入",
+                        "context": "Once kids enter middle school一旦孩子进入中学"
+                    },
+                    {
+                        "word": "effect",
+                        "phonetic": "/ɪˈfekt/",
+                        "meaning": "影响",
+                        "context": "an effect Robinson says could be caused by...罗宾逊说这种影响可能是由于……"
+                    },
+                    {
+                        "word": "material",
+                        "phonetic": "/məˈtɪəriəl/",
+                        "meaning": "材料；内容",
+                        "context": "the material their children learn in school他们孩子在学校所学的内容"
+                    }
+                ],
+                "phrases": []
+            }
+        },
+        {
+            "paragraph": 5,
+            "sentence_id": 12,
+            "sentence_md5": "d41d8cd98f00b204e9800998ecf8427e",
+            "sentence": "While Robinson and Harris largely disproved that assumption, they did find a handful of habits that make a difference, such as reading aloud to young kids (fewer than half of whom are read to daily) and talking with teenagers about college plans.",
+            "phonetic": "/waɪl ˈrɒbɪnsən ænd ˈhærɪs ˈlɑːdʒli ˌdɪsˈpruːvd ðæt əˈsʌmpʃən, ðeɪ dɪd faɪnd ə ˈhændfʊl ɒv ˈhæbɪts ðæt meɪk ə ˈdɪfrəns, sʌtʃ æz ˈriːdɪŋ əˈlaʊd tuː jʌŋ kɪdz (ˈfjuːə(r) ðæn hɑːf ɒv huːm ɑː(r) ˈriːd tuː ˈdeɪli) ænd ˈtɔːkɪŋ wɪð ˈtiːneɪdʒəz əˈbaʊt ˈkɒlɪdʒ plænz.",
+            "translation": "虽然罗宾逊和哈里斯在很大程度上反驳了这种假设，但他们确实发现了一些有影响的习惯，比如给年幼的孩子大声朗读（每天给孩子朗读的家长不到一半）以及和青少年谈论大学计划。",
+            "audio_file": "data/audio/d41d8cd98f00b204e9800998ecf8427e.mp3",
+            "analysis": {
+                "long_sentence_analysis": "While Robinson and Harris largely disproved that assumption为让步状语从句；主句为they did find a handful of habits，其中did表示强调；that make a difference为定语从句，修饰habits；such as...为举例说明，补充说明habits，括号内fewer than half of whom are read to daily为定语从句，修饰young kids。",
+                "core_vocabulary": [
+                    {
+                        "word": "disprove",
+                        "phonetic": "/ˌdɪsˈpruːv/",
+                        "meaning": "反驳；证明……错误",
+                        "context": "While Robinson and Harris largely disproved that assumption虽然罗宾逊和哈里斯在很大程度上反驳了这种假设"
+                    },
+                    {
+                        "word": "assumption",
+                        "phonetic": "/əˈsʌmpʃən/",
+                        "meaning": "假设；假定",
+                        "context": "While Robinson and Harris largely disproved that assumption虽然罗宾逊和哈里斯在很大程度上反驳了这种假设"
+                    },
+                    {
+                        "word": "handful",
+                        "phonetic": "/ˈhændfʊl/",
+                        "meaning": "少数；一把",
+                        "context": "they did find a handful of habits他们确实发现了一些习惯"
+                    },
+                    {
+                        "word": "difference",
+                        "phonetic": "/ˈdɪfrəns/",
+                        "meaning": "差异；不同",
+                        "context": "they did find a handful of habits that make a difference他们确实发现了一些有影响的习惯"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "make a difference",
+                        "meaning": "有影响；起作用"
+                    },
+                    {
+                        "phrase": "such as",
+                        "meaning": "比如；例如"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 5,
+            "sentence_id": 13,
+            "sentence_md5": "d41d8cd98f00b204e9800998ecf8427e",
+            "sentence": "But these interventions don’t take place at school or in the presence of teachers, where policymakers have the most influence — they take place at home.",
+            "phonetic": "/bʌt ðiːz ˌɪntəˈvenʃənz dəʊnt ˈteɪk pleɪs æt skuːl ɔː(r) ɪn ðə ˈprezns ɒv ˈtiːtʃəz, weə(r) ˈpɒləsiˈmeɪkəz hæv ðə məʊst ˈɪnfluəns — ðeɪ ˈteɪk pleɪs æt həʊm.",
+            "translation": "但这些干预措施不是在学校或有老师在场的情况下进行的，而政策制定者在学校的影响力最大——它们是在家里进行的。",
+            "audio_file": "data/audio/d41d8cd98f00b204e9800998ecf8427e.mp3",
+            "analysis": {
+                "long_sentence_analysis": "句子主干为But these interventions don’t take place at school or in the presence of teachers；where policymakers have the most influence为非限制性定语从句，修饰school or in the presence of teachers；破折号后的they take place at home是对前面内容的补充说明。",
+                "core_vocabulary": [
+                    {
+                        "word": "intervention",
+                        "phonetic": "/ˌɪntəˈvenʃən/",
+                        "meaning": "干预；介入",
+                        "context": "But these interventions don’t take place at school但这些干预措施不是在学校进行的"
+                    },
+                    {
+                        "word": "presence",
+                        "phonetic": "/ˈprezns/",
+                        "meaning": "存在；在场",
+                        "context": "in the presence of teachers有老师在场的情况下"
+                    },
+                    {
+                        "word": "policymaker",
+                        "phonetic": "/ˈpɒləsiˈmeɪkə(r)/",
+                        "meaning": "政策制定者",
+                        "context": "where policymakers have the most influence政策制定者在那里影响力最大"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "take place",
+                        "meaning": "发生；进行"
+                    },
+                    {
+                        "phrase": "in the presence of",
+                        "meaning": "在……面前；有……在场"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 6,
+            "sentence_id": 14,
+            "sentence_md5": "d41d8cd98f00b204e9800998ecf8427e",
+            "sentence": "Basically the choice is whether one wants to let kids to be kids.",
+            "phonetic": "/ˈbeɪsɪkli ðə tʃɔɪs ɪz ˈweðə(r) wʌn wɒnts tuː let kɪdz tuː biː kɪdz.",
+            "translation": "基本上，选择在于是否想让孩子做孩子。",
+            "audio_file": "data/audio/d41d8cd98f00b204e9800998ecf8427e.mp3",
+            "analysis": {
+                "long_sentence_analysis": "句子主干为the choice is...，whether one wants to let kids to be kids为表语从句，作is的表语。",
+                "core_vocabulary": [
+                    {
+                        "word": "basically",
+                        "phonetic": "/ˈbeɪsɪkli/",
+                        "meaning": "基本上；从根本上说",
+                        "context": "Basically the choice is...基本上，选择在于……"
+                    },
+                    {
+                        "word": "choice",
+                        "phonetic": "/tʃɔɪs/",
+                        "meaning": "选择",
+                        "context": "Basically the choice is...基本上，选择在于……"
+                    }
+                ],
+                "phrases": []
+            }
+        },
+        {
+            "paragraph": 6,
+            "sentence_id": 15,
+            "sentence_md5": "d41d8cd98f00b204e9800998ecf8427e",
+            "sentence": "Persistent parental involvement and constantly communicating to the kids on what the parents want consciously or unconsciously would help the kids grow up or think like the parents sooner than otherwise.",
+            "phonetic": "/pəˈsɪstənt pəˈrentl ɪnˈvɒlvmənt ænd ˈkɒnstəntli kəˈmjuːnɪkeɪtɪŋ tuː ðə kɪdz ɒn wɒt ðə ˈpeərənts wɒnt ˈkɒnʃəsli ɔː(r) ʌnˈkɒnʃəsli wʊd help ðə kɪdz ˈɡrəʊ ʌp ɔː(r) ˈθɪŋk laɪk ðə ˈpeərənts ˈsuːnə(r) ðæn ˈʌðəwaɪz.",
+            "translation": "持续的父母参与以及有意识或无意识地不断向孩子传达父母的想法，会帮助孩子比其他情况更快地长大或像父母一样思考。",
+            "audio_file": "data/audio/d41d8cd98f00b204e9800998ecf8427e.mp3",
+            "analysis": {
+                "long_sentence_analysis": "句子主语为Persistent parental involvement and constantly communicating to the kids on what the parents want consciously or unconsciously，其中communicating to the kids on what the parents want consciously or unconsciously为动名词短语作主语；would help为谓语，the kids为宾语，grow up or think like the parents sooner than otherwise为宾语补足语，what the parents want consciously or unconsciously为宾语从句，作on的宾语。",
+                "core_vocabulary": [
+                    {
+                        "word": "persistent",
+                        "phonetic": "/pəˈsɪstənt/",
+                        "meaning": "持续的；坚持不懈的",
+                        "context": "Persistent parental involvement持续的父母参与"
+                    },
+                    {
+                        "word": "constantly",
+                        "phonetic": "/ˈkɒnstəntli/",
+                        "meaning": "不断地；经常地",
+                        "context": "constantly communicating to the kids不断向孩子传达"
+                    },
+                    {
+                        "word": "consciously",
+                        "phonetic": "/ˈkɒnʃəsli/",
+                        "meaning": "有意识地",
+                        "context": "what the parents want consciously or unconsciously父母有意识或无意识想要的东西"
+                    },
+                    {
+                        "word": "unconsciously",
+                        "phonetic": "/ʌnˈkɒnʃəsli/",
+                        "meaning": "无意识地",
+                        "context": "what the parents want consciously or unconsciously父母有意识或无意识想要的东西"
+                    }
+                ],
+                "phrases": []
+            }
+        },
+        {
+            "paragraph": 7,
+            "sentence_id": 16,
+            "sentence_md5": "d41d8cd98f00b204e9800998ecf8427e",
+            "sentence": "It also depends on the kid.",
+            "phonetic": "/ɪt ˈɔːlsəʊ dɪˈpendz ɒn ðə kɪd.",
+            "translation": "这也取决于孩子。",
+            "audio_file": "data/audio/d41d8cd98f00b204e9800998ecf8427e.mp3",
+            "analysis": {
+                "long_sentence_analysis": "此句为简单句，It指代上文提及的事情，depend on为谓语，the kid为宾语。",
+                "core_vocabulary": [
+                    {
+                        "word": "depend",
+                        "phonetic": "/dɪˈpend/",
+                        "meaning": "取决于；依赖",
+                        "context": "It also depends on the kid.这也取决于孩子。"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "depend on",
+                        "meaning": "取决于；依赖"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 7,
+            "sentence_id": 17,
+            "sentence_md5": "d41d8cd98f00b204e9800998ecf8427e",
+            "sentence": "Emotional and social maturity have a lot to do with success in college and in life.",
+            "phonetic": "/ɪˈməʊʃənl ænd ˈsəʊʃl məˈtʃʊərəti hæv ə ˈlɒt tuː duː wɪð səkˈses ɪn ˈkɒlɪdʒ ænd ɪn laɪf.",
+            "translation": "情感和社交成熟度与在大学和生活中的成功有很大关系。",
+            "audio_file": "data/audio/d41d8cd98f00b204e9800998ecf8427e.mp3",
+            "analysis": {
+                "long_sentence_analysis": "此句为简单句，主语为Emotional and social maturity，谓语为have a lot to do with，宾语为success，in college and in life为地点状语。",
+                "core_vocabulary": [
+                    {
+                        "word": "emotional",
+                        "phonetic": "/ɪˈməʊʃənl/",
+                        "meaning": "情感的",
+                        "context": "Emotional and social maturity情感和社交成熟度"
+                    },
+                    {
+                        "word": "social",
+                        "phonetic": "/ˈsəʊʃl/",
+                        "meaning": "社会的；社交的",
+                        "context": "Emotional and social maturity情感和社交成熟度"
+                    },
+                    {
+                        "word": "maturity",
+                        "phonetic": "/məˈtʃʊərəti/",
+                        "meaning": "成熟；成熟度",
+                        "context": "Emotional and social maturity情感和社交成熟度"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "have a lot to do with",
+                        "meaning": "与……有很大关系"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 8,
+            "sentence_id": 18,
+            "sentence_md5": "d41d8cd98f00b204e9800998ecf8427e",
+            "sentence": "The article doesn’t clearly define “helping,” but I understood it as actually assisting children in the exercises (e.g. helping them to solve a math problem) and/or reviewing their work for accuracy rather than simply making sure they've completed their work.",
+            "phonetic": "/ðə ˈɑːtɪkl ˈdʌznt ˈklɪəli dɪˈfaɪn ˈhelpɪŋ, bʌt aɪ ˈʌndəˈstʊd ɪt æz ˈæktʃuəli əˈsɪstɪŋ ˈtʃɪldrən ɪn ðiː ˈeksəsaɪzɪz (ˈiːˈdʒiː ˈhelpɪŋ ðem tuː sɒlv ə ˈmæθ ˈprɒbləm) ænd/ɔː(r) rɪˈvjuːɪŋ ðeə(r) wɜːk fɔː(r) ˈækjərəsi ˈrɑːðə(r) ðæn ˈsɪmpli ˈmeɪkɪŋ ʃʊə(r) ðeɪv kəmˈpliːtɪd ðeə(r) wɜːk.",
+            "translation": "这篇文章没有明确定义“帮助”，但我理解它实际上是指在练习中帮助孩子（例如帮助他们解决一道数学题）和/或检查他们作业的准确性，而不仅仅是确保他们完成了作业。",
+            "audio_file": "data/audio/d41d8cd98f00b204e9800998ecf8427e.mp3",
+            "analysis": {
+                "long_sentence_analysis": "此句为并列句，由but连接两个并列分句。前一个分句The article doesn’t clearly define “helping”为简单句；后一个分句I understood it as...中，as actually assisting children...为介词短语作宾语补足语，括号内e.g. helping them to solve a math problem为举例说明，rather than引导对比结构，simply making sure they've completed their work为动名词短语，其中they've completed their work为宾语从句，作making sure的宾语。",
+                "core_vocabulary": [
+                    {
+                        "word": "define",
+                        "phonetic": "/dɪˈfaɪn/",
+                        "meaning": "定义",
+                        "context": "The article doesn’t clearly define “helping”这篇文章没有明确定义“帮助”"
+                    },
+                    {
+                        "word": "assist",
+                        "phonetic": "/əˈsɪst/",
+                        "meaning": "帮助",
+                        "context": "I understood it as actually assisting children in the exercises我理解它实际上是指在练习中帮助孩子"
+                    },
+                    {
+                        "word": "accuracy",
+                        "phonetic": "/ˈækjərəsi/",
+                        "meaning": "准确性",
+                        "context": "reviewing their work for accuracy检查他们作业的准确性"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "rather than",
+                        "meaning": "而不是"
+                    }
+                ]
+            }
+        },
+        {
+            "paragraph": 8,
+            "sentence_id": 19,
+            "sentence_md5": "d41d8cd98f00b204e9800998ecf8427e",
+            "sentence": "I think the latter is more helpful than the former.",
+            "phonetic": "/aɪ θɪŋk ðə ˈlætə(r) ɪz mɔː(r) ˈhelpfl ðæn ðə ˈfɔːmə(r).",
+            "translation": "我认为后者比前者更有帮助。",
+            "audio_file": "data/audio/d41d8cd98f00b204e9800998ecf8427e.mp3",
+            "analysis": {
+                "long_sentence_analysis": "此句为简单句，I为主语，think为谓语，the latter is more helpful than the former为宾语从句。",
+                "core_vocabulary": [
+                    {
+                        "word": "latter",
+                        "phonetic": "/ˈlætə(r)/",
+                        "meaning": "后者",
+                        "context": "I think the latter is more helpful than the former. 我认为后者比前者更有帮助。"
+                    },
+                    {
+                        "word": "former",
+                        "phonetic": "/ˈfɔːmə(r)/",
+                        "meaning": "前者",
+                        "context": "I think the latter is more helpful than the former. 我认为后者比前者更有帮助。"
+                    }
+                ],
+                "phrases": []
+            }
+        },
+        {
+            "paragraph": 8,
+            "sentence_id": 20,
+            "sentence_md5": "d41d8cd98f00b204e9800998ecf8427e",
+            "sentence": "I would also certainly hope that no study would discourage parents from monitoring their children's performance!",
+            "phonetic": "/aɪ wʊd ˈɔːlsəʊ ˈsɜːtnli həʊp ðæt nəʊ ˈstʌdi wʊd dɪsˈkʌrɪdʒ ˈpeərənts frəm ˈmɒnɪtərɪŋ ðeə(r) ˈtʃɪldrənz pəˈfɔːməns!",
+            "translation": "我当然也希望没有研究会阻止父母去监督他们孩子的表现！",
+            "audio_file": "data/audio/d41d8cd98f00b204e9800998ecf8427e.mp3",
+            "analysis": {
+                "long_sentence_analysis": "此句中I为主语，would...hope为谓语，that no study would discourage parents from monitoring their children's performance为宾语从句。",
+                "core_vocabulary": [
+                    {
+                        "word": "certainly",
+                        "phonetic": "/ˈsɜːtnli/",
+                        "meaning": "当然；肯定地",
+                        "context": "I would also certainly hope...我当然也希望……"
+                    },
+                    {
+                        "word": "discourage",
+                        "phonetic": "/dɪsˈkʌrɪdʒ/",
+                        "meaning": "阻止；使气馁",
+                        "context": "no study would discourage parents from monitoring...没有研究会阻止父母去监督……"
+                    },
+                    {
+                        "word": "monitor",
+                        "phonetic": "/ˈmɒnɪtə(r)/",
+                        "meaning": "监督；监测",
+                        "context": "monitoring their children's performance监督他们孩子的表现"
+                    }
+                ],
+                "phrases": [
+                    {
+                        "phrase": "discourage sb. from doing sth.",
+                        "meaning": "阻止某人做某事"
+                    }
+                ]
+            }
+        }
+    ]
+}

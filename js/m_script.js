@@ -17,7 +17,8 @@ const state = {
     currentSentenceIdx: -1,
     currentArticleId: null,
     isPlaying: false,
-    isLooping: true,
+    isGlobalPlaying: false,   // true = 全局连续播放模式, false = 单句播放模式
+    isLooping: true,          // 全局播放时是否循环
     audioTimer: null,
 };
 
@@ -44,6 +45,7 @@ function initDOM() {
     dom.detailSheet = $('#bottom-detail-sheet');
     dom.analysisContent = $('#analysis-content');
     dom.sheetBackdrop = $('#sheet-backdrop');
+    dom.btnLoop = $('#btn-loop-toggle');
 }
 
 // ==================== 初始化 ====================
@@ -58,9 +60,13 @@ function bindEvents() {
     // 音频控制
     dom.btnPlay.addEventListener('click', togglePlayPause);
     dom.btnPrev.addEventListener('click', () => {
+        state.isGlobalPlaying = true;
         if (state.currentSentenceIdx > 0) playSentence(state.currentSentenceIdx - 1);
     });
-    dom.btnNext.addEventListener('click', playNext);
+    dom.btnNext.addEventListener('click', () => {
+        state.isGlobalPlaying = true;
+        playNext();
+    });
     dom.audioPlayer.addEventListener('ended', onAudioEnded);
     dom.audioPlayer.addEventListener('error', onAudioError);
 
@@ -81,14 +87,23 @@ function bindEvents() {
     }
 
     // 模式切换
-    $$('.pref-btn').forEach(btn => {
+    $$('.pref-btn[data-mode]').forEach(btn => {
         btn.addEventListener('click', (e) => {
             const mode = e.currentTarget.dataset.mode;
             switchMode(mode);
-            $$('.pref-btn').forEach(b => b.classList.remove('active'));
+            $$('.pref-btn[data-mode]').forEach(b => b.classList.remove('active'));
             e.currentTarget.classList.add('active');
         });
     });
+
+    // 循环切换
+    if (dom.btnLoop) {
+        dom.btnLoop.classList.toggle('active', state.isLooping);
+        dom.btnLoop.addEventListener('click', () => {
+            state.isLooping = !state.isLooping;
+            dom.btnLoop.classList.toggle('active', state.isLooping);
+        });
+    }
 
     // 滚动时渐隐状态胶囊 & 音频胶囊
     let scrollTimer;
@@ -235,20 +250,21 @@ function renderFlow() {
             node.id = `sent-${s._idx}`;
 
             // 构建带音标的单词
-            const words = (s.sentance || '').split(/\s+/).filter(Boolean);
+            const words = (s.sentence || '').split(/\s+/).filter(Boolean);
             const phonetics = splitPhonetic(s.phonetic || '');
+            const aligned = alignWordsWithPhonetics(words, phonetics);
 
-            words.forEach((w, i) => {
+            aligned.forEach(item => {
                 const box = document.createElement('span');
                 box.className = 'word-box';
 
                 const phSpan = document.createElement('span');
                 phSpan.className = 'w-ph';
-                phSpan.textContent = phonetics[i] || '';
+                phSpan.textContent = item.phonetic;
 
                 const wSpan = document.createElement('span');
                 wSpan.className = 'w-text';
-                wSpan.textContent = w;
+                wSpan.textContent = item.word;
 
                 box.appendChild(phSpan);
                 box.appendChild(wSpan);
@@ -281,13 +297,55 @@ function renderFlow() {
  * 切分音标字符串
  */
 function splitPhonetic(ph) {
+    if (!ph) return [];
     let cleaned = ph.replace(/^\//, '').replace(/\/$/, '').trim();
     cleaned = cleaned.replace(/<br\s*\/?>/gi, '');
     return cleaned.split(/\s+/).filter(Boolean);
 }
 
+/**
+ * 核心对齐算法
+ */
+function alignWordsWithPhonetics(words, phonetics) {
+    const result = [];
+    let pIdx = 0;
+
+    for (let i = 0; i < words.length; i++) {
+        const word = words[i];
+        const isStandaloneHyphen = /^[-\u2014\u2013]$/.test(word.trim());
+        const isNeedy = /^\d+/.test(word) || (word.length > 1 && word.includes('-'));
+
+        const phLeft = phonetics.length - pIdx;
+        const wordsLeft = words.length - i;
+
+        let assignedPh = "";
+
+        if (isStandaloneHyphen) {
+            if (pIdx < phonetics.length && (phonetics[pIdx] === '-' || phonetics[pIdx] === '—')) {
+                assignedPh = phonetics[pIdx++];
+            } else {
+                assignedPh = "";
+            }
+        } else {
+            if (pIdx < phonetics.length) {
+                assignedPh = phonetics[pIdx++];
+                if (isNeedy) {
+                    while (pIdx < phonetics.length && (phonetics.length - pIdx) > (words.length - (i + 1))) {
+                        assignedPh += " " + phonetics[pIdx++];
+                    }
+                }
+            }
+        }
+
+        result.push({ word, phonetic: assignedPh });
+    }
+    return result;
+}
+
 // ==================== 句子交互 ====================
 function onNodeClick(idx) {
+    // 点击句子 = 单句播放模式，不自动跳下一句
+    state.isGlobalPlaying = false;
     state.currentSentenceIdx = idx;
     highlightSentence(idx);
 
@@ -346,6 +404,9 @@ function showAnalysis(idx) {
 
     const analysis = s.analysis || {};
     let html = '';
+
+    // 原文句子
+    html += `<div class="sheet-original-text">${s.sentence}</div>`;
 
     // 翻译标题
     html += `<h3>${s.translation || ''}</h3>`;
@@ -408,6 +469,8 @@ function togglePlayPause() {
     if (state.isPlaying) {
         pauseAudio();
     } else {
+        // 通过底部播放按钮触发 = 全局连续播放模式
+        state.isGlobalPlaying = true;
         if (state.currentSentenceIdx < 0) {
             playSentence(0);
         } else {
@@ -451,12 +514,14 @@ async function playSentence(idx) {
 
     // 加载并播放
     dom.audioPlayer.src = `/data/audio/${md5}.mp3`;
+    dom.audioPlayer.load(); // 移动端显式加载
     try {
         await dom.audioPlayer.play();
     } catch (e) {
-        console.warn('音频播放中断或被拒绝:', e);
-        // 我们统一在 onAudioError 中处理 404 等加载失败情况（并校验是否依然是播放状态）
-        // 这里静默拦截即可，避免重复触发 playNext，导致疯狂跳句无法被暂停。
+        // 忽略中止异常，其他错误交由 onAudioError 处理
+        if (e.name !== 'AbortError') {
+            console.error('播放失败:', e);
+        }
     }
 }
 
@@ -485,6 +550,7 @@ function pauseAudio() {
     }
     dom.audioPlayer.pause();
     state.isPlaying = false;
+    state.isGlobalPlaying = false;
     dom.btnPlay.textContent = '▶';
     dom.playTrigger.classList.remove('active');
     $$('.sentence-node.playing').forEach(n => n.classList.remove('playing'));
@@ -504,28 +570,25 @@ function playNext() {
 }
 
 function onAudioEnded() {
-    dom.playTrigger.classList.remove('active');
-    $$('.sentence-node.playing').forEach(n => n.classList.remove('playing'));
-
-    // 阅读模式自动连续播放
-    if (state.mode === 'reading' || state.isLooping) {
-        playNext();
+    if (state.isGlobalPlaying) {
+        // 全局连续播放模式：延时一小会儿播放下一句，解决部分手机浏览器同步切换的问题
+        setTimeout(() => {
+            if (state.isGlobalPlaying) playNext();
+        }, 80);
     } else {
+        // 单句播放模式：播完即停
         state.isPlaying = false;
         dom.btnPlay.textContent = '▶';
+        dom.playTrigger.classList.remove('active');
+        $$('.sentence-node.playing').forEach(n => n.classList.remove('playing'));
     }
 }
 
 function onAudioError() {
     console.warn('音频加载错误');
-    dom.playTrigger.classList.remove('active');
-
-    if (!state.isPlaying) return;
-
-    if (state.isLooping || state.mode === 'reading') {
-        state.audioTimer = setTimeout(() => {
-            state.audioTimer = null;
-            playNext();
-        }, 800);
+    pauseAudio();
+    const s = state.sentences[state.currentSentenceIdx];
+    if (s && dom.articleTitle) {
+        dom.articleTitle.textContent = `⚠️ 加载失败 #${s.sentence_id}`;
     }
 }
