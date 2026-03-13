@@ -46,6 +46,7 @@ function initDOM() {
     dom.analysisContent = $('#analysis-content');
     dom.sheetBackdrop = $('#sheet-backdrop');
     dom.btnLoop = $('#btn-loop-toggle');
+    dom.btnShowQuestions = $('#btn-show-mobile-questions');
 }
 
 // ==================== 初始化 ====================
@@ -136,6 +137,14 @@ function bindEvents() {
             e.preventDefault();
         }
     }, { passive: false });
+
+    // 展现题目
+    if (dom.btnShowQuestions) {
+        dom.btnShowQuestions.addEventListener('click', () => {
+            closeOverlay();
+            showQuestions();
+        });
+    }
 }
 
 // ==================== 数据加载 ====================
@@ -462,6 +471,74 @@ function closeSheet() {
     if (dom.sheetBackdrop) {
         dom.sheetBackdrop.classList.remove('visible');
     }
+}
+
+// ==================== 题目显示 ====================
+function showQuestions() {
+    const questions = state.articleData?.questions || [];
+    if (!questions.length) {
+        alert("📚 暂无题目数据");
+        return;
+    }
+
+    let html = '<div class="mobile-questions">';
+    html += '<h2 style="margin-bottom: 12px; font-size: 1.1rem; background: var(--accent-gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">✍️ 课后练习</h2>';
+
+    questions.forEach((q, idx) => {
+        html += `
+        <div class="m-q-card" style="background: var(--bg-elevated); padding: 12px; border-radius: 12px; margin-bottom: 12px; border: 1px solid rgba(255,255,255,0.05)">
+            <div style="font-size: 0.65rem; color: var(--accent); margin-bottom: 6px;">QUESTION #${q.id || (idx + 1)}</div>
+            ${q.title ? `
+            <div style="margin-bottom: 12px; padding-bottom: 8px; border-bottom: 1px solid rgba(255,255,255,0.03)">
+                <div style="font-size: 0.95rem; color: var(--text-bright); line-height: 1.4;">${q.title[0]}</div>
+                <div style="font-size: 0.8rem; color: var(--text-translation); margin-top: 2px;">${q.title[2] || ''}</div>
+            </div>` : ''}
+            <div style="display: flex; flex-direction: column; gap: 8px;">
+        `;
+
+        ['A', 'B', 'C', 'D'].forEach(opt => {
+            const val = q[opt];
+            if (val) {
+                html += `
+                <div class="m-option" onclick="this.classList.toggle('selected')" style="display: flex; align-items: flex-start; gap: 12px; padding: 12px; background: rgba(255,255,255,0.03); border-radius: 8px; border: 1px solid transparent; transition: all 0.2s;">
+                    <span style="font-weight: 700; color: var(--accent); font-size: 0.9rem; margin-top: 2px;">${opt}</span>
+                    <div style="flex: 1; display: flex; flex-direction: column; gap: 4px;">
+                        <div style="display: flex; justify-content: flex-start; align-items: baseline; gap: 10px;">
+                            <div style="font-size: 1rem; color: var(--text-primary); font-weight: 600; line-height: 1.2;">${val[0]}</div>
+                            <div style="font-size: 0.82rem; color: var(--text-translation); font-family: var(--font-cn);">${val[2] || ''}</div>
+                        </div>
+                        <div style="font-size: 0.75rem; color: var(--text-muted); font-family: var(--font-sans);">${val[1] || ''}</div>
+                    </div>
+                </div>`;
+            }
+        });
+
+        html += `
+            </div>
+        </div>`;
+    });
+
+    html += '</div>';
+
+    // 注入一些样式
+    if (!document.getElementById('m-q-styles')) {
+        const style = document.createElement('style');
+        style.id = 'm-q-styles';
+        style.textContent = `
+            .m-option.selected {
+                background: var(--accent-dim) !important;
+                border-color: var(--accent) !important;
+                transform: scale(0.98);
+            }
+            .m-option:active {
+                opacity: 0.7;
+            }
+        `;
+        document.head.appendChild(style);
+    }
+
+    dom.analysisContent.innerHTML = html;
+    openSheet();
 }
 
 // ==================== 音频控制 ====================

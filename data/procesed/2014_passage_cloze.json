@@ -727,11 +727,11 @@
         {
             "paragraph": 5,
             "sentence_id": 11,
-            "sentence_md5": "f960591b309e78ae1bbc3da30bed84dd",
-            "sentence": "Their clever paper asks givers and receivers to classify gifts from two perspectives: desirability (e.g. the cost of a coffee maker) and feasibility (e.g. the ease of the coffee maker).",
-            "phonetic": "/ðɛr ˈklɛvər ˈpeɪpər æsks ˈɡɪvərz ænd rɪˈsivərz tu ˈklæsɪfaɪ ɡɪfts frʌm tu pərˈspɛktɪvz dɪˈzaɪrəbɪləti iːdʒ ðə kɔst əv ə ˈkɔfi ˈmeɪkər ænd ˌfizəˈbɪləti iːdʒ ðə iz əv ðə ˈkɔfi ˈmeɪkər/",
+            "sentence_md5": "9f0dc489f1b68e27f1a1e807c6d3d381",
+            "sentence": "Their clever paper asks givers and receivers to select gifts from two perspectives: desirability (e.g. the cost of a coffee maker) and feasibility (e.g. the ease of the coffee maker).",
+            "phonetic": "/ðeə ˈklevə ˈpeɪpə æsks ˈgɪvəz ænd rɪˈsiːvəz tuː sɪˈlekt ˈgɪfts frɒm tuː pəˈspektɪvz: dɪˌzaɪərəˈbɪlɪti (e.g. ðə kɒst ɒv ə ˈkɒfi ˈmeɪkə) ænd ˌfiːzəˈbɪlɪti (e.g. ði iːz ɒv ðə ˈkɒfi ˈmeɪkə)./",
             "translation": "他们巧妙的论文要求送礼者和收礼者从两个角度对礼物进行分类：渴望性（例如咖啡机的价格）和可行性（例如咖啡机的易用性）。",
-            "audio_file": "data/audio/f960591b309e78ae1bbc3da30bed84dd.mp3",
+            "audio_file": "data/audio/9f0dc489f1b68e27f1a1e807c6d3d381.mp3",
             "analysis": {
                 "long_sentence_analysis": "主句Their clever paper asks，后接复合宾语givers and receivers to classify...；from two perspectives作状语，冒号后为同位语解释两个角度。",
                 "core_vocabulary": [
@@ -832,11 +832,11 @@
         {
             "paragraph": 5,
             "sentence_id": 12,
-            "sentence_md5": "219aad50078ccbe26b4f400682a6e211",
-            "sentence": "Across several experiments, they find that givers consistently give gifts based on desirability and receivers, whereas, favor gifts based on feasibility.",
-            "phonetic": "/əˈkrɔs ˈsɛvrəl ɪkˈspɛrəmənts ðeɪ faɪnd ðæt ˈɡɪvərz kənˈsɪstəntli ɡɪv ɡɪfts beɪst ɑn dɪˈzaɪrəbɪləti ænd rɪˈsivərz ˈwɛræz ˈfeɪvər ɡɪfts beɪst ɑn ˌfizəˈbɪləti/",
+            "sentence_md5": "647dde552aa2c08a3880482c9bf7b58e",
+            "sentence": "Across several experiments, they find that givers consistently give gifts based on desirability and receivers continuously favor gifts based on feasibility.",
+            "phonetic": "/əˈkrɒs ˈsevrəl ɪksˈperɪmənts, ðeɪ faɪnd ðæt ˈgɪvəz kənˈsɪstəntli gɪv ˈgɪfts beɪst ɒn dɪˌzaɪərəˈbɪlɪti ænd rɪˈsiːvəz kənˈtɪnjʊəsli ˈfeɪvə ˈgɪfts beɪst ɒn ˌfiːzəˈbɪlɪti./",
             "translation": "在多个实验中，他们发现送礼者一贯根据渴望性送礼，而收礼者则更喜欢基于可行性的礼物。",
-            "audio_file": "data/audio/219aad50078ccbe26b4f400682a6e211.mp3",
+            "audio_file": "data/audio/647dde552aa2c08a3880482c9bf7b58e.mp3",
             "analysis": {
                 "long_sentence_analysis": "Across several experiments作状语，主句they find，后接that引导的宾语从句；宾语从句为并列句，由and连接，第二个分句用whereas表示对比。",
                 "core_vocabulary": [
@@ -923,6 +923,238 @@
                     }
                 ]
             }
+        }
+    ],
+    "questions": [
+        {
+            "id": "46",
+            "A": [
+                "to open",
+                "tuː ˈəʊpən",
+                "打开（不定式）"
+            ],
+            "B": [
+                "opening",
+                "ˈəʊpənɪŋ",
+                "打开（动名词）"
+            ],
+            "C": [
+                "have opened",
+                "hæv ˈəʊpənd",
+                "打开（现在完成时）"
+            ],
+            "D": [
+                "opened",
+                "ˈəʊpənd",
+                "打开（过去式）"
+            ]
+        },
+        {
+            "id": "47",
+            "A": [
+                "in person",
+                "ɪn ˈpɜːsən",
+                "亲自"
+            ],
+            "B": [
+                "in turn",
+                "ɪn ˈtɜːn",
+                "依次"
+            ],
+            "C": [
+                "in place",
+                "ɪn ˈpleɪs",
+                "到位"
+            ],
+            "D": [
+                "in return",
+                "ɪn rɪˈtɜːn",
+                "作为回报"
+            ]
+        },
+        {
+            "id": "48",
+            "A": [
+                "Whether",
+                "ˈweðə",
+                "是否"
+            ],
+            "B": [
+                "When",
+                "wen",
+                "何时"
+            ],
+            "C": [
+                "Why",
+                "waɪ",
+                "为什么"
+            ],
+            "D": [
+                "How",
+                "haʊ",
+                "如何"
+            ]
+        },
+        {
+            "id": "49",
+            "A": [
+                "To be sure",
+                "tə bi ˈʃʊə",
+                "确实"
+            ],
+            "B": [
+                "To sum up",
+                "tə sʌm ʌp",
+                "总之"
+            ],
+            "C": [
+                "In many ways",
+                "ɪn ˈmeni weɪz",
+                "在许多方面"
+            ],
+            "D": [
+                "In many cases",
+                "ɪn ˈmeni ˈkeɪsɪz",
+                "在许多情况下"
+            ]
+        },
+        {
+            "id": "50",
+            "A": [
+                "work out",
+                "wɜːk aʊt",
+                "解决"
+            ],
+            "B": [
+                "lead to",
+                "liːd tuː",
+                "导致"
+            ],
+            "C": [
+                "make for",
+                "meɪk fɔː",
+                "有助于"
+            ],
+            "D": [
+                "take up",
+                "teɪk ʌp",
+                "占据"
+            ]
+        },
+        {
+            "id": "51",
+            "A": [
+                "happier",
+                "ˈhæpiə",
+                "更快乐"
+            ],
+            "B": [
+                "more surprised",
+                "mɔː səˈpraɪzd",
+                "更惊讶"
+            ],
+            "C": [
+                "happy",
+                "ˈhæpi",
+                "快乐"
+            ],
+            "D": [
+                "surprised",
+                "səˈpraɪzd",
+                "惊讶"
+            ]
+        },
+        {
+            "id": "52",
+            "A": [
+                "regardless of",
+                "rɪˈɡɑːdləs ɒv",
+                "不管"
+            ],
+            "B": [
+                "rather than",
+                "ˈrɑːðə ðæn",
+                "而不是"
+            ],
+            "C": [
+                "as to",
+                "æz tuː",
+                "关于"
+            ],
+            "D": [
+                "but for",
+                "bʌt fɔː",
+                "要不是"
+            ]
+        },
+        {
+            "id": "53",
+            "A": [
+                "decide",
+                "dɪˈsaɪd",
+                "决定"
+            ],
+            "B": [
+                "classify",
+                "ˈklæsɪfaɪ",
+                "分类"
+            ],
+            "C": [
+                "select",
+                "sɪˈlekt",
+                "选择"
+            ],
+            "D": [
+                "measure",
+                "ˈmeʒə",
+                "测量"
+            ]
+        },
+        {
+            "id": "54",
+            "A": [
+                "look",
+                "lʊk",
+                "外观"
+            ],
+            "B": [
+                "quality",
+                "ˈkwɒləti",
+                "质量"
+            ],
+            "C": [
+                "cost",
+                "kɒst",
+                "成本"
+            ],
+            "D": [
+                "ease",
+                "iːz",
+                "容易"
+            ]
+        },
+        {
+            "id": "55",
+            "A": [
+                "unexpectedly",
+                "ˌʌnɪkˈspektɪdli",
+                "意外地"
+            ],
+            "B": [
+                "whereas",
+                "ˌweərˈæz",
+                "然而"
+            ],
+            "C": [
+                "nevertheless",
+                "ˌnevəðəˈles",
+                "然而"
+            ],
+            "D": [
+                "continuously",
+                "kənˈtɪnjuəsli",
+                "连续地"
+            ]
         }
     ]
 }

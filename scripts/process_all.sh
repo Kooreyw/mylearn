@@ -36,10 +36,5 @@ cd /var/www/html/learn
 echo "在服务器上运行 create_audio.py..."
 /opt/tts-backend/venv/bin/python3 scripts/create_audio.py
 
-# ssh mtnote << EOF
-#     cd /var/www/html/learn
-#     echo "在服务器上运行 create_audio.py..."
-#     /opt/tts-backend/venv/bin/python3 scripts/create_audio.py
-# EOF
 
 echo "--- 全部完成！ ---"

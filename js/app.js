@@ -9,6 +9,7 @@ const state = {
     articleData: null,      // 当前文章 JSON
     sentences: [],          // 句子数组
     currentSentenceIdx: -1, // 当前选中/播放的句子索引
+    rightPanelMode: 'analysis', // 'analysis' | 'questions'
     isPlaying: false,
     isGlobalPlaying: false, // true = 全局连续播放模式, false = 单句播放模式
     isLooping: true,        // 全局播放时是否循环
@@ -39,6 +40,8 @@ function initDOM() {
     dom.btnLoop = $('#btn-loop');
     dom.btnFontUp = $('#btn-font-up');
     dom.btnFontDown = $('#btn-font-down');
+    dom.btnShowAnalysis = $('#btn-show-analysis');
+    dom.btnShowQuestions = $('#btn-show-questions');
 }
 
 // ==================== 初始化 ====================
@@ -77,6 +80,10 @@ function bindEvents() {
 
     // 中英同步滚动
     initSyncScroll();
+
+    // 右侧面板切换
+    dom.btnShowAnalysis.addEventListener('click', () => switchRightPanelMode('analysis'));
+    dom.btnShowQuestions.addEventListener('click', () => switchRightPanelMode('questions'));
 }
 
 // ==================== 数据加载 ====================
@@ -157,6 +164,14 @@ function switchMode(mode) {
     }
 }
 
+// ==================== 右侧面板切换 ====================
+function switchRightPanelMode(mode) {
+    state.rightPanelMode = mode;
+    dom.btnShowAnalysis.classList.toggle('active', mode === 'analysis');
+    dom.btnShowQuestions.classList.toggle('active', mode === 'questions');
+    renderRightPanel();
+}
+
 // ==================== 左侧面板：句子 + 音标渲染 ====================
 function renderSentences() {
     const container = dom.sentencesBox;
@@ -194,19 +209,18 @@ function renderSentences() {
 
             const words = splitSentence(s.sentence || '');
             const phonetics = splitPhonetic(s.phonetic || '');
-            const aligned = alignWordsWithPhonetics(words, phonetics);
 
-            aligned.forEach(item => {
+            words.forEach((w, i) => {
                 const unit = document.createElement('span');
                 unit.className = 'word-unit';
 
                 const wordSpan = document.createElement('span');
                 wordSpan.className = 'word-text';
-                wordSpan.textContent = item.word;
+                wordSpan.textContent = w;
 
                 const phSpan = document.createElement('span');
                 phSpan.className = 'word-phonetic';
-                phSpan.textContent = item.phonetic;
+                phSpan.textContent = phonetics[i] || '';
 
                 unit.appendChild(wordSpan);
                 unit.appendChild(phSpan);
@@ -262,7 +276,6 @@ function splitSentence(text) {
  * 去掉首尾 /.../ 再按空格拆分
  */
 function splitPhonetic(ph) {
-    if (!ph) return [];
     // 去掉首尾 /
     let cleaned = ph.replace(/^\//, '').replace(/\/$/, '').trim();
     // 去掉可能的 <br> 标签
@@ -270,49 +283,7 @@ function splitPhonetic(ph) {
     return cleaned.split(/\s+/).filter(Boolean);
 }
 
-/**
- * 核心对齐算法：将单词数组与音标数组进行智能对齐
- * 处理：1. 连字符 '-' 跳过音标 2. 数字或含连字符词（如 money-management）优先消化多余音标
- */
-function alignWordsWithPhonetics(words, phonetics) {
-    const result = [];
-    let pIdx = 0;
-
-    for (let i = 0; i < words.length; i++) {
-        const word = words[i];
-        const isStandaloneHyphen = /^[-\u2014\u2013]$/.test(word.trim());
-        const isNeedy = /^\d+/.test(word) || (word.length > 1 && word.includes('-'));
-
-        const phLeft = phonetics.length - pIdx;
-        const wordsLeft = words.length - i;
-
-        let assignedPh = "";
-
-        if (isStandaloneHyphen) {
-            // 孤立连字符：只有当音标数组当前确实是连字符时才消耗
-            if (pIdx < phonetics.length && (phonetics[pIdx] === '-' || phonetics[pIdx] === '—')) {
-                assignedPh = phonetics[pIdx++];
-            } else {
-                assignedPh = "";
-            }
-        } else {
-            if (pIdx < phonetics.length) {
-                assignedPh = phonetics[pIdx++];
-
-                // 如果是“饥饿”词（数字或复合词），且当前音标有多余，则进行合并
-                if (isNeedy) {
-                    while (pIdx < phonetics.length && (phonetics.length - pIdx) > (words.length - (i + 1))) {
-                        assignedPh += " " + phonetics[pIdx++];
-                    }
-                }
-            }
-        }
-
-        result.push({ word, phonetic: assignedPh });
-    }
-    return result;
-}
-
+// ==================== 右侧面板渲染 ====================
 // ==================== 右侧面板渲染 ====================
 function renderRightPanel() {
     if (!state.sentences.length) return;
@@ -321,14 +292,18 @@ function renderRightPanel() {
         // 阅读模式：所有内容都在左侧面板，右侧为空且隐藏
         dom.rightContent.innerHTML = '';
     } else {
-        // 学习模式：如果有选中的句子就显示分析，否则提示点击
-        if (state.currentSentenceIdx >= 0) {
-            renderAnalysis(state.currentSentenceIdx);
+        // 学习模式
+        if (state.rightPanelMode === 'analysis') {
+            if (state.currentSentenceIdx >= 0) {
+                renderAnalysis(state.currentSentenceIdx);
+            } else {
+                dom.rightContent.innerHTML = `
+                    <div class="placeholder-msg">
+                        <p>👈 点击左侧句子查看详细分析</p>
+                    </div>`;
+            }
         } else {
-            dom.rightContent.innerHTML = `
-                <div class="placeholder-msg">
-                    <p>👈 点击左侧句子查看详细分析</p>
-                </div>`;
+            renderQuestions();
         }
     }
 }
@@ -423,12 +398,57 @@ function renderAnalysis(idx) {
     container.innerHTML = html;
 }
 
+function renderQuestions() {
+    const questions = state.articleData.questions || [];
+    const container = dom.rightContent;
+
+    if (!questions.length) {
+        container.innerHTML = '<div class="placeholder-msg"><p>🚫 暂无题目数据</p></div>';
+        return;
+    }
+
+    let html = '<div class="questions-container">';
+    questions.forEach((q, idx) => {
+        html += `
+        <div class="question-card">
+            <div class="question-id">Question #${q.id || (idx + 1)}</div>
+            ${q.title ? `
+            <div class="question-title-box">
+                <div class="q-title-en">${q.title[0]}</div>
+                <div class="q-title-ph">${q.title[1] || ''}</div>
+                <div class="q-title-cn">${q.title[2] || ''}</div>
+            </div>` : ''}
+            <div class="options-grid">
+        `;
+
+        ['A', 'B', 'C', 'D'].forEach(opt => {
+            const val = q[opt];
+            if (val) {
+                html += `
+                <div class="option-item" onclick="this.classList.toggle('selected')">
+                    <div class="option-letter">${opt}</div>
+                    <div class="option-content">
+                        <div class="option-top-row">
+                            <div class="option-text">${val[0]}</div>
+                            <div class="option-cn">${val[2] || ''}</div>
+                        </div>
+                        <div class="option-ph">${val[1] || ''}</div>
+                    </div>
+                </div>`;
+            }
+        });
+
+        html += `
+            </div>
+        </div>`;
+    });
+    html += '</div>';
+    container.innerHTML = html;
+}
+
 // ==================== 句子交互 ====================
 function onSentenceClick(idx) {
-    // 点击句子 = 单句播放模式，播完不自动跳下一句
-    state.isGlobalPlaying = false;
     setActiveSentence(idx);
-    playSentence(idx);
 
     if (state.mode === 'learning') {
         renderAnalysis(idx);
@@ -464,8 +484,6 @@ function togglePlayPause() {
     if (state.isPlaying) {
         pauseAudio();
     } else {
-        // 通过底部播放按钮触发 = 全局连续播放模式
-        state.isGlobalPlaying = true;
         if (state.currentSentenceIdx < 0) {
             playSentence(0);
         } else {
@@ -512,7 +530,6 @@ function pauseAudio() {
     }
     dom.audioPlayer.pause();
     state.isPlaying = false;
-    state.isGlobalPlaying = false;
     dom.btnPlay.textContent = '▶';
     clearPlayingState();
 }
@@ -526,8 +543,6 @@ function resumeAudio() {
 }
 
 function playPrev() {
-    // 底部按钮操作 → 全局播放模式
-    state.isGlobalPlaying = true;
     const idx = Math.max(0, state.currentSentenceIdx - 1);
     playSentence(idx);
 }
@@ -546,26 +561,26 @@ function playNext() {
 }
 
 function onAudioEnded() {
-    if (state.isGlobalPlaying) {
-        // 全局连续播放模式：自动播放下一句
+    clearPlayingState();
+    if (state.mode === 'reading') {
+        // 阅读模式：自动播放下一句
         playNext();
     } else {
-        // 单句播放模式（点击句子触发）：播完即停
         state.isPlaying = false;
         dom.btnPlay.textContent = '▶';
-        clearPlayingState();
-        const s = state.sentences[state.currentSentenceIdx];
-        if (s) {
-            dom.audioLabel.textContent = `播放完毕 #${s.sentence_id}`;
-        }
     }
 }
 
 function onAudioError() {
-    pauseAudio();
-    const s = state.sentences[state.currentSentenceIdx];
-    if (s) {
-        dom.audioLabel.textContent = `⚠️ 音频加载失败 #${s.sentence_id}`;
+    clearPlayingState();
+
+    if (!state.isPlaying) return;
+
+    if (state.mode === 'reading' && state.isLooping) {
+        state.audioTimer = setTimeout(() => {
+            state.audioTimer = null;
+            playNext();
+        }, 1500);
     }
 }
 

@@ -87,6 +87,7 @@
                 <div class="preference-grid">
                     <button class="pref-btn active" data-mode="reading">精读模式</button>
                     <button class="pref-btn" data-mode="learning">翻译模式</button>
+                    <button class="pref-btn" id="btn-show-mobile-questions">查看题目</button>
                 </div>
             </section>
         </div>

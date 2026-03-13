@@ -60,6 +60,19 @@ def step1_split(file_basename):
     
     print(f"Step1 finished: {output_path}")
 
+def load_questions(file_basename):
+    ques_path = f"data/sentences/{file_basename}.ques.md"
+    questions = []
+    if os.path.exists(ques_path):
+        with open(ques_path, 'r', encoding='utf-8') as f:
+            for line in f:
+                if line.strip():
+                    try:
+                        questions.append(json.loads(line))
+                    except json.JSONDecodeError:
+                        continue
+    return questions
+
 def step3_merge(file_basename):
     step1_path = f"data/sentences/{file_basename}.step1.md"
     step2_path = f"data/sentences/{file_basename}.step2.md"
@@ -114,13 +127,17 @@ def step3_merge(file_basename):
         }
         sentences.append(merged)
 
+    # 读取题目
+    questions = load_questions(file_basename)
+
     result = {
         "article_metadata": {
             "title": file_basename.replace('_', ' ').capitalize(),
             "author": "Unknown",
             "source": "CET"
         },
-        "sentences": sentences
+        "sentences": sentences,
+        "questions": questions
     }
 
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
